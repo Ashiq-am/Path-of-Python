@@ -1,0 +1,31 @@
+Some statements may become very long and may force you to scroll the screen left and right frequently.
+You can fit your code in such a way that you do not have to scroll here and there.
+
+Python allows you to write a single statement in multiple lines, also known as line continuation.
+Line continuation enhances readability as well.
+
+
+
+
+
+
+
+
+# Bad Practice as width of this code is too much.
+
+#code
+x = 10
+y = 20
+z = 30
+no_of_teachers = x
+no_of_male_students = y
+no_of_female_students = z
+
+if (no_of_teachers == 10 and no_of_female_students == 30 and no_of_male_students == 20 and (x + y) == 30):
+    print('The course is valid')
+
+# This could be done instead:
+
+if (no_of_teachers == 10 and no_of_female_students == 30
+    and no_of_male_students == 20 and x + y == 30):
+    print('The course is valid')

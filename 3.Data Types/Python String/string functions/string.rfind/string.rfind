@@ -1,0 +1,50 @@
+rfind() method returns the highest index of the substring if found in given string.
+If not found then it returns -1.
+
+
+
+
+
+
+Syntax :
+
+str.rfind(sub, start, end)
+
+
+
+
+
+
+Parameters :
+
+sub : It’s the substring which needs to be searched in the given string.
+start : Starting position where sub is needs to be checked within the string.
+end : Ending position where suffix is needs to be checked within the string.
+
+
+
+
+
+
+
+NOTE : If start and end indexes are not provided then, by default it takes 0 and length-1 as
+       starting and ending indexes where ending indexes is not included in our search.
+
+
+
+
+
+
+Return : Returns the highest index of the substring if it is found in given string;
+         if not found, then itreturns -1.
+
+
+
+
+
+
+
+
+Exception :
+           ValueError : This error is raised in the case when the argument string is not
+           found in the target string.

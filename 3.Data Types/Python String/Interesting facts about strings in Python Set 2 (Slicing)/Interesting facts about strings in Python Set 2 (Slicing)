@@ -1,0 +1,45 @@
+Like other programming languages, it’s possible to access individual characters of a string by using array-
+
+like indexing syntax.
+
+
+In this we can access each and every element of string through their index number and the indexing starts from 0.
+Python does index out of bound checking.
+
+
+
+
+So, we can obtain the required character using syntax, string_name[index_position]:
+
+
+
+
+***The positive index_position denotes the element from the starting(0) and the negative index shows the index
+from the end(-1).
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        Slicing
+
+To extract substring from the whole string then we use the syntax like
+
+string_name[beginning: end : step]
+
+
+
+****beginning represents the starting index of string
+****end denotes the end index of string which is not inclusive
+****steps denotes the distance between the two words.
+
+
+
+Note: We can also slice the string using beginning and only and steps are optional.

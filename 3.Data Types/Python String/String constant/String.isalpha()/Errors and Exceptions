@@ -1,0 +1,27 @@
+
+1.It contains no arguments , therefore an error occurs if a parameter is passed
+
+2.Both uppercase and lowercase alphabets return “True”
+
+3.Space is not considered to be alphabet, therefore it returns “False”
+
+
+
+
+
+
+
+Application : Given a string in python, count number of alphabets in the string and print the alphabets.
+
+
+
+
+Examples:
+
+Input : string = 'Ayush Saxena'
+Output : 11
+         AyushSaxena
+
+Input : string = 'Ayush0212'
+Output : 5
+         Ayush

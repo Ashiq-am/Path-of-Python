@@ -1,0 +1,28 @@
+isalnum() function in Python programming language checks whether all the characters in a given string is
+alphanumeric or not.
+
+
+
+
+Alphanumeric:A character that is either a letter or a number
+
+
+
+Syntax:
+
+string_name.isalnum()
+string_name is the name of the string
+
+
+
+
+
+Parameter: isalnum() method takes no parameters
+
+
+
+
+Return:
+
+True: If all the characters are alphanumeric
+False: If one or more characters are not alphanumeric

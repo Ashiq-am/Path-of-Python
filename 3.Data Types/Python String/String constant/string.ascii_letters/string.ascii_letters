@@ -1,0 +1,38 @@
+In Python3, ascii_letters is a pre-initialized string used as string constant.
+ascii_letters is basically concatenation of ascii_lowercase and ascii_uppercase string constants.
+Also, the value generated is not locale-dependent, hence, doesn’t change.
+
+
+
+
+
+Syntax :
+
+string.ascii_letters
+Note : Make sure to import string library function inorder to use ascii_letters.
+
+
+
+
+Parameters :
+
+Doesn't take any parameter, since it's not a function.
+
+
+
+
+
+
+Returns :
+
+Return all ASCII letters (both lower and upper case)
+
+
+
+
+
+
+
+Applications :
+The string constant ascii_letters can be used in many practical applications.
+Let’s see a code explaining how to use ascii_letters to generate strong random passwords of given size.

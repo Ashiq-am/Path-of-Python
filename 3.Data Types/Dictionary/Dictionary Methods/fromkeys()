@@ -1,0 +1,25 @@
+Sometimes there is a need to generate a dictionary from the given keys. Brute implementation of it would take
+time and would be more tedious job.
+Hence, fromkeys() helps us achieve this very task with ease and using just a single method.
+This article explains working and other aspects associated with this function.
+
+
+
+
+Syntax : fromkeys(seq, val)
+
+
+
+
+Parameters :
+
+seq : The sequence to be transformed into a dictionary.
+
+val : Initial values that need to be assigned to the generated keys. Defaults to None.
+
+
+
+
+
+
+Returns : A dictionary with keys mapped to None if no value is provided, else to the value provided in the field.

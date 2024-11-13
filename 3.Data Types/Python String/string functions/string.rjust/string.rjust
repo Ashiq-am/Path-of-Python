@@ -1,0 +1,35 @@
+String rjust() The string rjust() method returns a new string of given length after
+substituting a given character in left side of original string.
+
+
+
+
+
+Syntax:
+
+string.rjust(length, fillchar)
+
+
+
+
+
+
+
+Parameters:
+
+length: length of the modified string. If length is less than or equal to the length of the
+        original string then original string is returned.
+
+fillchar: (optional) characters which needs to be padded. If it’s not provided, space is
+          taken as a default argument.
+
+
+
+
+
+
+
+Returns:
+
+Returns a new string of given length after substituting a given character in left side of
+original string.

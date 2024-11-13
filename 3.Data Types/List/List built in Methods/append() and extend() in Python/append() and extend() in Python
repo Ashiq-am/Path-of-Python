@@ -1,0 +1,47 @@
+Append: Adds its argument as a single element to the end of a list. The length of the list increases by one.
+
+
+
+syntax:
+# Adds an object (a number, a string or a
+# another list) at the end of my_list
+my_list.append(object)
+
+
+
+
+
+
+
+
+
+
+extend(): Iterates over its argument and adding each element to the list and extending the list.
+         The length of the list increases by number of elements in it’s argument.
+
+
+
+
+
+syntax:
+# Each element of an iterable gets appended
+# to my_list
+my_list.extend(iterable)
+
+
+
+
+
+
+
+
+
+
+
+
+
+Time Complexity:
+
+Append has constant time complexity i.e.,O(1).
+
+Extend has time complexity of O(k). Where k is the length of list which need to be added.

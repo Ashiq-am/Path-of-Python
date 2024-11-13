@@ -1,0 +1,24 @@
+The issuperset() method returns True if all elements of a set A occupies set B which is passed as an
+argument and returns false if all elements of B not present in A.
+This means if A is a superset of B then it returns true; else False
+
+
+
+
+
+
+
+Syntax:
+
+A.issuperset(B)
+checks whether A is a superset of B or not.
+
+
+
+
+
+
+
+Returns:
+
+True if A is a superset of B; otherwise false.

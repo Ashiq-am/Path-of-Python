@@ -1,0 +1,6 @@
+In general, the interpreter reads and executes the statements line by line i.e sequentially.
+Though, there are some statements that can alter this behavior like conditional statements.
+
+Mostly, python statements are written in such a format that one statement is only written in a single line.
+The interpreter considers the ‘new line character’ as the terminator of one instruction.
+But, writing multiple statements per line is also possible that you can find below.

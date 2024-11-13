@@ -1,0 +1,14 @@
+1.It does not take any arguments, therefore it returns an error if a parameter is passed
+
+2.Superscript and subscripts are considered digit characters along with decimal characters, therefore,
+isdigit() returns “True”.
+
+3.The roman numerals, currency numerators and fractions are not considered to be digits. Therefore,
+the isdigit() returns “False”
+
+
+
+
+
+
+Application : Using ascii values of characters, count and print all the digits using isdigit() function.

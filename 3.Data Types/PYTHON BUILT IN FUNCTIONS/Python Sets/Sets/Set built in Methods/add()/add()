@@ -1,0 +1,45 @@
+The set add() method adds a given element to a set if the element is not present in the set.
+
+
+
+
+Syntax:
+
+set.add(elem)
+
+The add() method doesn't add an element to the
+set if it's already present in it otherwise it
+will get added to the set.
+
+
+
+
+
+
+
+
+
+Parameters:
+add() takes single parameter(elem) which needs to
+be added in the set.
+
+
+
+
+
+
+
+Returns:
+The add() method doesn't return any value.
+
+
+
+
+
+
+
+
+
+Application:
+
+It is used to add a new element to the set.

@@ -1,0 +1,8 @@
+1. TypeError : These functions throw TypeError when conflicting data types are compared.
+
+
+
+
+                                          Practical Application
+One of the practical application among many are finding lexicographically largest and smallest of Strings
+i.e String appearing first in dictionary or last.

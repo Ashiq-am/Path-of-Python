@@ -1,0 +1,7 @@
+The format() method was added in Python(2.6). Format method of strings requires more manual effort.
+
+User use {} to mark where a variable will be substituted and can provide detailed formatting directives,
+but user also needs to provide the information to be formatted.
+
+
+This method lets us concatenate elements within an output through positional formatting.

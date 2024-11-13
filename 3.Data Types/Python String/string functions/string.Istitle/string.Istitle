@@ -1,0 +1,29 @@
+The istitle() returns True if the string is a titlecased string otherwise it returns False.
+
+
+
+what is titlecased ?
+
+String which has the first character in each word Uppercase and remaining all characters Lowercase alphabets.
+
+
+
+
+Syntax :
+
+string.istitle()
+
+
+
+
+Parameters :
+
+The istitle() method doesn’t take any parameters.
+
+
+
+
+
+Returns :
+
+returns True if the string is a titlecased string otherwise it returns False.

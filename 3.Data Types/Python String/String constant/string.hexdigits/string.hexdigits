@@ -1,0 +1,37 @@
+In Python3, string.hexdigits is a pre-initialized string used as string constant.
+In Python, string.hexdigits will give the hexadecimal letters ‘0123456789abcdefABCDEF’.
+
+
+
+
+
+
+Syntax : string.hexdigits
+
+
+
+
+
+
+Parameters : Doesn’t take any parameter, since it’s not a function.
+
+
+
+
+Returns : Return all hexadecimal digit letters.
+
+
+
+
+
+Note : Make sure to import string library function inorder to use string.hexdigits
+
+
+
+
+
+
+Applications :
+
+The string constant hexdigits can be used in many practical applications. Let’s see a code explaining
+how to use digits to generate strong random passwords of given size.

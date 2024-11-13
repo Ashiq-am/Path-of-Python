@@ -1,0 +1,25 @@
+Given a string str that may contain one more occurrences of “AB”. Replace all occurrences of “AB” with
+“C” in str.
+
+Examples:
+
+Input  : str = "helloABworld"
+Output : str = "helloCworld"
+
+Input  : str = "fghABsdfABysu"
+Output : str = "fghCsdfCysu"
+
+
+
+
+
+
+
+
+
+                                            How does replace() function works ?
+
+str.replace(pattern,replaceWith,maxCount) takes minimum two parameters and replaces all occurrences of
+pattern with specified sub-string replaceWith. Third parameter maxCount is optional, if we do not pass
+this parameter then replace function will do it for all occurrences of pattern otherwise it will
+replace only maxCount times occurrences of pattern.

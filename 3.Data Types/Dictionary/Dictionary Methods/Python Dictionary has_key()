@@ -1,0 +1,18 @@
+In Python Dictionary, has_key() method returns true if specified key is present in the dictionary,
+else returns false.
+
+
+
+Syntax: dict.has_key(key)
+
+
+
+
+Parameters:
+
+key – This is the Key to be searched in the dictionary.
+
+
+
+
+Returns: Method returns true if a given key is available in the dictionary, otherwise it returns a false.

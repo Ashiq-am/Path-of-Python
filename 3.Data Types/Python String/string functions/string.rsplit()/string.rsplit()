@@ -1,0 +1,40 @@
+rsplit() method returns a list of strings after breaking the given string from right side by the specified
+separator.
+
+
+
+
+
+Syntax :
+
+str.rsplit(separator, maxsplit)
+
+
+
+
+
+Parameters :
+
+separator : The is a delimiter. The string splits at this specified separator starting from right side.
+            If is not provided then any white space is a separator.
+
+maxsplit : It is a number, which tells us to split the string into maximum of provided number of times.
+           If it is not provided then there is no limit.
+
+
+
+
+
+
+
+Return :
+
+Returns a list of strings after breaking the given string from right side by the specified separator.
+
+
+
+
+
+Error :
+
+We will not get any error even if we are not passing any argument.

@@ -1,0 +1,24 @@
+Deep copy means if we modify any of the list, changes are reflected in both the list as they point to
+the same reference.
+
+Whereas in shallow copy, when we add element in any of the list, only that list is modified.
+
+
+
+
+
+Techniques to deep copy :
+
+*Using copy.deepcopy()
+*Using “=” operator
+
+
+
+
+
+
+Techniques to shallow copy :
+
+*Using copy.copy()
+*Using list.copy()
+*Using slicing

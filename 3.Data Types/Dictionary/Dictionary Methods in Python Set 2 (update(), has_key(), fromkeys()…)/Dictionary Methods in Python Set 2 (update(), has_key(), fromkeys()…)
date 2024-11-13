@@ -1,0 +1,44 @@
+1. fromkeys(seq,value) :- This method is used to declare a new dictionary from the sequence mentioned in its
+                          arguments. This function can also initialize the declared dictionary with “value” argument.
+
+
+
+
+
+
+
+2. update(dic) :- This function is used to update the dictionary to add other dictionary keys.
+
+
+
+
+
+
+
+3. has_key() :- This function returns true if specified key is present in the dictionary, else returns false.
+
+
+
+
+
+
+4. get(key, def_val) :- This function return the key value associated with the key mentioned in arguments.
+                        If key is not present, the default value is returned.
+
+
+
+
+
+
+
+
+5. setdefault(key, def_value) :- This function also searches for a key and displays its value like get() but,
+                                 it creates new key with def_value if key is not present.
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+Multiple pairs of curly braces can be used while formatting the string. Let’s say if another variable
+substitution is needed in sentence, can be done by adding a second pair of curly braces and passing
+a second value into the method. Python will replace the placeholders by values in order.
+
+
+
+
+
+Syntax : { } { } .format(value1, value2)
+
+
+
+
+
+
+Parameters :
+
+(value1, value2) : Can be integers, floating point numeric constants, strings, characters and even variables.
+Only difference is, the number of values passed as parameters in format() method must be equal to the number
+of placeholders created in the string.
+
+
+
+
+
+
+Errors and Exceptions :
+
+IndexError : Occurs when string has an extra placeholder and we didn’t pass any value for it in the format()
+method. Python usually assigns the placeholders with default index in order like 0, 1, 2, 3….
+to acces the values passed as parameters. So when it encounters a placeholder whose index doesn’t have
+any value passed inside as parameter, it throws IndexError.

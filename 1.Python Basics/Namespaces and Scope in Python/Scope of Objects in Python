@@ -1,0 +1,2 @@
+Scope refers to the coding region from which particular Python object is accessible. Hence one cannot access any
+particular object from anywhere from the code, the accessing has to be allowed by the scope of the object.

@@ -1,0 +1,24 @@
+min() is an inbuilt function in Python programming language that returns the minimum alphabetical character
+in a string.
+
+
+
+
+Syntax:
+
+min(string)
+
+
+
+
+Parameter:
+min() method takes a string as a parameter
+
+
+
+
+
+
+Return value:
+
+Returns a character which is alphabetically the lowest character in the string.

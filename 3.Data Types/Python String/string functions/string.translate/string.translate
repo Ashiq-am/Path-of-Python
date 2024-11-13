@@ -1,0 +1,63 @@
+translate() returns a string that is modified string of givens string according to given translation mappings.
+
+There are two ways to translate :
+
+
+
+                                         Providing a mapping as a dictionary
+
+
+Parameters :
+
+string.translate(mapping)
+
+mapping – a dictionary having mapping between two characters.
+
+
+
+
+
+
+
+
+Returns : Returns modified string where each character is mapped to its corresponding character according to
+the provided mapping table.
+
+
+
+
+
+
+
+
+
+
+
+                                          Providing a mapping using maketrans()
+
+
+
+Syntax : maketrans(str1, str2, str3)
+
+
+
+
+
+
+
+
+
+Parameters :
+str1 : Specifies the list of characters that need to be replaced.
+str2 : Specifies the list of characters with which the characters need to be replaced.
+str3 : Specifies the list of characters that needs to be deleted.
+
+
+
+
+
+
+
+
+
+Returns : Returns the translation table which specifies the conversions that can be used by translate()

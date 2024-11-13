@@ -1,0 +1,42 @@
+The clear() method removes all items from the dictionary.
+
+Syntax:
+
+dict.clear()
+
+
+
+
+
+
+Parameters:
+
+
+The clear() method doesn't take any parameters.
+
+
+
+
+
+
+Returns:
+
+The clear() method doesn't return any value.
+
+
+
+
+
+Examples:
+
+Input : d = {1: "geeks", 2: "for"}
+        d.clear()
+Output : d = {}
+
+
+
+
+Error:
+
+As we are not passing any parameters there
+is no chance for any error.

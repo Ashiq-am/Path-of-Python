@@ -1,0 +1,99 @@
+In the world of programming, seldom there is a need to replace all the words/characters at once in the whole
+file python offers this functionality using functions translate() and its helper functions maketrans().
+Both the functions are discussed in this article.
+
+
+
+
+                                           maketrans()
+
+maketrans() function is used to construct the transition table i.e specify the list of characters that need
+to be replaced in the whole string or the characters that need to be deleted from the string
+
+
+
+
+Syntax : maketrans(str1, str2, str3)
+
+
+
+
+
+
+Parameters :
+str1 : Specifies the list of characters that need to be replaced.
+str2 : Specifies the list of characters with which the characters need to be replaced.
+str3 : Specifies the list of characters that needs to be deleted.
+
+
+
+
+
+
+Returns : Returns the translation table which specifies the conversions that can be used by translate()
+
+
+
+
+
+
+
+
+                                        Translate using maketrans()
+
+To translate the characters in the string translate() is used to make the translations.
+This function uses the translation mapping specified using the maketrans().
+
+
+
+
+
+
+Syntax : translate(table, delstr)
+
+
+
+
+
+
+Parameters :
+table : Translate mapping specified to perform translations.
+delstr : The delete string can be specified as optional argument is not mentioned in table.
+
+
+
+
+
+
+
+Returns : Returns the argument string after performing the translations using the translation table.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        Translate without maketrans()
+
+Translation can also be achieved by specifying the translation dictionary and passing as an object which acts as a
+mapping. In this case, there is no need of maketrans() to perform translations.
+
+
+
+
+
+
+
+
+
+Application :
+There are many are times where mistakes can occur while coding or developing, these functions provide easy and quick
+way to replace and rectify them and would potentially save a lot of time.

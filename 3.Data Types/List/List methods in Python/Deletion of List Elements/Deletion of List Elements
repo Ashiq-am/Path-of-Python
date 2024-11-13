@@ -1,0 +1,47 @@
+To Delete one or more elements, i.e. remove an element, many built in functions can be used,
+such as pop() & remove() and keywords such as del.
+
+
+
+
+
+
+
+
+1.pop(): Index is not a necessary parameter, if not mentioned takes the last index.
+
+Syntax:
+ list.pop([index])
+
+
+Note: Index must be in range of the List, elsewise IndexErrors occurs.
+
+
+
+
+
+
+
+
+
+
+
+2.del() : Element to be deleted is mentioned using list name and index.
+
+Syntax:
+del list.[index]
+
+
+
+
+
+
+
+
+
+
+
+
+3.remove(): Element to be deleted is mentioned using list name and element.
+Syntax:
+ list.remove(element)

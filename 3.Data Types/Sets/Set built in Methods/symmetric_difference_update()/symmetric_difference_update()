@@ -1,0 +1,37 @@
+The symmetric difference of two sets is the set of elements which are in either of the sets but not in
+both of them.
+
+
+
+
+symmetric_difference() method returns a new set which contains symmetric difference of two sets.
+The symmetric_difference_update() method updates the set calling symmetric_difference_update() with
+the symmetric difference of sets.
+
+
+
+
+
+
+
+Syntax:
+A.symmetric_difference_update(B)
+
+
+
+
+
+
+
+Parameters:
+The symmetric_difference takes a single “set” as a argument.
+
+
+
+
+
+
+
+Returns:
+This method returns None (which indicates absence of a return value). It only updates the set calling
+symmetric_difference_update() with the symmetric difference of sets.

@@ -1,0 +1,41 @@
+The classical Hello World program illustrating the relative verbosity of a Java Program and Python Program
+
+
+
+Java Code
+
+
+
+
+public class HelloWorld
+{
+public static void main (String[] args)
+{
+	System.out.println("Hello, world!");
+}
+}
+
+
+
+
+Python Code:-
+
+
+
+print "Hello, world!"
+
+
+
+print("Hello, world!") # Python version 3
+
+
+
+
+
+Similarity with Java
+
+**Require some form of runtime on your system (JVM/Python runtime)
+
+**Can probably be compiled to executables without the runtime (this is situational, none of them are designed
+to work this way)
+

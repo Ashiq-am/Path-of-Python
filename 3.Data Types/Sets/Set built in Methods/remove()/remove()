@@ -1,0 +1,37 @@
+In this article, we will see how to remove an element in a set, using the discard() and remove() method.
+We will also learn the difference between the two methods, although both of them produce the same results.
+
+
+
+
+Examples:
+
+Input : set = ([10, 20, 26, 41, 54, 20])
+Output : {41, 10, 26, 54}
+
+Input : set = (["ram", "aakash", "kaushik", "anand", "prashant"])
+Output : {'ram', 'prashant', 'kaushik', 'anand'}
+
+
+
+
+
+
+                                     Method 1: Use of discard() method
+
+The built-in method, discard() in Python, removes the element from the set only if the element is present
+in the set. If the element is not present in the set,
+then no error or exception is raised and the original set is printed.
+
+
+
+
+
+
+
+
+                                       Method 2: Use of remove() method
+
+The built-in method, remove() in Python, removes the element from the set only if the element is present
+in the set, just as the discard() method does but If the element is not present in the set,
+then an error or exception is raised.

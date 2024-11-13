@@ -1,0 +1,3 @@
+Python in its language defines an inbuilt module “keyword” which handles certain operations related to keywords.
+A function “iskeyword()” checks if a string is keyword or not.
+Returns true if a string is keyword, else returns false.

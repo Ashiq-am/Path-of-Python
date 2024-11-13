@@ -1,0 +1,68 @@
+The rindex() method returns the highest index of the substring inside the string if substring
+is found. Otherwise it raises an exception.
+
+
+
+
+
+Syntax:
+
+str.find(sub, start, end)
+
+
+
+
+
+Parameters:
+
+sub : It’s the substring which needs to be searched in the given string.
+start : Starting position where sub is needs to be checked within the string.
+end : Ending position where suffix is needs to be checked within the string.
+
+
+
+
+
+
+NOTE :If start and end indexes are not provided then by default it takes 0 and length-1 as starting and
+      ending indexes where ending indxes is not included in our search.
+
+
+
+
+
+
+
+Return :
+
+Returns the highest index of the substring inside the string if substring is found. Otherwise it raises an
+exception.
+
+
+
+
+
+
+
+
+
+
+Examples:
+
+input: text = 'geeks for geeks'
+       result = text.rindex('geeks')
+output: 10
+
+input: text = 'geeks for geeks'
+       result = text.rindex('ge')
+output: 10
+
+
+
+
+
+
+
+
+Errors and Exceptions:
+ValueError : This error is raised when the argument string is not found in the target string.

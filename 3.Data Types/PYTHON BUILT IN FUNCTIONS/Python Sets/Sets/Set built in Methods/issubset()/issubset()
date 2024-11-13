@@ -1,0 +1,21 @@
+The issubset() method returns True if all elements of a set A are present in another set B which is
+passed as an argument and returns false if all elements not present.
+
+
+
+
+
+
+Syntax:
+
+A.issubset(B)
+checks whether A is a subset of B or not.
+
+
+
+
+
+
+
+Returns:
+returns true if A is a subset of B otherwise false.

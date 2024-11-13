@@ -1,0 +1,9 @@
+reverse(): Sort the given data structure (both tuple and list) in ascending order.
+           Key and reverse_flag are not necessary parameter and reverse_flag is set to False,
+           if nothing is passed through sorted().
+
+
+
+Syntax:
+sorted([list[,key[,Reverse_Flag]]])
+ list.sort([key,[Reverse_flag]])

@@ -1,0 +1,57 @@
+1. “in” operator :- This operator is used to check if an element is present in the list or not. Returns true if
+                    element is present in list else returns false.
+
+
+
+
+
+
+
+2. “not in” operator :- This operator is used to check if an element is not present in the list or not.
+                         Returns true if element is not present in list else returns false.
+
+
+
+
+
+
+
+3. len() :- This function returns the length of list.
+
+
+
+
+
+4. min() :- This function returns the minimum element of list.
+
+
+
+
+
+5. max() :- This function returns the maximum element of list.
+
+
+
+
+
+
+6. “+” operator :- This operator is used to concatenate two lists into a single list.
+
+
+
+
+
+7. “*” operator :- This operator is used to multiply the list “n” times and return the single list.
+
+
+
+
+
+
+8. index(ele, beg, end) :- This function returns the index of first occurrence of element after beg and before end.
+
+
+
+
+
+9. count() :- This function counts the number of occurrences of elements in list.

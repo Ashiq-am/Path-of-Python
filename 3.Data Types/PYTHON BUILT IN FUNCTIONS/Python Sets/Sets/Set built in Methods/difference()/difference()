@@ -1,0 +1,28 @@
+Difference between two sets in Python is equal to the difference between the number of elements in two sets. The function difference() returns a set that is the difference between two sets. Let’s try to find out what will be the difference between two sets A and B. Then (set A – set B) will be the elements present in set A but not in B and (set B – set A) will be the elements present in set B but not in set A.
+
+
+
+
+
+Example:
+
+set A = {10, 20, 30, 40, 80}
+set B = {100, 30, 80, 40, 60}
+
+set A - set B = {10, 20}
+set B - set A = {100, 60}
+
+Explanation: A - B is equal to the elements present in A but not in B
+             B - A is equal to the elements present in B but not in A
+
+
+
+
+
+
+
+
+Syntax:
+
+set_A.difference(set_B) for (A - B)
+set _B.difference(set_A) for (B - A)

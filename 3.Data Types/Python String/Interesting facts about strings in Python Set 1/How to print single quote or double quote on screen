@@ -1,0 +1,9 @@
+We can do that in the following two ways:
+
+
+
+
+1.First one is to use escape character to display the additional quote.
+
+2.The second way is by using mix quote, i.e., when we want to print single quote then using double quotes as
+delimiters and vice-versa.

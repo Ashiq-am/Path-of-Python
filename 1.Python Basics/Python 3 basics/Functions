@@ -1,0 +1,9 @@
+You can think of functions like a bunch of code that is intended to do a particular task in the whole Python script.
+Python used the keyword ‘def’ to define a function.
+
+
+
+Syntax:
+
+def function-name(arguments):
+            #function body

@@ -1,0 +1,61 @@
+Like C++ sort(), Java sort() and other languages, python also provides built in function to sort.
+
+The sort function can be used to sort the list in both ascending and descending order.
+
+
+
+
+
+
+
+{To sort the list in ascending order.
+
+
+
+
+Syntax
+
+List_name.sort()
+This will sort the given list in ascending order.}
+
+
+
+
+
+
+{To sort the list in descending order.
+
+Syntax
+
+list_name.sort(reverse=True)
+This will sort the given list in descending order.
+
+
+Syntax :
+
+list_name.sort() – it sorts in ascending order
+list_name.sort(reverse=True) – it sorts in descending order
+list_name.sort(key=…, reverse=…) – it sorts according to user’s choice
+
+
+
+
+Parameters:
+By default, sort() doesn’t require any extra parameters. However, it has two optional parameters:
+
+reverse – If true, the list is sorted in descending order
+key – function that serves as a key for the sort comparison
+
+
+
+
+Return value:
+
+It returns a sorted list according to the passed parameter.}
+
+
+
+
+
+
+

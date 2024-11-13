@@ -1,0 +1,142 @@
+Prerequisites:
+
+
+
+Knowledge of any programming language can be a plus.
+
+
+
+
+Reason for increasing popularity
+
+1.Emphasis on code readability, shorter codes, ease of writing
+
+2.Programmers can express logical concepts in fewer lines of code in comparison to languages such as C++ or Java.
+
+3.Python supports multiple programming paradigms, like object-oriented, imperative and functional programming
+  or procedural.
+
+4.There exists inbuilt functions for almost all of the frequently used concepts.
+
+5.Philosophy is “Simplicity is the best”.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                              LANGUAGE FEATURES
+
+1.Interpreted:-
+            *There are no separate compilation and execution steps like C and C++.
+
+            *Directly run the program from the source code.
+
+            *Internally, Python converts the source code into an intermediate form called bytecodes which is then
+            translated into native language of specific computer to run it.
+
+            *No need to worry about linking and loading with libraries, etc.
+
+
+2.Platform Independent:-
+
+                    *Python programs can be developed and executed on multiple operating system platforms.
+
+                    *Python can be used on Linux, Windows, Macintosh, Solaris and many more.
+
+
+
+
+3.Free and Open Source:- Redistributable
+
+
+
+
+4.High-level Language:-
+
+                 In Python, no need to take care about low-level details such as managing the memory used by the program.
+
+
+
+5.Simple:-
+           *Closer to English language;Easy to Learn
+           *More emphasis on the solution to the problem rather than the syntax
+
+
+
+
+
+6.Embeddable:-
+            Python can be used within C/C++ program to give scripting capabilities for the program’s users.
+
+
+
+
+
+
+7.Robust:-
+            *Exceptional handling features
+            *Memory management techniques in built
+
+
+
+
+
+
+8.Rich Library Support:-
+
+                         *The Python Standard Library is vary vast.
+
+                         *Known as the “batteries included” philosophy of Python ;It can help do various things
+                         involving regular expressions, documentation generation, unit testing, threading, databases,
+                         web browsers, CGI, email, XML, HTML, WAV files, cryptography, GUI and many more.
+
+                         *Besides the standard library, there are various other high-quality libraries such as the
+                         Python Imaging Library which is an amazingly simple image manipulation library.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     Python vs JAVA
+
+Python	                                                                          Java
+
+1.Dynamically Typed1.No need to declare anything.                  1.Statically Typed 1.All variable names
+An assignment statement binds a name to an object,                 (along with their types)
+and the object can be of any                                       must be explicitly declared.Attempting to assign
+type.2.No type casting required                                    an object of the wrong type to a variable name
+when using container objects                                       triggers a type exception.2.Type casting
+                                                                   is required when using container objects.
+
+
+
+
+
+2.Concise Express much in limited words	                           2.VerboseContains more words
+
+3.Compact	                                                       3.Less Compact
+
+4.Uses Indentation for structuring code	                           4.Uses braces for structuring code
+
+

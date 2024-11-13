@@ -1,0 +1,32 @@
+Python developers often make use of the comment system as, without the use of it, things can get real confusing,
+real fast. Comments are the useful information that the developers provide to make the reader understand the
+source code. It explains the logic or a part of it used in the code.
+
+Comments are usually helpful to someone maintaining or enhancing your code when you are no longer around to answer
+questions about it.
+These are often cited as a useful programming convention that does not take part in the output of the program
+but improves the readability of the whole program. There are two types of comment in Python:
+
+
+
+
+
+
+1.Single line comments :
+
+Python single line comment starts with hashtag symbol with no white spaces (#) and lasts till the end of the line.
+If the comment exceeds one line then put a hashtag on the next line and continue the comment.
+Python’s single line comments are proved useful for supplying short explanations for variables,
+function declarations, and expressions.
+
+
+
+
+
+2.Multi-line string as comment :
+
+Python multi-line comment is a piece of text enclosed in a delimiter (""") on each end of the comment.
+Again there should be no white space between delimiter (""").
+They are useful when the comment text does not fit into one line; therefore needs to span across lines.
+Multi-line comments or paragraphs serve as documentation for others reading your code.
+

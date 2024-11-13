@@ -1,0 +1,42 @@
+In Python, isdigit() is a built-in method used for string handling.
+The isdigit() methods returns “True” if all characters in the string are digits, Otherwise,
+It returns “False”.
+This function is used to check if the argument contains digits such as : 0123456789
+
+
+
+
+
+
+Syntax :
+string.isdigit()
+
+
+
+
+
+
+
+Parameters:
+isdigit() does not take any parameters
+
+
+
+
+
+Returns :
+1.True- If all characters in the string are digits.
+2.False- If the string contains 1 or more non-digits.
+
+
+
+
+
+
+Examples:
+
+Input : string = '15460'
+Output : True
+
+Input : string = '154ayush60'
+Output : False

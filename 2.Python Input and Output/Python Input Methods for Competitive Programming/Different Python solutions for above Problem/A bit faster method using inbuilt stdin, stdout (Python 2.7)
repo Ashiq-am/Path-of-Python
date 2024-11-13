@@ -1,0 +1,7 @@
+1. sys.stdin on the other hand is a File Object. It is like creating any other file object one could create
+to read input from the file. In this case, the file will be standard input buffer.
+
+2. stdout.write(‘D\n’) is faster than print ‘D’.
+
+3. Even faster is to write all once by stdout.write(“”.join(list-comprehension)) but this makes memory
+usage dependent on size of input.

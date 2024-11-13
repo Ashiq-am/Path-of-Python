@@ -1,0 +1,27 @@
+lstrip() method returns a copy of the string with leading characters removed (based on the string argument
+passed). If no argument is passed, it removes leading spaces.
+
+
+
+
+
+Syntax: string.lstrip(characters)
+
+
+
+
+
+
+
+
+Parameters:
+characters [optional] : A set of characters to remove as leading characters.
+
+
+
+
+
+
+
+
+Returns: Returns a copy of the string with leading characters stripped.

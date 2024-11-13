@@ -1,0 +1,5 @@
+1. raw_input() takes an optional prompt argument. It also strips the trailing newline character from the
+string it returns.
+
+2. print is just a thin wrapper that formats the inputs (space between args and newline at the end)
+and calls the write function of a given object.

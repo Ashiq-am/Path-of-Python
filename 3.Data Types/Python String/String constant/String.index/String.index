@@ -1,0 +1,43 @@
+Finding the string(substring) in a string is an application that has many uses in day-to-day
+life. Python offers this using a function index(), which returns the position of the first
+occurrence of substring in a string
+
+
+
+
+Syntax :
+ch.index(ch1,begp,endp)
+
+
+
+Parameters :
+ch1 : The string to be searched for.
+
+
+
+
+
+begp (default : 0) :  This function specifies the position
+from where search has to be started.
+
+
+
+
+
+
+endp (default : string_len) :  This function specifies the
+position from where search has to end.
+
+
+
+
+
+Return Value :
+Returns the first position of the substring found.
+
+
+
+
+
+Exception :
+Raises ValueError if argument string is not found.

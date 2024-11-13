@@ -1,0 +1,46 @@
+In Python, anonymous function means that a function is without a name. As we already know that def keyword is
+used to define the normal functions and the lambda keyword is used to create anonymous functions.
+
+
+
+
+It has the following syntax:
+
+lambda arguments: expression
+
+
+
+
+**This function can have any number of arguments but only one expression, which is evaluated and returned.
+
+**One is free to use lambda functions wherever function objects are required.
+
+**You need to keep in your knowledge that lambda functions are syntactically restricted to a single expression.
+
+**It has various uses in particular fields of programming besides other types of expressions in functions.
+
+
+
+
+
+
+
+
+
+                             Without using Lambda & Using Lambda
+
+
+***Without using Lambda :
+
+Here, both of them returns the cube of a given number.
+But, while using def, we needed to define a function with a name cube and needed to pass a value to it.
+After execution, we also needed to return the result from where the function was called using the return keyword.
+
+
+
+
+***Using Lambda :
+
+Lambda definition does not include a “return” statement, it always contains an expression
+which is returned. We can also put a lambda definition anywhere a function is expected, and we don’t have
+to assign it to a variable at all. This is the simplicity of lambda functions.

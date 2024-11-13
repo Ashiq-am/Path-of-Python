@@ -1,0 +1,110 @@
+Division operator
+
+print function
+
+Unicode
+
+xrange
+
+Error Handling
+
+_future_ module
+
+
+
+
+
+
+                                                         Division operator
+
+If we are porting our code or executing python 3.x code in python 2.x, it can be dangerous if integer division
+changes go unnoticed (since it doesn’t raise any error).
+It is preferred to use the floating value (like 7.0/5 or 7/5.0) to get the expected result when porting our code.
+
+
+
+
+
+
+
+
+
+
+
+                                                            print function
+
+
+This is the most well-known change. In this, the print keyword in Python 2.x is replaced by the print() function
+in Python 3.x. However, parentheses work in Python 2 if a space is added after print keyword because the
+interpreter evaluates it as an expression.
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                Unicode
+
+In Python 2, implicit str type is ASCII. But in Python 3.x implicit str type is Unicode.
+
+
+
+
+
+
+
+
+
+                                                                xrange
+
+xrange() of Python 2.x doesn’t exist in Python 3.x. In Python 2.x, range returns a list i.e. range(3) returns
+[0, 1, 2] while xrange returns a xrange object i. e., xrange(3) returns iterator object which work similar to
+Java iterator and generates number when needed.
+
+If we need to iterate over the same sequence multiple times, we prefer range() as range provides a static list.
+xrange() reconstructs the sequence every time. xrange() doesn’t support slices and other list methods.
+The advantage of xrange() is, it saves memory when the task is to iterate over a large range.
+
+In Python 3.x, the range function now does what xrange does in Python 2.x, so to keep our code portable,
+we might want to stick to using range instead. So Python 3.x’s range function is xrange from Python 2.x.
+
+
+
+
+
+
+
+
+
+
+
+
+                                                            Error Handling:
+
+
+There is a small change in error handling in both versions. In python 3.x, ‘as’ keyword is required.
+
+
+
+
+
+
+
+
+
+
+
+                                                               __future__ module:
+
+This is basically not a difference between the two versions, but a useful thing to mention here.
+The idea of __future__ module is to help migrate to Python 3.x.
+
+If we are planning to have Python 3.x support in our 2.x code, we can use _future_ imports in our code.
+
+For example, in the Python 2.x code below, we use Python 3.x’s integer division behavior using the __future__ module.

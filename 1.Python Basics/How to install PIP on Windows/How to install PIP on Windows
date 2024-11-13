@@ -1,0 +1,22 @@
+Before we start with how to install pip for Python on Windows, let’s first go through the basic introduction to
+Python.
+
+Python is a widely-used general-purpose, high-level programming language.
+Python is a programming language that lets you work quickly and integrate systems more efficiently.
+
+
+
+PIP is a package management system used to install and manage software packages/libraries written in Python.
+These files are stored in a large “on-line repository” termed as Python Package Index (PyPI).
+
+
+pip uses PyPI as the default source for packages and their dependencies. So whenever you type:
+
+
+
+
+""pip install package_name""
+
+
+
+pip will look for that package on PyPI and if found, it will download and install the package on your local system.

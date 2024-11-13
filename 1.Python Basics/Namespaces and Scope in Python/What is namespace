@@ -1,0 +1,21 @@
+A namespace is a system to have a unique name for each and every object in Python.
+An object might be a variable or a method.
+Python itself maintains a namespace in the form of a Python dictionary.
+Let’s go through an example, a directory-file system structure in computers.
+Needless to say, that one can have multiple directories having a file with the same name inside of every directory.
+But one can get directed to the file, one wishes, just by specifying the absolute path to the file.
+
+
+Real-time example, the role of a namespace is like a surname. One might not find a single “Alice” in the class there
+might be multiple “Alice” but when you particularly ask for “Alice Lee” or “Alice Clark” (with a surname),
+there will be only one (time being don’t think of both first name and surname are same for multiple students).
+
+
+
+On the similar lines, Python interpreter understands what exact method or variable one is trying to point
+to in the code, depending upon the namespace.
+So, the division of the word itself gives little more information.
+
+Its Name (which means name, an unique identifier) + Space(which talks something related to scope).
+Here, a name might be of any Python method or variable and space depends upon the location from where is
+trying to access a variable or a method.

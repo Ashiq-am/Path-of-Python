@@ -1,0 +1,12 @@
+print(("How many times were you"),
+	("frustrated while looking"),
+	("out for a good collection"),
+	("of programming/ algorithm/"),
+	("interview questions? What"),
+	("did you expect and what"),
+	("did you get? Geeks for geeks"),
+	("is a portal that has been"),
+	("created to provide well"),
+	("written, well thought and well"),
+	("explained solutions for"),
+	("selected questions."))

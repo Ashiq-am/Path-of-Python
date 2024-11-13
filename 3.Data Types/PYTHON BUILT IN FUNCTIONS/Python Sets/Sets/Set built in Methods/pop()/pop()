@@ -1,0 +1,37 @@
+This in-built function of Python helps to pop out elements from a set just like the principal used in
+the concept while implementing Stack.
+This method removes a random element from the set and returns the removed element.
+Unlike, a stack a random element is popped off the set.
+
+
+
+Syntax:
+
+# Pops a random element from S
+# and returns it.
+S.pop()
+
+
+
+
+This is one of the basic functions of the set and accepts no arguments. The return value is the popped
+element from the set.
+Once the element is popped out of the set, the set loses the element and it is updated to a set without
+the element.
+
+
+
+
+Examples:
+
+Input :
+sets = {1, 2, 3, 4, 5}
+Output :
+1
+Updated set is {2, 3, 4, 5}
+
+Input :
+sets = {"ram", "rahim", "ajay", "rishav", "aakash"}
+Output :
+rahim
+Updated set is {'ram', 'rishav', 'ajay', 'aakash'}

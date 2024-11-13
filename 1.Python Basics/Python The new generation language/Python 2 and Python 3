@@ -1,0 +1,71 @@
+Currently, there are two versions of Python available Python 2 and Python 3. Many beginners must be wondering with
+which version of Python they should start.
+
+My answer to this question is usually something along the lines “just go with the version your favourite tutorial
+is written in, and check out the differences later on.”
+
+
+
+
+
+Softwares making use of Python:-
+
+Python has been successfully embedded in a number of software products as a scripting language.
+
+1.GNU Debugger uses Python as a pretty printer to show complex structures such as C++ containers.
+2.Python has also been used in artificial intelligence
+3.Python is often used for natural language processing tasks.
+
+
+
+
+
+
+Current Applications of Python:-
+
+1.A number of Linux distributions use installers written in Python example in Ubuntu we have the Ubiquity
+2.Python has seen extensive use in the information security industry, including in exploit development.
+3.Raspberry Pi– single board computer uses Python as its principal user-programming language.
+4.Python is now being used Game Development areas also.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pros:
+
+1.Ease of use
+2.Multi-paradigm Approach
+
+
+
+Cons:
+
+
+1.Slow speed of execution compared to C,C++
+
+2.Absence from mobile computing and browsers
+
+3.For the C,C++ programmers switching to python can be irritating as the language requires proper indentation of code.
+Certain variable names commonly used like sum are functions in python.
+So C, C++ programmers have to look out for these.
+
+
+
+
+
+
+
+Industrial Importance
+
+Most of the companies are now looking for candidates who know about Python Programming.
+Those having the knowledge of python may have more chances of impressing the interviewing panel.
+So I would suggest that beginners should start learning python and excel in it.

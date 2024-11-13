@@ -1,0 +1,13 @@
+1. typecode :- This function returns the data type by which array is initialised.
+
+2. itemsize :- This function returns size in bytes of a single array element.
+
+3. buffer_info() :- Returns a tuple representing the address in which array is stored and number of elements in it.
+
+4. count() :- This function counts the number of occurrences of argument mentioned in array.
+
+5. extend(arr) :- This function appends a whole array mentioned in its arguments to the specified array.
+
+6. fromlist(list) :- This function is used to append a list mentioned in its argument to end of array.
+
+7. tolist() :- This function is used to transform an array into a list.

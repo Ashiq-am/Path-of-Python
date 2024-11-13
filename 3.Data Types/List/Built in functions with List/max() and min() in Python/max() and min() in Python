@@ -1,0 +1,63 @@
+                                                     max()
+
+This function is used to compute the maximum of the values passed in its argument and lexicographically
+largest value if strings are passed as arguments.
+
+
+Syntax :
+max(a,b,c,..)
+
+
+
+
+Parameters :
+a,b,c,.. :  similar type of data.
+
+
+
+
+Return Value :
+Returns the maximum of all the arguments.
+
+
+
+
+Exceptions :
+Returns TypeError when conflicting types are compared.
+
+
+
+
+
+
+
+
+
+
+                                                        min()
+This function is used to compute the minimum of the values passed in its argument and lexicographically
+smallest value if strings are passed as arguments.
+
+
+Syntax :
+min(a,b,c,..)
+
+
+
+
+Parameters :
+a,b,c,.. :  similar type of data.
+
+
+
+
+
+Return Value :
+Returns the minimum of all the arguments.
+
+
+
+
+
+Exceptions :
+Returns TypeError when conflicting types are compared.

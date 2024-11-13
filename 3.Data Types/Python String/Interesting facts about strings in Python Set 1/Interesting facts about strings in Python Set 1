@@ -1,0 +1,20 @@
+1. Strings are Immutable
+Once a string is defined, it cannot be changed.
+
+
+
+
+
+
+
+
+
+
+
+
+2. Three ways to create strings:
+
+Strings in Python can be created using single quotes or double quotes or a triple quotes .
+The single quotes and double quotes works same for the string creation.Talking about triple quotes,
+these are used when we have to write a string in multiple lines and printing as it is without using any
+escape sequence.

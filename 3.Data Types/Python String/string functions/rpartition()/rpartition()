@@ -1,0 +1,46 @@
+rpartition() function in Python split the given string into three parts. rpartition()
+start looking for separator from right side, till the separator is found and return a
+tuple which contains part of the string before separator, argument of the string and
+the part after the separator.
+
+
+
+
+
+
+Syntax :
+
+string.rpartition(separator)
+
+
+
+
+
+
+Parameters :
+
+separator -  separates the string at the first occurrence of it.
+
+
+
+
+
+
+
+Return Value :
+
+****It returns the part the string before the separator, separator parameter itself, and
+    the part after the separator if the separator parameter is found in the string.
+
+****It returns two empty strings, followed by the given string if the separator is not
+     found in the string.
+
+
+
+
+
+
+
+Exception :
+
+If separator argument is not supplied, it will throw TypeError.

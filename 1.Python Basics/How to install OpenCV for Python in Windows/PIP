@@ -1,0 +1,13 @@
+PIP is a package management system used to install and manage software packages/libraries written in Python.
+These files are stored in a large “on-line repository” termed as Python Package Index (PyPI).
+
+To check if PIP is already installed on your system, just go to the command line and execute the following command:
+
+
+
+pip -V
+
+
+
+
+If PIP is not present, go through How to install PIP on Windows? and follow the instructions provided.

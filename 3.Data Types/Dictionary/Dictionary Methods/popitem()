@@ -1,0 +1,27 @@
+Generating a random number has many application in daily life. In a list, various functions are supported for the same.
+A whole library is dedicated in Python to handle random numbers.
+
+But sometimes, we need to perform a similar task with a dictionary.
+
+popitem() method in dictionary helps to achieve similar purpose. It removes the arbitrary key-value pair from
+the dictionary and returns it as a tuple.
+
+There is an update for this method from Python version 3.7 onwards that it removes the last inserted
+key-value pair from the dictionary and returns it as a tuple.
+
+
+
+
+
+
+
+
+Syntax : dict.popitem()
+
+
+
+Parameters : None
+
+
+
+Returns : A tuple containing the arbitrary key-value pair from dictionary. That pair is removed from dictionary.

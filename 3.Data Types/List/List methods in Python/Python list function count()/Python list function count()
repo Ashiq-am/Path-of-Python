@@ -1,0 +1,28 @@
+count() is an inbuilt function in Python that returns count of how many times a given object occurs in list.
+
+Syntax :
+
+list_name.count(object)
+
+
+
+
+
+Parameters :
+
+Object is the things whose count is to be returned.
+
+
+
+
+Returns :
+
+count() method returns count of how many times obj occurs in list.
+
+
+
+
+Exception :
+
+If more then 1 parameter is passed in count() method,
+it returns a TypeError.

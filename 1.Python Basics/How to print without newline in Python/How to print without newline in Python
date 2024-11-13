@@ -1,0 +1,7 @@
+Generally people switching from C/C++ to Python wonder how to print two or more variables or statements without
+going into a new line in python.
+
+Since the python print() function by default ends with newline.
+
+
+Python has a predefined format if you use print(a_variable) then it will go to next line automatically.

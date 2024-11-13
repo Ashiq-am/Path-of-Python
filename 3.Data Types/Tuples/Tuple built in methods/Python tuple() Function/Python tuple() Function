@@ -1,0 +1,24 @@
+The tuple() function is a built-in function in Python that can be used to create a tuple.
+
+A tuple is an immutable sequence type.
+
+
+
+
+Syntax: tuple(iterable)
+
+
+
+Parameters: This function accepts a single parameter iterable (optional). It is an iterable(list, range etc..)
+            or an iterator object. If an iterable is passed, the corresponding tuple is created.
+            If the iterable is not passed, empty tuple is created .
+
+
+
+
+Returns: It does not returns any-thing but creates a tuple.
+
+
+
+
+Error and Exception: It returns a TypeError, if an iterable is not passed.

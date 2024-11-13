@@ -1,0 +1,31 @@
+rstrip() method returns a copy of the string with trailing characters removed
+(based on the string argument passed).
+If no argument is passed, it removes trailing spaces.
+
+
+
+
+
+
+Syntax :
+
+string.rstrip([chars])
+
+
+
+
+
+
+Parameters :
+
+chars (optional) – a string specifying the set of characters to be removed.
+
+
+
+
+
+
+
+Returns :
+
+returns a copy of the string with trailing characters stripped

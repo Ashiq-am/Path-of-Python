@@ -1,0 +1,32 @@
+This in-built function of Python is used to check whether a string is a valid identifier or not.
+The method returns True if the string is a valid identifier else returns False.
+
+
+
+
+
+
+
+Syntax:
+
+string.isidentifier()
+
+
+
+
+
+
+Parameters:The method does not take any parameters
+
+
+
+
+
+
+
+Return Value:
+
+The method can return one of the two values:
+
+True: When the string is a valid identifier.
+False: When the string is not a valid identifier.

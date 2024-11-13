@@ -1,0 +1,18 @@
+Console (also called Shell) is basically a command line interpreter that takes input from the user i.e one command
+at a time and interprets it. If it is error free then it runs the command and gives required output otherwise
+shows the error message.
+
+
+Here we write command and to execute the command just press enter key and your command will be interpreted.
+For coding in Python you must know the basics of the console used in Python.
+
+
+The primary prompt of the python console is the three greater than symbols
+
+>>>
+
+
+You are free to write the next command on the shell only when after executing the first command these prompts
+have appeared.
+
+The Python Console accepts command in Python which you write after the prompt.

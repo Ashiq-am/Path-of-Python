@@ -1,0 +1,28 @@
+1. str(dic) :- This method is used to return the string, denoting all the dictionary keys with their values.
+
+
+
+
+2. items() :- This method is used to return the list with all dictionary keys with values.
+
+
+
+
+3. len() :- It returns the count of key entities of the dictionary elements.
+
+
+
+
+4. type() :- This function returns the data type of the argument.
+
+
+
+
+
+5. copy() :- This function creates the shallow copy of the dictionary into other dictionary.
+
+
+
+
+
+6. clear() :- This function is used to clear the dictionary contents.

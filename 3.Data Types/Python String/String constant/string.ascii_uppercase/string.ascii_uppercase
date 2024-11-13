@@ -1,0 +1,40 @@
+In Python3, ascii_uppercase is a pre-initialized string used as string constant.
+In Python, string ascii_uppercase will give the uppercase letters ‘ABCDEFGHIJKLMNOPQRSTUVWXYZ’.
+
+
+
+
+Syntax : string.ascii_uppercase
+
+
+
+
+
+
+
+Parameters: Doesn’t take any parameter, since it’s not a function.
+
+
+
+
+
+
+
+
+Returns: Return all uppercase letters.
+
+
+
+
+
+
+Note: Make sure to import string library function inorder to use ascii_lowercase.
+
+
+
+
+
+Applications :
+
+The string constant ascii_uppercase can be used in many practical applications. Let’s see a code explaining
+how to use ascii_uppercase to generate strong random passwords of given size.

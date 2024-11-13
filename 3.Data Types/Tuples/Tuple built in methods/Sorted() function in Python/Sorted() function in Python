@@ -1,0 +1,32 @@
+Sorting any sequence is very easy in Python using built-in method sorted() which does all the hard work for you.
+
+Sorted() sorts any sequence (list, tuple) and always returns a list with the elements in sorted manner,
+without modifying the original sequence.
+
+
+
+
+
+
+
+
+Syntax : sorted(iterable, key, reverse)
+
+
+
+
+
+{Parameters : sorted takes three parameters from which two are optional.
+
+
+
+***Iterable : sequence (list, tuple, string) or collection (dictionary, set, frozenset) or any other iterator that
+           needs to be sorted.
+
+
+
+***Key(optional) : A function that would server as a key or a basis of sort comparison.
+
+
+***Reverse(optional) : If set true, then the iterable would be sorted in reverse (descending)
+                    order, by default it is set as false.}

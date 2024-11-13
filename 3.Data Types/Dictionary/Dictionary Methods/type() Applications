@@ -1,0 +1,14 @@
+type() function is basically used for debugging purposes. When used other string functions like .upper(), .lower(),
+.split() with text extracted from a web crawler, it might not work because they might be of different type
+which doesn’t support string functions. And as a result it will keep throwing errors,
+which are very difficult to debug [Consider the error as : GeneratorType has no attribute lower() ] .
+
+type() function can be used at that point to determine the type of text extracted and then change it to other
+forms of string before we use string functions or any other operations on it.
+
+
+
+
+
+type() with three arguments can be used to dynamically initialize classes or existing classes with attributes.
+It is also used to register database tables with SQL.

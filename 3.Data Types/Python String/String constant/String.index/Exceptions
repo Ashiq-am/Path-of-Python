@@ -1,0 +1,2 @@
+ValueError : This error is raised in the case when the argument string is not found in the
+             target string.

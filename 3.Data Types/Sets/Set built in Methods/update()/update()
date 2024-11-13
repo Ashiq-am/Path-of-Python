@@ -1,0 +1,23 @@
+update() function in set adds elements from a set (passed as an argument) to the set.
+
+
+
+Syntax :
+set1.update(set2)
+Here set1 is the set in which set2 will be added.
+
+
+
+
+
+
+
+
+Parameters :
+Update() method takes only a single argument. The single argument can be a set, list, tuples or a dictionary. It automatically converts into a set and adds to the set.
+
+
+
+
+
+Return value : This method adds set2 to set1 and returns nothing.

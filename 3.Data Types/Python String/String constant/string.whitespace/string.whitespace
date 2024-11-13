@@ -1,0 +1,24 @@
+In Python3, string.whitespace is a pre-initialized string used as string constant.
+In Python, string.whitespace will give the characters space, tab, linefeed, return, formfeed, and vertical tab.
+
+
+
+
+Syntax : string.whitespace
+
+
+
+
+
+Parameters : Doesn’t take any parameter, since it’s not a function.
+
+
+
+
+Returns : Return the characters space, tab, linefeed, return, formfeed, and vertical tab.
+
+
+
+
+
+Note : Make sure to import string library function inorder to use string.whitespace

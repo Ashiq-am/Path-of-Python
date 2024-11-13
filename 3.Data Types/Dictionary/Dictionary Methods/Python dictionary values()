@@ -1,0 +1,30 @@
+values() is an inbuilt method in Python programming language that returns a list of all the values available
+in a given dictionary.
+
+
+
+Syntax:
+
+dictionary_name.values()
+
+
+
+
+Parameters:
+There are no parameters
+
+
+
+
+Returns:
+
+returns a list of all the values available in a given dictionary.
+the values have been stored in a reversed manner.
+
+
+
+
+Error:
+
+As we are not passing any parameters there
+is no scope for any error.

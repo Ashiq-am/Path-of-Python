@@ -1,0 +1,3 @@
+The case when more than one datatypes, eg. string is contained in the string, string is considered to be greater
+than integer, by this way, all datatypes are alphabetically sorted in case of comparison.
+Size rule remains intact in this case.

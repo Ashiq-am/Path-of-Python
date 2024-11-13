@@ -1,0 +1,35 @@
+The get() method is used to avoid such situations. This method returns the value for the given key,
+if present in the dictionary. If not, then it will return None (if get() is used with only one argument).
+
+
+
+
+Syntax :
+
+Dict.get(key, default=None)
+
+
+
+
+
+
+
+
+"""In python dictionaries, following is a conventional method to access a value for a key."""
+
+dic = {"A":1, "B":2}
+print(dic["A"])
+print(dic["C"])
+
+
+
+
+
+
+
+The problem that arises here is that the 3rd line of the code returns a key error :
+
+Traceback (most recent call last):
+  File ".\dic.py", line 3, in
+    print (dic["C"])
+KeyError: 'C'

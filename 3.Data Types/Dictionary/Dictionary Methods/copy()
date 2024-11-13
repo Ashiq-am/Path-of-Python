@@ -1,0 +1,44 @@
+They copy() method returns a shallow copy of the dictionary.
+
+Syntax:
+
+dict.copy()
+
+
+
+
+Parameters:
+
+
+
+
+The copy() method doesn't take any parameters.
+
+
+
+
+
+Returns:
+
+This method doesn't modify the original
+dictionary just returns copy of the dictionary.
+
+
+
+
+
+Examples:
+
+Input : original = {1:'geeks', 2:'for'}
+        new = original.copy()
+Output : original:  {1: 'one', 2: 'two'}
+         new:  {1: 'one', 2: 'two'}
+
+
+
+
+
+Error:
+
+As we are not passing any parameters
+there is no chance of any error.

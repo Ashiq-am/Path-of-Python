@@ -1,0 +1,23 @@
+Python language specified pop() for almost all containers, be it list, set etc.
+This particular article focuses on illustrating the pop() method offered by Python dictionaries.
+This method is useful for the programmers who deal with the dictionary too often.
+
+
+
+Syntax : dict.pop(key, def)
+
+
+
+
+
+Parameters :
+key : The key whose key-value pair has to be returned and removed.
+def : The default value to return if specified key is not present.
+
+
+
+
+Returns :
+Value associated to deleted key-value pair, if key is present.
+Default value if specified if key is not present.
+KeyError, if key not present and default value not specified.

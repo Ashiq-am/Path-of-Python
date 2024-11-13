@@ -1,0 +1,59 @@
+1. del[a : b] :- This method deletes all the elements in range starting from index ‘a’ till ‘b’ mentioned in
+                 arguments.
+
+
+
+
+
+
+
+2. pop() :- This method deletes the element at the position mentioned in its arguments.
+
+
+
+
+
+
+
+3. insert(a, x) :- This function inserts an element at the position mentioned in its arguments.
+                    It takes 2 arguments, position and element to be added at respective position.
+
+
+
+
+
+
+
+
+4. remove() :- This function is used to delete the first occurrence of number mentioned in its arguments.
+
+
+
+
+
+
+
+
+
+5. sort() :- This function sorts the list in increasing order.
+
+
+
+
+
+
+
+6. reverse() :- This function reverses the elements of list.
+
+
+
+
+
+7. extend(b) :- This function is used to extend the list with the elements present in another list.
+                This function takes another list as its argument.
+
+
+
+
+
+8. clear() :- This function is used to erase all the elements of list. After this operation, list becomes empty.

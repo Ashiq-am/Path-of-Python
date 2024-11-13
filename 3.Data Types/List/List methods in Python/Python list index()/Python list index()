@@ -1,0 +1,34 @@
+index() is an inbuilt function in Python, which searches for given element from start of the list and returns
+the lowest index where the element appears.
+
+
+
+Syntax :
+
+list_name.index(element, start, end)
+
+
+
+
+Parameters :
+
+element - The element whose lowest index will be returned.
+
+start (Optional) - The position from where the search begins.
+end (Optional) - The position from where the search ends.
+
+
+
+
+
+Returns :
+
+Returns lowest index where the element appears.
+
+
+
+
+Error :
+
+If any element which is not present is searched,
+it returns a ValueError

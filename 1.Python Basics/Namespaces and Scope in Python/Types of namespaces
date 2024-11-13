@@ -1,0 +1,8 @@
+When Python interpreter runs solely without and user-defined modules, methods, classes, etc.
+
+
+Some functions like print(), id() are always present, these are built in namespaces.
+
+When a user creates a module, a global namespace gets created, later creation of local functions creates the
+local namespace. The built-in namespace encompasses global namespace and global namespace encompasses local namespace.
+

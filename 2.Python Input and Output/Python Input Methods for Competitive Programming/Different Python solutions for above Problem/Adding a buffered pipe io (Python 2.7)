@@ -1,0 +1,8 @@
+1. Simply, adding the buffered IO code before your submission code to make the output faster.
+
+2. The benefit of io.BytesIO objects is that they implement a common-ish interface (commonly known as a
+‘file-like’ object). BytesIO objects have an internal pointer and for every call to read(n) the pointer advances.
+
+3. The atexit module provides a simple interface to register functions to be called when a program closes down normally.
+The sys module also provides a hook, sys.exitfunc, but only one function can be registered there.
+The atexit registry can be used by multiple modules and libraries simultaneously.

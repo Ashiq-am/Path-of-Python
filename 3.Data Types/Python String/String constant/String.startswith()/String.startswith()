@@ -1,0 +1,64 @@
+The startswith() method returns True if a string starts with the given prefix otherwise returns False.
+
+
+
+
+Syntax :
+
+str.startswith(prefix, start, end)
+
+
+
+
+Parameters :
+
+prefix : prefix ix nothing but a string which needs to be checked.
+start : Starting position where prefix is needs to be checked within the string.
+end : Ending position where prefix is needs to be checked within the string.
+
+
+
+
+
+
+
+NOTE : If start and end index is not provided then by default it takes 0 and length-1 as starting and
+       ending indexes where ending indes is not included in our search.
+
+
+
+
+
+
+
+
+Returns :
+
+It returns True if strings starts with the given
+prefix otherwise returns False.
+
+
+
+
+
+
+Examples:
+
+Input : text = "geeks for geeks."
+        result = text.startswith('for geeks')
+Output : False
+
+Input : text = "geeks for geeks."
+        result = text.startswith('geeks', 0)
+Output : True
+
+
+
+
+
+
+
+
+Error :
+
+ValueError : This error is raised in the case when the argument string is not found in the target string

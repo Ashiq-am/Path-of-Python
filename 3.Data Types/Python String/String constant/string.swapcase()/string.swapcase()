@@ -1,0 +1,35 @@
+The string swapcase() method converts all uppercase characters to lowercase and vice versa of the given
+string, and returns it.
+
+
+
+
+
+
+
+Syntax:
+
+string_name.swapcase()
+Here string_name is the string whose cases are to be swapped.
+
+
+
+
+
+
+
+
+
+
+Parameter: The swapcase() method does not takes any parameter.
+
+
+
+
+
+
+
+
+Return value:
+
+The swapcase() method returns a string with all the cases changed.

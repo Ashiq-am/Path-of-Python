@@ -1,0 +1,38 @@
+str.format() is one of the string formatting methods in Python3, which allows multiple substitutions and
+value formatting.
+This method lets us concatenate elements within a string through positional formatting.
+
+
+
+
+Using a Single Formatter :
+
+Formatters work by putting in one or more replacement fields and placeholders defined by a pair of curly
+braces { } into a string and calling the str.format().
+The value we wish to put into the placeholders and concatenate with the string passed as parameters
+into the format function.
+
+
+
+
+
+
+Syntax : { } .format(value)
+
+
+
+
+
+
+
+Parameters :
+(value) : Can be an integer, floating point numeric constant, string, characters or even variables.
+
+
+
+
+
+
+
+
+Returntype : Returns a formatted string with the value passed as parameter in the placeholder position.

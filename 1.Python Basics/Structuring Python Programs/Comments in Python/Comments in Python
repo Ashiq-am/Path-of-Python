@@ -1,0 +1,10 @@
+Writing comments in the code are very important and they help in code readability and also tell more about the code.
+It helps you to write details against a statement or a chunk of code. Interpreter ignores the comments and does
+not count them in commands. In this section, we’ll learn how to write comments in Python.
+
+
+
+Symbols used for writing comments include Hash (#) or Triple Double Quotation marks(“””).
+Hash is used in writing single line comments that do not span multiple lines.
+Triple Quotation Marks are used to write multiple line comments.
+Three triple quotation marks to start the comment and again three quotation marks to end the comment.

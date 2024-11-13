@@ -1,0 +1,31 @@
+encode() is a method specified in Strings in Python 2.
+
+In today’s world, security holds the key in many of the applications. Thus the need for
+secure storage of passwords in database is required and hence there is to save encoded
+versions of strings. To achieve this, python in its language has defined “encode()”
+that encodes strings with the specified encoded scheme.
+There are several encoded schemes defined in the language.
+
+
+
+
+
+The strings can be using the function encode() that returns the encoded version of
+string according to the specified encoding.
+
+Syntax : encode(encoding, error)
+
+
+
+Parameters :
+
+encoding : Specifies the encoding on the basis of which encoding has to be performed.
+error : Decides how to handle the errors if they occur, e.g ‘strict’ raises Unicode error
+        in case of exception and ‘ignore’ ignores the errors occurred.
+
+
+
+
+
+
+Returns : Returns the string in the encoded form

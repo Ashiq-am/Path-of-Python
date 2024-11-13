@@ -1,0 +1,4 @@
+If there is a requirement of printing the escape character(\) instead,then if user mention it in a string
+interpreter will think of it as escape character and will not print it.
+
+In order to print the escape character user have to use escape character before ‘\’ as shown in the example.

@@ -1,0 +1,7 @@
+This is the case when all the elements in the list are of type integers and hence when comparison is made,
+the number by number comparison is done left to right, if we get a larger number at any particular index,
+we term it to be greater and stop the further comparisons.
+
+
+If all the elements in both the list are similar and one list is larger(in size) than the other list,
+larger list is considered to be greater.

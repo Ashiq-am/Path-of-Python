@@ -1,0 +1,3 @@
+This function is used to extract the suffix or prefix length after or before the target word.
+The example below displays the total bit length of instruction coming from AC voltage given
+information in string.

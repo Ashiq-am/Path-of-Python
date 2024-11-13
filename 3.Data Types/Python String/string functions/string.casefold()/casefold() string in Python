@@ -1,0 +1,22 @@
+The casefold() string method is used to implement caseless string matching. It is similar to
+lower() string method but case removes all the case distinctions present in a string.
+i.e ignore cases when comparing.
+
+
+
+Syntax:
+
+string.casefold()
+
+
+
+
+Parameters :
+the casefold doesn't take any parameters.
+
+
+
+
+
+return value:
+it return the casefolded string the string converted to lower case.

@@ -1,0 +1,2 @@
+The filter() function in Python takes in a function and a list as arguments. This offers an elegant way to filter
+out all the elements of a sequence “sequence”, for which the function returns True.

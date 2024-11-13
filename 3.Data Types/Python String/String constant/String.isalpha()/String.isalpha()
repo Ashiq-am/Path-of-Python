@@ -1,0 +1,54 @@
+In Python, isalpha() is a built-in method used for string handling.
+The isalpha() methods returns “True” if all characters in the string are alphabets, Otherwise,
+It returns “False”.
+This function is used to check if the argument includes only alphabet characters (mentioned below).
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+
+
+
+
+
+Syntax :
+
+string.isalpha()
+
+
+
+
+
+
+Parameters:
+isalpha() does not take any parameters
+
+
+
+
+
+
+
+
+
+Returns :
+1.True- If all characters in the string are alphabet.
+2.False- If the string contains 1 or more non-alphabets.
+
+
+
+
+
+
+
+
+
+
+Examples:
+
+Input : string = 'Ayush'
+Output : True
+
+Input : string = 'Ayush Saxena'
+Output : False
+
+Input : string = 'Ayush0212'
+Output : False

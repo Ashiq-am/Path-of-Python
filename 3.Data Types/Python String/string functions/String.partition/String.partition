@@ -1,0 +1,30 @@
+The partition() method splits the string at the first occurrence of the separator and returns a tuple
+containing the part the before separator, separator and the part after the separator.
+Here separator is a string which is given has the argument.
+
+
+
+
+
+
+Syntax:
+string.partition(separator)
+
+
+
+
+
+Parameters:
+The partition() method takes a separator(a string) as the argument that separates the string at the first
+occurrence of it.
+
+
+
+
+
+
+Returns:
+
+Returns a tuple which contains the part before the separator, separator parameter, and the part after the
+separator if the separator parameter is found in the string.
+Returns a tuple which contains string itself and two empty strings if the separator parameter is not found.

@@ -1,0 +1,12 @@
+While printing Strings with single and double quotes in it causes SyntaxError because
+String already contains Single and Double Quotes and hence cannot be printed with the
+use of either of these.
+
+Hence, to print such a String either Triple Quotes are used or Escape sequences are
+used to print such Strings.
+
+
+
+Escape sequences start with a backslash and can be interpreted differently.
+If single quotes are used to represent a string, then all the single quotes present
+in the string must be escaped and same is done for Double Quotes.

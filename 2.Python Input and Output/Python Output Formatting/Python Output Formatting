@@ -1,0 +1,20 @@
+There are several ways to present the output of a program, data can be printed in a human-readable form,
+or written to a file for future use. Sometimes user often wants more control the formatting of output than
+simply printing space-separated values. There are several ways to format output.
+
+
+
+
+1.To use formatted string literals, begin a string with f or F before the opening quotation mark or triple
+quotation mark.
+
+
+
+
+2.The str.format() method of strings help a user to get a fancier Output
+
+
+
+3.User can do all the string handling by using string slicing and concatenation operations to create any
+layout that user wants. The string type has some methods that perform useful operations for padding strings
+to a given column width.

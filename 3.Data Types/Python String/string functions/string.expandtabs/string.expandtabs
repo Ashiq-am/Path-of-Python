@@ -1,0 +1,38 @@
+expandtabs is a method specified in Strings in Python 3.
+
+Sometimes, there is a need of specifying the space in the string, but amount of space to be left is uncertain
+and depending upon the environment and conditions.
+
+
+For these cases, need to modify the string again and again is a tedious task. Hence python in its library has
+“expandtabs()” which specifies the amount of space to be substituted with the “\t” symbol in the string.
+
+
+
+
+
+
+
+Syntax : expandtabs(space_size)
+
+
+
+
+
+
+
+Parameters :
+
+space_size : Specifies the space that is to be replaced with the “\t” symbol in the string. By default the
+space is 8.
+
+
+
+
+
+
+
+
+
+Returns : Returns the modified string with tabs replaced by the space.
+

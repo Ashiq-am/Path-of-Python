@@ -1,0 +1,38 @@
+In Python3, string.digits is a pre-initialized string used as string constant. In Python, string.digits
+will give the lowercase letters ‘0123456789’.
+
+
+
+
+
+
+Syntax : string.digits
+
+
+
+
+
+
+Parameters : Doesn’t take any parameter, since it’s not a function.
+
+
+
+
+Returns : Return all digit letters.
+
+
+
+
+
+
+Note : Make sure to import string library function inorder to use string.digits
+
+
+
+
+
+
+
+Applications :
+The string constant digits can be used in many practical applications. Let’s see a code explaining
+how to use digits to generate strong random passwords of given size.

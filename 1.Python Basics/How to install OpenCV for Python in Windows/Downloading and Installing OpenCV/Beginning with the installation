@@ -1,0 +1,28 @@
+1.Type the command in the Terminal and proceed
+
+
+
+
+
+2.Collecting Information and downloading data
+
+
+
+
+
+3.Installing Packages
+
+
+
+
+4.Finished Installation
+
+
+
+
+
+To check if OpenCV is correctly installed, just run the following commands to perform a version check:
+
+python
+>>>import cv2
+>>>print(cv2.__version__)

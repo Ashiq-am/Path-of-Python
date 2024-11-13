@@ -1,0 +1,2 @@
+class geekClass:
+    pass

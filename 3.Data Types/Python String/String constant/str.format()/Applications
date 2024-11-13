@@ -1,0 +1,4 @@
+Formatters are generally used to Organize Data. Formatters can be seen in their best light when they
+are being used to organize a lot of data in a visual way.
+If we are showing databases to users, using formaters to increase field size and modify alignment can
+make the output more readable.

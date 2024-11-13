@@ -1,0 +1,32 @@
+cmp(list) is a method specified in Number in Python 2.
+
+
+The comparison of integral numbers have been discussed using cmp(). But many a times, there is a need to compare
+the entire list that can be composed of similar or different data types.
+
+In this case, different case scenarios occur and having knowledge of them can at times prove to be quite handy.
+
+
+This function takes 2 lists as input and checks if the first argument list is greater, equal or smaller than
+the second argument list.
+
+
+
+
+
+Syntax : cmp(list1, list2)
+
+
+
+
+Parameters :
+
+list1 : The first argument list to be compared.
+list2 : The second argument list to be compared.
+
+
+
+
+
+Returns : This function returns 1, if first list is “greater” than second list, -1 if first list is smaller
+          than the second list else it returns 0 if both the lists are equal.

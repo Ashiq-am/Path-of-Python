@@ -1,0 +1,24 @@
+max() is an inbuilt function in Python programming language that returns the highest alphabetical character
+in a string.
+
+
+
+
+
+Syntax:
+
+max(string)
+
+
+
+
+Parameter:
+max() method takes a string as a parameter
+
+
+
+
+
+Return value:
+
+Returns a character which is alphabetically the highest character in the string.

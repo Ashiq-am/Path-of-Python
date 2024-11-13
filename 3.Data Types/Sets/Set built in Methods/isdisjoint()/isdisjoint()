@@ -1,0 +1,50 @@
+Two sets are said to be disjoint when their intersection is null. In simple words they do not have any
+common element in between them.
+
+
+
+
+Examples:
+
+Let set A = {2, 4, 5, 6}
+and set B = {7, 8, 9, 10}
+
+set A and set B are said to be be disjoint sets as their
+intersection is null. They do-not have any common elements in between them.
+
+
+
+
+
+
+
+Syntax:
+
+set1.isdisjoint(set2)
+
+
+
+
+
+
+
+
+
+Parameters:
+
+The isdisjoint() method takes only a single argument.
+It can also take an iterable (list, tuple, dictionary and string) to disjoint(). The isdisjoint() method
+will automatically convert iterables to set and checks whether the sets are disjoint or not.
+
+
+
+
+
+
+
+
+
+Return Value:
+
+returns Trueif the two sets are disjoint.
+returns Falseif the twos sets are not disjoint.

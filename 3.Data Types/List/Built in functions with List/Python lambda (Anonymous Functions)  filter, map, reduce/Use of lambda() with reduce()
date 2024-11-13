@@ -1,0 +1,4 @@
+The reduce() function in Python takes in a function and a list as argument. The function is called with a
+lambda function and a list and a new reduced result is returned.
+
+This performs a repetitive operation over the pairs of the list. This is a part of functools module

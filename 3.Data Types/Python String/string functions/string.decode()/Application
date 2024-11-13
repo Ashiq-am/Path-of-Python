@@ -1,0 +1,5 @@
+Encoding and decoding together can be used in simple application of storing password in
+back end and many other applications like cryptography which deals with keeping the
+information confidential.
+
+The small demonstration of the password application is depicted below.

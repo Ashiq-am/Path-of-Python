@@ -1,0 +1,14 @@
+In Python List, there are multiple ways to print the whole List with all the
+elements,
+but to print a specific range of elements from the list, we use Slice operation.
+Slice operation is performed on Lists with the use of colon(:).
+
+To print elements from beginning to a range use [:Index],
+to print elements from end use [:-Index], to print elements from specific
+Index till the end use [Index:],
+to print elements within a range, use [Start Index:End Index] and to print
+whole List with the use of slicing operation, use [:].
+
+Further, to print whole List in reverse order, use [::-1].
+
+Note – To print elements of List from rear end, use Negative Indexes.

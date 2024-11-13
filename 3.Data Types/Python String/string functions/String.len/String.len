@@ -1,0 +1,25 @@
+len() function is an inbuilt function in Python programming language that returns the length of the string.
+
+
+
+
+Syntax:
+
+len(string)
+
+
+
+
+
+
+Parameters:
+It takes string as the parameter.
+
+
+
+
+
+
+Return Value:
+
+It returns an integer which is the length of the string.

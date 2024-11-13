@@ -1,0 +1,19 @@
+BUILT-IN FUNCTION	                                      DESCRIPTION
+
+all()	                               Returns true if all element are true or if tuple is empty
+
+any()	                    return true if any element of the tuple is true. if tuple is empty, return false
+
+len()	                              Returns length of the tuple or size of the tuple
+
+enumerate()	                                  Returns enumerate object of tuple
+
+max()	                                    return maximum element of given tuple
+
+min()	                                    return minimum element of given tuple
+
+sum()	                                       Sums up the numbers in the tuple
+
+sorted()	                         input elements in the tuple and return a new sorted list
+
+tuple()	                                        Convert an iterable to a tuple.

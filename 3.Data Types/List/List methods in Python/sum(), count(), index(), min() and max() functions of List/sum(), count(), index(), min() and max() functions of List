@@ -1,0 +1,76 @@
+1.sum() : Calculates sum of all the elements of List.
+
+
+Syntax:
+ sum(List)
+
+
+
+
+
+
+
+
+
+
+2.count():Calculates total occurrence of given element of List.
+
+Syntax:
+List.count(element)
+
+
+
+
+
+
+
+
+
+3.length:Calculates total length of List.
+
+Syntax:
+len(list_name)
+
+
+
+
+
+
+
+
+
+
+4.index(): Returns the index of first occurrence. Start and End index are not necessary parameters.
+
+Syntax:
+List.index(element[,start[,end]])
+
+
+
+
+
+
+
+
+
+
+
+5.min() : Calculates minimum of all the elements of List.
+
+Syntax:
+min(List)
+
+
+
+
+
+
+
+
+
+
+
+6.max(): Calculates maximum of all the elements of List.
+
+Syntax:
+max(List)

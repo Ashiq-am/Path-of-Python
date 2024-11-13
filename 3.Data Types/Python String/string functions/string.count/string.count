@@ -1,0 +1,35 @@
+count() function in an inbuilt function in python programming language that returns the number of occurrences
+of a substring in the given string.
+
+
+
+
+
+Syntax:
+
+string.count(substring, start=…, end=…)
+
+
+
+
+
+
+Parameters:
+
+The count() function has one compulsory and two optional parameters.
+Mandatory parameter:
+1)substring – string whose count is to be found.
+
+Optional Parameters:
+1)start (Optional) – starting index within the string where search starts.
+2)end (Optional) – ending index within the string where search ends.
+
+
+
+
+
+
+
+
+Return Value:
+count() method returns an integer that denotes number of times a substring occurs in a given string.

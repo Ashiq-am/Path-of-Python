@@ -1,0 +1,5 @@
+We can also write multiple statements per line, but it is not a good practice as it reduces the readability of
+the code.
+
+Try to avoid writing multiple statements in a single line. But, still you can write multiple lines by terminating
+one statement with the help of ‘;’. ‘;’ is used as the terminator of one statement in this case.

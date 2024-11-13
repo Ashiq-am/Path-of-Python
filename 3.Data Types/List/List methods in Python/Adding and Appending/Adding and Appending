@@ -1,0 +1,45 @@
+1.append(): Used for appending and adding elements to List.It is used to add elements to the last position of List.
+
+
+
+Syntax:
+
+
+list.append (element)
+
+
+
+
+
+
+
+
+
+
+2.insert(): Inserts an elements at specified position.
+
+
+Syntax:
+ list.insert(<position, element)
+
+
+Note: Position mentioned should be within the range of List, as in this case between 0 and 4, elsewise would
+throw IndexError.
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.extend(): Adds contents to List2 to the end of List1.
+
+Syntax:
+
+List1.extend(List2)

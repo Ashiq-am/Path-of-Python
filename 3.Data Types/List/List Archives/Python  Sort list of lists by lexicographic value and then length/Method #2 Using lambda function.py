@@ -1,0 +1,16 @@
+# Python code to demonstrate
+# sort list of lists by value and length
+# using lambda function
+
+# initializing list
+test_list = [[1, 4, 3, 2], [5, 4, 1], [1, 4, 6, 7]]
+
+# printing the original list
+print ("The original list is : " + str(test_list))
+
+# using lambda function
+# sort list of lists by value and length
+res = sorted(test_list, key = lambda i: (len(i), i))
+
+# printing result
+print ("The list after sorting by value and length " + str(res))

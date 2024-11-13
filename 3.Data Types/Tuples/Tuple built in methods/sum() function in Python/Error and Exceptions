@@ -1,0 +1,10 @@
+TypeError : This error is raised in the case when there is anything other then numbers in the list.
+
+
+
+
+
+
+
+Practical Application: Problems where we require sum to be calculated to do further operations such as
+                       finding out the average of numbers.

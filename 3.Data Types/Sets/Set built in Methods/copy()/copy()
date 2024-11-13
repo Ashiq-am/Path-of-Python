@@ -1,0 +1,29 @@
+The copy() method returns a shallow copy of the set in python. If we use “=” to copy a set to another set,
+when we modify in the copied set, the changes are also reflected in the original set.
+So we have to create a shallow copy of the set such that when we modify something in the copied
+set, changes are not reflected back in the original set.
+
+
+
+
+
+Syntax:
+
+set_name.copy()
+
+set_name: Name of the set whose copy
+          we want to generate.
+
+
+
+
+
+
+
+
+Parameters:The copy() method for sets doesn’t take any parameters.
+
+
+
+
+Return value:The function returns a shallow copy of the original set.

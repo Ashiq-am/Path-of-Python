@@ -1,0 +1,10 @@
+1. Initialise a new string and variable counter to 0.
+
+2. Traverse the given string character by character upto its length, check if character is an alphabet.
+
+3. If it is an alphabet, increment the counter by 1 and add it to a the new string, else traverse to
+   the next character.
+
+4. Print the value of the counter and the new string.
+
+

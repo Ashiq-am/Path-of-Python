@@ -1,0 +1,25 @@
+The most common whitespace characters are the following:
+
+
+
+
+
+CHARACTER	                                  ASCII CODE	                                        LITERAL EXPRESSION
+
+Space	                                      32 (0x20)	                                                    ‘ ‘
+
+tab	                                           9 (0x9)	                                                    ‘\t’
+
+newline	                                       10 (0xA)	                                                    ‘\n’
+
+
+
+
+
+
+
+* You can always refer to ASCII Table by clicking here.
+
+Whitespace is mostly ignored, and mostly not required, by the Python interpreter.
+When it is clear where one token ends and the next one starts, whitespace can be omitted.
+This is usually the case when special non-alphanumeric characters are involved.

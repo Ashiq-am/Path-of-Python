@@ -1,0 +1,23 @@
+Character	Character Name	ASCII Code	 	Character	Character Name	ASCII Code	 	Character	Character Name	ASCII Code
+
+NULL	    Null character	    00	 	        VT	      Vertical tab	    11	 	       SYN	     Synchronous idle	 22
+
+SOH	        Start of header	    01	 	        FF	       Form feed	    12	 	       ETB	    End of trans. Block	 23
+
+STX	         Start of text	    02	 	        CR	     Carriage return	13	 	       CAN	         cancel	         24
+
+ETX	         End of text	    03	 	        SO	        Shift out	    14	 	        EM	      End of medium	     25
+
+EOT	      End of transmission	04	 	        SI	         Shift in	    15	 	        SUB	        substitute	     26
+
+ENQ	           enquiry	        05	 	        DLE	     Data link escape	16	 	        ESC	          escape	     27
+
+ACK	          acknowledge	    06	 	        DC1	      Device control 1	17	 	        FS	      File separator	 28
+
+BEL	            bell	        07	 	        DC2	      Device control 2	18	 	        GS	      Group separator	 29
+
+BS	          backspace	        08	 	        DC3	      Device control 3	19	 	        RS	      Record separator	 30
+
+HT	        Horizontal tab	    09	 	        DC4	      Device control 4	20	 	        US	       Unit separator	 31
+
+LF	          Line feed	        10	 	        NAK	   Negative acknowledge	  21	 	    DEL	          delete	     127

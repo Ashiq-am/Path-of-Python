@@ -1,0 +1,23 @@
+Sometimes, there is a need to reuse any object, hence copy methods are always of a great utility.
+Python in its language offers a number of ways to achieve this.
+This particular article aims at demonstrating the copy method present in list.
+Since list is widely used hence, its copy is also necessary.
+
+
+
+
+Syntax : list.copy()
+
+
+
+
+Parameters :
+None
+
+
+
+
+
+Returns :
+Returns a shallow copy of a list.
+Shallow copy means the any modification in new list won’t be reflected to original list
