@@ -1,0 +1,13 @@
+Basic Approach:
+
+-> import kivy
+-> import kivy App
+-> import button
+-> set minimum version(optional)
+-> Extend the class :
+              -> create an image a button
+              -> Do styling
+              -> Use the border property to round the corners of the button
+              -> Arrange call back if needed
+-> Add and return a button
+-> Run an instance of the class

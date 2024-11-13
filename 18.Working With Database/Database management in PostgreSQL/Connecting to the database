@@ -1,0 +1,39 @@
+The connect() method is used to establish connection with the database. It takes 5 parameters:
+
+1.database: The name of the database you are connecting to
+2.user: the username of your local system
+3.password: the password to log in to psql
+4.host: The host, which is set to localhost by default
+6.port: The port number which is 5432 by default
+
+
+
+conn = psycopg2.connect(
+            database="test",
+            user = "adith",
+            password = "password",
+            host = "localhost",
+            port = "5432")
+
+
+
+
+
+Once the connection has been established, we can manipulate the database in python.
+
+The Cursor object is used to execute sql queries. we can create a cursor object using the connecting object (conn)
+
+ {cur = conn.cursor()}
+
+Using this object, we can make changes to the database that we are connected to.
+
+
+
+
+
+
+After you have executed all the queries, we need to disconnect from the connection. Not disconnecting will not
+cause any errors but it is generally considered a good practice to disconnect.
+
+ {conn.close()}
+

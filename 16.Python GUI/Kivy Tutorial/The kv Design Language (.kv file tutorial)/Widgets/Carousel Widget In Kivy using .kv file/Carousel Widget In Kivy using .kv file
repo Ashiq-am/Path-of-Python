@@ -1,0 +1,53 @@
+The Carousel widget provides the classic mobile-friendly carousel view where you can swipe between
+slides.
+You can add any content to the carousel and have it move horizontally or vertically.
+The carousel can display pages in a sequence or a loop.
+
+
+To work with this widget you must have to import:
+
+[from kivy.uix.carousel import Carousel]
+
+
+
+
+
+
+Basic Approach:
+1) import kivy
+2) import kivy App
+3) import Gridlayout
+4) import Carousel
+5) set minimum version(optional)
+6) Create as much as widget class as needed
+7) create the App class
+8) return the widget/layout etc class
+9) Create Carousel.kv file:
+        1) Create button( or what is needed)
+        2) Arrange the on_release / on_press function
+10) Run an instance of the class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In the below example we are creating the buttons in the App. In this we used load_previous() and
+load_next() functions.
+
+
+
+load_next(mode=’next’)
+Animate to the next slide.
+
+load_previous()
+Animate to the previous slide.

@@ -1,0 +1,18 @@
+1.A switch can be attached with a call back to retrieve the value of the switch.
+
+
+2.The state transition of a switch is from either ON to OFF or OFF to ON.
+
+
+
+3.When switch makes any transition the callback is triggered and new state can be retrieved i.e came
+and any other action can be taken based on the state.
+
+
+
+4.By default, the representation of the widget is static. The minimum size required is 83*32 pixels.
+
+
+
+5.The entire widget is active, not just the part with graphics. As long as you swipe over the widget’s
+bounding box, it will work.

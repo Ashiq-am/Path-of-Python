@@ -1,0 +1,14 @@
+The Button is a Label with associated actions that are triggered when the button is pressed
+(or released after a click/touch). To bind the action of button when it pressed we have the function
+on_press.
+
+
+
+Basic Approach for the button Actions using .kv file:
+
+1) Import kivy
+2) Import kivy app
+3) Import Box layout
+4) create .kv with label and button
+5) Bind button to a method
+6) create method

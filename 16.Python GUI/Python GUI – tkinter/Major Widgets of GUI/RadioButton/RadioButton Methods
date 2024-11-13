@@ -1,0 +1,19 @@
+SN	                     Method	                                    Description
+
+1	                   deselect()	                  It is used to turn of the radiobutton.
+
+
+
+2	                    flash()	                    It is used to flash the radiobutton between its
+                                                         active and normal colors few times.
+
+
+
+
+3	                    invoke()	                 It is used to call any procedure associated when
+                                                         the state of a Radiobutton is changed.
+
+
+
+
+4	                    select()	                          It is used to select the radiobutton.

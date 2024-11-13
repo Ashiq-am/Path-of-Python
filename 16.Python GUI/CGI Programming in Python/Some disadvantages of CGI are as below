@@ -1,0 +1,13 @@
+1.The interpreter has to evaluate a CGI script every time the program is initiated this creates a lot
+  of traffic as there are too many requests from the side of the client-server.
+
+
+
+
+2.Programming and designing of CGI programs is very complex and ambiguous.
+
+
+
+
+3.CGI programs may compromise server security as most of them are free and easily available making
+   them quite vulnerable.

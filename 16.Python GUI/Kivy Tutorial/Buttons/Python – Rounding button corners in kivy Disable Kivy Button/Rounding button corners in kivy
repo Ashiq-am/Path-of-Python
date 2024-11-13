@@ -1,0 +1,35 @@
+Basically this is the tricky one. As we know Widgets are always rectangle, but we can change the
+background of widgets and put couple of images for the normal and the down state of the button by
+using some properties of buttons like background_normal and background_down properties respectively.
+
+Also to round the corners of the button you also must have understand one more property of button that
+is the border property.
+
+
+
+
+
+background_down :
+1) Background image of the button used for the default graphical representation when the button is pressed.
+2) background_down is a StringProperty .
+
+
+
+
+
+background_normal :
+1) Background image of the button used for the default graphical representation when the button is
+   not pressed.
+2) background_normal is also a StringProperty
+
+
+
+
+
+
+
+border :
+1) Border used for BorderImage graphics instruction. Used with background_normal and background_down.
+   Can be used for custom backgrounds.
+2) It must be a list of four values: (bottom, right, top, left).
+3) border is a ListProperty and defaults to (16, 16, 16, 16)

@@ -1,0 +1,60 @@
+In this article, we will learn how to disable a button in kivy using .kv file, there are some places
+where we need to disable the buttons. Let’s see how to do that.
+
+
+
+
+The Button is a Label with associated actions that are triggered when the button is pressed
+(or released after a click/touch).
+
+We can add functions behind the button and style the button.But to disable the button we have a
+property name :
+
+
+[disabled that must be true]
+
+
+this property will help in disabling the button i.e. button will be there but is of no use as it is
+disabled no functionality of button will work.
+
+
+
+
+
+
+
+
+
+
+
+Note: disabled property was introduced in version 1.8.0. If you want to use it you need to
+      actualize your framework.
+
+
+
+
+
+
+
+
+
+
+
+Basic Approach to disable a button
+
+1) import kivy
+2) import kivyApp
+3) import Widget
+4) import Button
+5) Set minimum version(optional)
+6) Create widget class:
+          1) Arrange a callback
+          2) Define Callback function
+7) create App class
+8) create .kv file (name same as the app class):
+        1) create Widget
+        2) Create Button
+        3) Specify requirements
+        4) Disable button true if required
+9) return Layout/widget/Class(according to requirement)
+10) Run an instance of the class 

@@ -1,0 +1,32 @@
+The ToggleButton widget acts like a checkbox. When you touch or click it, the state toggles between
+‘normal’ and ‘down’ (as opposed to a Button that is only ‘down’ as long as it is pressed).
+
+
+Toggle buttons can also be grouped to make radio buttons – only one button in a group can be in a
+‘down’ state. The group name can be a string or any other hashable Python object:
+
+btn1 = ToggleButton(text='Male', group='sex', )
+btn2 = ToggleButton(text='Female', group='sex', state='down')
+btn3 = ToggleButton(text='Mixed', group='sex')
+
+
+
+
+
+
+
+
+
+
+Basic Approach:
+
+1) import kivy
+2) import kivyApp
+3) import toggle button
+4) import Gridlayout
+5) Set minimum version(optional)
+6) create layout class
+7) create App class
+8) create the, kv file
+9) return Layout/widget/Class(according to requirement)
+10) Run an instance of the class

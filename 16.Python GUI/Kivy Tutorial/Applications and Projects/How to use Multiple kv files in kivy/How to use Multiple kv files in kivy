@@ -1,0 +1,22 @@
+In this article, we will see how can we use multiple .kv files in a single Application .
+
+This is the Python program, which uses GridLayout as the root widget. In addition to the main kv file,
+it loads box1.kv, box2.kv and box3.kv.
+There are also 2 application variables. These variables are referenced from the main kv file.
+
+
+
+
+
+Basic Approach:
+
+1) import kivy
+2) import kivyApp
+3) import Gridlayout
+4) import Builder
+5) Set minimum version(optional)
+6) Create Layout class
+7) Create App class
+8) Set up multiple .kv file
+9) return Layout/widget/Class(according to requirement)
+10) Run an instance of the class

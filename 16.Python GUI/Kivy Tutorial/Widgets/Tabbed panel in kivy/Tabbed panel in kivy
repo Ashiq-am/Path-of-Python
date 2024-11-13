@@ -1,0 +1,30 @@
+The TabbedPanel widget manages different widgets in tabs, with a header area for the actual tab buttons
+and a content area for showing the current tab content.
+
+
+
+The TabbedPanel provides one default tab.
+
+
+
+To use it must import :
+
+[from kivy.uix.tabbedpanel import TabbedPanel]
+
+
+
+
+
+Basic Approach:
+1) import kivy
+2) import kivy App
+3) import floatlayout
+4) import tabbedpanel
+5) set minimum version(optional)
+6) Create Tabbed panel class
+7) create the App class
+8) create .kv file:
+       # create multiple tabs in it.
+       # Do there functioninging also.
+9) return the widget/layout etc class
+10) Run an instance of the class

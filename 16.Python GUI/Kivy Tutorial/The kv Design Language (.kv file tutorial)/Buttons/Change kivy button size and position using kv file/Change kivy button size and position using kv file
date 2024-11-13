@@ -1,0 +1,65 @@
+In this article we will see that how can we can change the size and the position of button in kivy
+python in kv file.
+
+
+
+
+
+1.size : This is for static sizing of widgets and takes two arguments i.e. (width, height).
+       Default size of the button = (100, 100).
+
+
+
+Syntax: b1 = Button(size=(100, 100))
+
+
+
+
+
+2.pos : This is for static placement of widgets and is used to give position to button and by default
+      it is (0, 0) which is the bottom-left corner of the screen.
+
+
+
+Syntax : b1 = Button(pos=(100, 100))
+
+
+
+
+
+3.size_hint : This is for dynamic sizing of the button and provide hint of size. It contains two
+         arguments i.e. width and height it can be floating values.By default, all widgets have their
+         size_hint=(1, 1).
+
+
+
+
+
+
+
+4.pos_hint : This is for dynamic placement of the button and provide hint of position. We can
+             define upto 8 keys i.e. it takes arguments in form of dictionary.
+
+                 pos_hint = {“x”:1, “y”:1, “left”:1, “right”:1, “center_x”:1,
+                                      “center_y”:1, “top”:1, “bottom”:1(“top”:0)}
+
+
+
+
+
+
+
+
+
+
+Basic Approach:
+
+1) import kivy
+2) import kivyApp
+3) import all neaded(like button and layouts to use them)
+4) Set minimum version(optional)
+5) create Layout class
+6) create App class
+7) Set up .kv file : Create the buttons and set up the position and size
+8) return Layout/widget/Class(according to requirement)
+9) Run an instance of the class

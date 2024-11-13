@@ -1,0 +1,3 @@
+Setting a good background template is a good thing to make your app look more attractive to the user.
+For inserting a background template in your App some modifications need to be done in the .kv file.
+Below is the code to set a background template for your app.

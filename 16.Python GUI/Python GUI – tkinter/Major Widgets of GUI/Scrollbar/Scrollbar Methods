@@ -1,0 +1,12 @@
+SN	                       Method	                                    Description
+
+1	                        get()	                         It returns the two numbers a and b which
+                                                           represents the current position of the scrollbar.
+
+
+
+
+2	                    set(first, last)	                 It is used to connect the scrollbar to the
+                                                             other widget w. The yscrollcommand or
+                                                             xscrollcommand of the other widget to this
+                                                             method.

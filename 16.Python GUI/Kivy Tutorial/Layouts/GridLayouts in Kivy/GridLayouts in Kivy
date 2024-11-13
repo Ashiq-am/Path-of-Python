@@ -1,0 +1,15 @@
+Use this command To install kivy:
+
+pip install kivy
+
+
+
+Gridlayout is the function which creates the children and arrange them in a matrix format.
+It takes the available space(square) and divides that space into rows and columns then add the widgets
+accordingly to the resulting cells or grids.
+
+We can not explicitly place the widgets in a particular column/row. Each child is assigned a particular
+position automatically determined by the layout configuration and the child index in children list.
+
+A gridlayout must contain at least on input constraints i.e. cols and rows.
+If we do not specify the cols or rows to it, the layout gives you an exception.

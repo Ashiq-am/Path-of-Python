@@ -1,0 +1,25 @@
+The tags are the names given to the separate areas of the text.
+The tags are used to configure the different areas of the text separately.
+
+
+
+
+SN	                       Method	                                             Description
+
+1	         tag_add(tagname, startindex, endindex)	               This method is used to tag the string
+                                                                   present in the specified range.
+
+
+
+2	                     tag_config	                               This method is used to configure the
+                                                                   tag properties.
+
+
+
+3	                tag_delete(tagname)	                           This method is used to delete a given
+                                                                   tag.
+
+
+
+4	        tag_remove(tagname, startindex, endindex)	           This method is used to remove a tag from
+                                                                   the specified range.

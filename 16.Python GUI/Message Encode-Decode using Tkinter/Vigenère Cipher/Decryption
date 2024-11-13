@@ -1,0 +1,27 @@
+Decryption is performed by going to the row in the table corresponding to the key, finding the position
+of the ciphertext letter in this row, and then using the column’s label as the plaintext.
+
+For example, in row A (from AYUSH), the ciphertext G appears in column G, which is the first plaintext
+letter. Next we go to row Y (from AYUSH), locate the ciphertext C which is found in column E,
+thus E is the second plaintext letter.
+
+A more easy implementation could be to visualize Vigenère algebraically by converting [A-Z] into
+numbers [0–25].
+
+
+
+
+Encryption
+The plaintext(P) and key(K) are added modulo 26.
+Ei = (Pi + Ki) mod 26
+
+
+
+
+Decryption
+Di = (Ei - Ki + 26) mod 26
+
+
+
+Note: Di denotes the offset of the i-th character of the plaintext. Like offset of A is 0 and of B is 1
+and so on.

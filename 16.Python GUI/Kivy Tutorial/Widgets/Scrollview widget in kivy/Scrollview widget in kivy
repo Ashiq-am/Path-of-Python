@@ -1,0 +1,40 @@
+The ScrollView widget provides a scrollable/pannable viewport that is clipped at the scrollview’s
+bounding box.
+
+
+
+Scroll view accepts only one child and applies a window to it according to 2 properties:
+1) scroll_x
+2) scrool_y
+
+
+
+
+
+To determine if interaction is a scrolling gesture, these properties are used:
+
+     ****scroll_distance: the minimum distance to travel, defaults to 20 pixels.
+     ****scroll_timeout: the maximum time period, defaults to 55 milliseconds.
+
+
+
+
+Note:
+To use the scrollview you must have to import it:
+
+[from kivy.uix.scrollview import ScrollView]
+
+
+
+
+
+
+Basic Approach:
+1) import kivy
+2) import kivyApp
+3) import scroll view
+4) import string property
+5) Set minimum version(optional)
+6) create the scroll view class
+7) Build the .kv file within the .py file
+8) Run an app

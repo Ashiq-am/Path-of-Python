@@ -1,0 +1,30 @@
+CheckBox is a specific two-state button that can be either checked or unchecked.
+Checkboxes have an accompanying label that describes the purpose of the checkbox.
+Checkboxes can be grouped together to form radio buttons.
+
+Checkboxes are used to convey whether a setting is to be applied or not.
+
+To work with the Checkbox, you first have to import Checkbox from the module which consists all featuers,
+functions of the slider i.e.
+
+
+ [from kivy.uix.checkbox import CheckBox]
+
+
+
+
+
+
+Basic Approach to follow while creating Slider :
+
+1) import kivy
+2) import kivy App
+3) import gridlayout
+4) import Label
+5) import Checkbox
+6) import Widget
+7) set minimum version(optional)
+8) Extend the class
+9) Add widget in the class
+10) Create the App class
+11) run the instance of the class

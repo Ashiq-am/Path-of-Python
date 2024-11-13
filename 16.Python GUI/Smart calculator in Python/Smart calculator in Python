@@ -1,0 +1,17 @@
+Problem – This smart calculator works on the text statement also. The user need not provide algebraic
+expression always. It fetches the word form the command (given by the user) and then formulates
+the expression.
+
+
+
+
+Examples:
+
+Input  : Hi calculator plz find the lcm of 4 and 8.
+Output : 8
+
+Input  : Hi smart plz find the  multiplication of 3 and 9.
+Output : 27
+
+Input  : Hi smart plz end the program.
+Output : Thanks for enjoy with me.

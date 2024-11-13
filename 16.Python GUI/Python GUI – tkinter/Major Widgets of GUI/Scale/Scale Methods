@@ -1,0 +1,8 @@
+SN	                          Method	                                Description
+
+1	                          get()	                     It is used to get the current value of the scale.
+
+
+
+
+2	                         set(value)	                       It is used to set the value of the scale.

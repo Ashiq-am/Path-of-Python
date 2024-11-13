@@ -1,0 +1,44 @@
+<!-- index.ejs file -->
+
+<tbody>
+	<% for(var i=0; i< docs.length; i++) { %>
+	<tr>
+		<td>
+			<%= i %>
+		</td>
+		<td>
+			<tbody>
+				<% for(var i=0; i< docs.length; i++) { %>
+					<tr>
+						<td>
+							<%= i %>
+						</td>
+						<td>
+							<%= docs[i].vehicleNumber %>
+						</td>
+						<td>
+							<%= docs[i].date %>
+						</td>
+						<td>
+							<%= docs[i].time %>
+						</td>
+						<td>
+							<%= docs[i].tollAmount %>
+						</td>
+					</tr>
+					<% } %>
+			</tbody>
+			<%= docs[i].vehicleNumber %>
+		</td>
+		<td>
+			<%= docs[i].date %>
+		</td>
+		<td>
+			<%= docs[i].time %>
+		</td>
+		<td>
+			<%= docs[i].tollAmount %>
+		</td>
+	</tr>
+	<% } %>
+</tbody>

@@ -1,0 +1,28 @@
+Marks are used to bookmark the specified position between the characters of the associated text.
+
+
+
+SN	               Method	                                         Description
+
+1	             index(mark)	                      It is used to get the index of the specified mark.
+
+
+
+
+2	      mark_gravity(mark, gravity)	               It is used to get the gravity of the given mark.
+
+
+
+
+3	             mark_names()	                It is used to get all the marks present in the Text widget.
+
+
+
+
+4	        mark_set(mark, index)	                 It is used to inform a new position of the given mark.
+
+
+
+
+
+5	          mark_unset(mark)	                        It is used to remove the given mark from the text.

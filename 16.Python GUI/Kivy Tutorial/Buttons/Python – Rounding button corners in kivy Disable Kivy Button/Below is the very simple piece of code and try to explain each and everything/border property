@@ -1,0 +1,5 @@
+The values in border:30, 30, 30, 30 tells us how many pixels on the left, right, top, bottom are going
+to be used for the border of the button.
+
+If you give border, see for example border: 150, 150, 150, 150 this will behave wrongly and the
+reason is that we are picking up a border bigger than the actual image.

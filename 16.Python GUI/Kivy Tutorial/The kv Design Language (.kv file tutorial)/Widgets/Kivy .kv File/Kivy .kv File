@@ -1,0 +1,9 @@
+As when we write the application in Python kivy, to write all the things on the same code make a
+mess in the code and it is hard to understand that by someone another.
+Also writing a large code makes hard to maintain the construction of the widget tree and explicit
+the declaration of bindings.
+
+
+
+The KV language, allows us to create own widget tree in a declarative way and to bind the widget
+properties to each other or to callbacks in a natural way.

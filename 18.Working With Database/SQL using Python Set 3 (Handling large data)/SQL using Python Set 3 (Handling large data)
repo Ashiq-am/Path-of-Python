@@ -1,0 +1,32 @@
+In the previous articles the records of the database were limited to small size and single tuple.
+This article will explain how to write & fetch large data from the database using module SQLite3 covering
+all exceptions.
+
+A simple way is to execute the query and use fetchall(). This has been already discussed in SET 1.
+
+
+
+
+1.executescript()
+This is a convenience method for executing multiple SQL statements at once. It executes the SQL script it gets as
+a parameter.
+
+
+
+
+Syntax:
+
+sqlite3.connect.executescript(script)
+
+
+
+
+
+
+
+2.executemany()
+It is often the case when, large amount of data has to be inserted into database from Data Files
+(for simpler case take Lists, arrays).
+It would be simple to iterate the code many a times than write every time, each line into database.
+But the use of loop would not be suitable in this case, the below example shows why.
+Syntax and use of executemany() is explained below and how it can be used like a loop.

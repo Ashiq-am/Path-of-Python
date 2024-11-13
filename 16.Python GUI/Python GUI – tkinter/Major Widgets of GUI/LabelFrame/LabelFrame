@@ -1,0 +1,19 @@
+The LabelFrame widget is used to draw a border around its child widgets.
+We can also display the title for the LabelFrame widget.
+It acts like a container which can be used to group the number of interrelated widgets such as
+Radiobuttons.
+
+This widget is a variant of the Frame widget which has all the features of a frame.
+It also can display a label.
+
+
+
+
+The syntax to use the LabelFrame widget is given below.
+
+
+
+
+Syntax
+
+w = LabelFrame(top, options)

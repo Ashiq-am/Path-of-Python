@@ -1,0 +1,42 @@
+To work with spinner you must have to import:
+
+[from kivy.uix.spinner import Spinner]
+
+
+
+
+Spinner is a widget that provides a quick way to select one value from a set.
+In the default state, a spinner shows its currently selected value. Touching the spinner displays
+a dropdown menu with all the other available values from which the user can select a new one.
+
+
+Like a combo box, a spinner object can have multiple values and one of the values can be selected.
+A callback can be attached to the spinner object to receive notifications on selection of a value
+from the spinner object.
+
+
+
+
+
+
+
+
+
+
+Basic Approach:
+
+1) import kivy
+2) import kivyApp
+3) import spinner
+4) import Floatlayout(according to need)
+5) import window(optional)
+6) Set minimum version(optional)
+7) Create Layout class:
+      define the clicked function in it
+8) Create App class
+9) create .kv file (name same as the app class):
+        1) create Spinner
+        2) create callback
+        3) And many more styling as needed
+10) return Layout/widget/Class(according to requirement)
+11) Run an instance of the class

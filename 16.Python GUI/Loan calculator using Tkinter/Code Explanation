@@ -1,0 +1,16 @@
+1.tkinter module contains the tk toolkit. Here in this example, we are importing the whole module of
+tkinter in the firstline.
+Next, We are creating a user-defined Class named LoanCalculator which holds it’s own data member
+and member functions.
+
+
+
+
+
+
+
+
+2.def__init__(self) is a special method in Python Class. It is a constructor of a Python class, then
+we create a window using Tk().
+The label function creates a display box to take input and use grid method to give it a table like
+structure.

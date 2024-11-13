@@ -1,0 +1,25 @@
+Note:
+
+Floatlayout and RelativeLayout both support absolute and relative positioning depending upon
+whether pos_hint or pos is used.But If you want absolute positioning, use the FloatLayout.
+
+
+
+
+
+
+
+
+
+
+Basic Approach to create Relative Layout:
+1) import kivy
+2) import kivy App
+3) import Relativelayout
+4) Set minimum version(optional)
+5) create class for layout
+6) create App class:
+        - define build() function
+7) Set up.kv file(name same ass the App class)
+8) return Layout Class
+9) Run an instance of the class

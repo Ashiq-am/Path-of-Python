@@ -1,0 +1,45 @@
+PostgreSQL is an open source object-relational database management system. It is well known for its reliability,
+robustness, and performance.
+
+PostgreSQL has a variety of libraries of API (Application programmable interface) that are available for a variety
+of popular programming languages such as Python.
+
+It provides a lot of features for Database management such as Views, Triggers, Indexes (using B-Trees), etc.
+
+
+
+
+
+There are several python modules that allow us to connect to and manipulate the database using PostgreSQL:
+
+1.Psycopg2
+2.pg8000
+3.py-postgresql
+4.PyGreSQL
+
+
+
+
+
+
+
+
+
+Psycopg2 is one of the most popular python drivers for PostgreSQL. It is actively maintained and provides support
+for different versions of python.
+It also provides support for Threads and can be used in multithreaded applications. For these reasons,
+it is a popular choice for developers.
+
+
+
+In this article, we shall explore the features of PostgreSQl using psycopg2 by building a simple database
+management system in python.
+
+{Installation:
+
+sudo pip3 install psycopg2}
+
+
+Note: if you are using Python2, use pip install instead of pip3
+
+Once psycopg has been installed in your system, we can connect to the database and execute queries in Python.

@@ -1,0 +1,25 @@
+Kivy is an opensource multi-platform GUI development library for Python and can run on iOS, Android,
+Windows, OS X, and GNU/Linux.
+It helps develop applications that make use of innovative, multi-touch UI.
+The fundamental idea behind Kivy is to enable the developer to build an app once and use it across all
+devices, making the code reusable and deployable, allowing for quick and easy interaction design and rapid
+prototyping.
+
+
+
+
+
+This easy to use framework contains all the elements for building an application such as:
+
+
+1.Extensive input support for input devices such as mouse, keyboard, TUIO, and OS-specific multi-touch
+  events
+
+
+2.A graphic library using only OpenGL ES 2
+
+
+3.A wide range of widgets built with multi-touch support
+
+
+4.An intermediate language Kv language, used to design custom widgets easily

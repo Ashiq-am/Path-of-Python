@@ -1,0 +1,16 @@
+The PageLayout works in a different manner from other layouts. It is a dynamic layout, in the sense
+that it allows flipping through pages using its borders.
+
+The idea is that its components are stacked in front of each other, and we can just see the one that
+is on top.
+PageLayout is similar to pages of a copy like that we can move/change the pages right or left.
+
+
+
+The PageLayout class is used to create a simple multi-page layout, in a way that allows easy
+flipping from one page to another using border.
+
+
+To use PageLayout you have to import it by the below command:
+
+[from kivy.uix.pagelayout import PageLayout]

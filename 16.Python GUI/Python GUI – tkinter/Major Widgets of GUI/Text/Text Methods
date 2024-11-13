@@ -1,0 +1,32 @@
+SN	                       Method	                                       Description
+
+1	             delete(startindex, endindex)	               This method is used to delete the characters
+                                                               of the specified range.
+
+
+
+
+2	              get(startindex, endindex)	                   It returns the characters present in the
+                                                               specified range.
+
+
+
+
+
+3	                    index(index)	                        It is used to get the absolute index of the
+                                                                specified index.
+
+
+
+
+
+4	               insert(index, string)	                   It is used to insert the specified string
+                                                               at the given index.
+
+
+
+
+
+5	                    see(index)	                           It returns a boolean value true or false
+                                                               depending upon whether the text at the
+                                                               specified index is visible or not.

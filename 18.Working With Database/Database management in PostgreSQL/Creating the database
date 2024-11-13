@@ -1,0 +1,23 @@
+before we can access the database in python, we need to create the database in postgresql. To create the database,
+follow the steps given below:
+
+
+
+1.Log in to PostgreSQL:
+      sudo -u postgres psql
+
+
+
+
+2.Configure the password:
+      \password
+      (You will then be prompted to enter the password. remember this as we will use it to connect to the
+      database in Python)
+
+
+
+
+3.Create a database called “test”. we will connect to this database.
+            CREATE DATABASE test;
+
+Once the database and password have been configured, exit the psql server.

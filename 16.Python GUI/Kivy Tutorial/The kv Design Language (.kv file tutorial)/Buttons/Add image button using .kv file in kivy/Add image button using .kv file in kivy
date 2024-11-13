@@ -1,0 +1,52 @@
+1.background_down : Background image of the button used for the default graphical representation when
+                  the button is pressed.
+
+
+
+2.background_normal : Background image of the button used for the default graphical representation
+                    when the button is not pressed.
+
+
+
+
+3.background_disabled_normal : Background image of the button used for the default graphical
+                             representation when the button is disabled and not pressed.
+
+These all 3 properties are a StringProperty that means they only takes string as values.
+
+
+
+
+
+
+
+To use button you must have to import :
+
+[import kivy.uix.button as Button]
+
+
+
+
+
+
+
+
+
+
+
+Basic Approach:
+
+1) import kivy
+2) import kivyApp
+3) import button
+4) import FloatLayout
+5) set minimum version(optional)
+6) Create the Layout class
+7) Create App class
+8) Create .kv file:
+          1) Add Base class
+          2) Add Button properties
+          3) Add Image as button
+          4) Resizing, Positioning, functionality etc of Imagebutton
+9) return instance of the layout class
+10) Run an instance of the class

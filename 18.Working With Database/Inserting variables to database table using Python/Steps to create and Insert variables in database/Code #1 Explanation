@@ -1,0 +1,9 @@
+We have initialised the database pythonDB.py. This instruction will create the database if the database doesn’t exist.
+
+If the database having the same name as defined exist than it will move further.
+In the second statement, we use a method of sqlite3 named cursor(), this help you to initiate the database as active.
+
+
+
+Cursors are created by the connection cursor() method, they are bound to the connection for the entire lifetime
+and all the commands are executed in the context of the database session wrapped by the connection.

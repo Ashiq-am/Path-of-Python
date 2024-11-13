@@ -1,0 +1,28 @@
+CheckBox is a specific two-state button that can be either checked or unchecked.
+
+
+
+
+To work with the Checkbox you first have to import Checkbox from the module which consists all
+featuers, functions of the checkbox i.e.
+
+[from kivy.uix.checkbox import CheckBox]
+
+
+
+
+
+
+
+
+
+Basic Approach to follow while creating Checkbox using .kv file :
+1) import kivy
+2) import kivyApp
+3) import BoxLayout
+4) import Checkbox
+5) set minimum version(optional)
+6) Extend the container class
+7) set up .kv file :
+9) Return layout
+10) Run an instance of the class

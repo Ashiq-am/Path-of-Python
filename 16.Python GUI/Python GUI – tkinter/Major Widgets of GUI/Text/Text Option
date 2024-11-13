@@ -1,0 +1,185 @@
+SN	                  Option	                                           Description
+
+1	                    bg	                                    The background color of the widget.
+
+
+
+
+2	                    bd	                                 It represents the border width of the widget.
+
+
+
+
+3	                  cursor	                           The mouse pointer is changed to the specified
+                                                           cursor type, i.e. arrow, dot, etc.
+
+
+
+
+4	              exportselection	                        The selected text is exported to the selection
+                                                            in the window manager. We can set this to 0
+                                                            if we don't want the text to be exported.
+
+
+
+
+5	                  font	                                             The font type of the text.
+
+
+
+
+6	                   fg	                                             The text color of the widget.
+
+
+
+
+7	                  height	                             The vertical dimension of the widget in lines.
+
+
+
+
+8	           highlightbackground	                  The highlightcolor when the widget doesn't has the
+                                                      focus.
+
+
+
+
+9	            highlightthickness	                  The thickness of the focus highlight. The default
+                                                      value is 1.
+
+
+
+
+10	              highlighcolor	                     The color of the focus highlight when the widget
+                                                     has the focus.
+
+
+
+
+11	             insertbackground	                    It represents the color of the insertion cursor.
+
+
+
+
+
+12	            insertborderwidth	                  It represents the width of the border around the
+                                                      cursor. The default is 0.
+
+
+
+
+13	              insertofftime	                       The time amount in Milliseconds during which the
+                                                       insertion cursor is off in the blink cycle.
+
+
+
+
+
+14	              insertontime	                       The time amount in Milliseconds during which the
+                                                       insertion cursor is on in the blink cycle.
+
+
+
+
+
+15	              insertwidth	                          It represents the width of the insertion cursor.
+
+
+
+
+16	                   padx	                                      The horizontal padding of the widget.
+
+
+
+
+
+17	                   pady	                                        The vertical padding of the widget.
+
+
+
+
+
+18	                  relief	                             The type of the border. The default is SUNKEN.
+
+
+
+
+
+19	            selectbackground	                            The background color of the selected text.
+
+
+
+
+
+
+20	            selectborderwidth	                      The width of the border around the selected text.
+
+
+
+
+
+21	                 spacing1	                          It specifies the amount of vertical space given
+                                                          above each line of the text. The default is 0.
+
+
+
+
+
+22	                 spacing2	                          This option specifies how much extra vertical
+                                                          space to add between displayed lines of text
+                                                          when a logical line wraps. The default is 0.
+
+
+
+
+
+23	                 spacing3	                          It specifies the amount of vertical space to
+                                                          insert below each line of the text.
+
+
+
+
+
+24	                  state	                                It the state is set to DISABLED, the widget
+                                                            becomes unresponsive to the mouse and
+                                                            keyboard unresponsive.
+
+
+
+
+
+
+25	                   tabs	                               This option controls how the tab character is
+                                                            used to position the text.
+
+
+
+
+
+26	                  width	                           It represents the width of the widget in characters.
+
+
+
+
+
+27	                   wrap	                             This option is used to wrap the wider lines into
+                                                          multiple lines. Set this option to the WORD to
+                                                          wrap the lines after the word that fit into the
+                                                          available space. The default value is CHAR which
+                                                           breaks the line which gets too wider at any
+                                                           character.
+
+
+
+
+
+28	               xscrollcommand	                       To make the Text widget horizontally scrollable,
+                                                           we can set this option to the set() method of
+                                                           Scrollbar widget.
+
+
+
+
+29	               yscrollcommand	                       To make the Text widget vertically scrollable,
+                                                           we can set this option to the set() method of
+                                                            Scrollbar widget.

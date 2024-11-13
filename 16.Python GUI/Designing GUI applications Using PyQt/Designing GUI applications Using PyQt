@@ -1,0 +1,24 @@
+Building GUI applications using PYQT designer tool is comparatively less time consuming than code the
+widgets. It is one of the fastest and easiest ways to create GUI’s.
+
+The normal approach is to write the code even for the widgets and for the functionalities as well.
+But using Qt-designer, one can simply drag and drop the widgets, which comes very useful while
+developing big-scale applications.
+
+
+
+
+Installation of PyQt5 :
+
+
+
+
+
+For Linux :
+ sudo apt-get install python3-pyqt5
+
+
+
+
+For Windows :
+ pip install pyqt5

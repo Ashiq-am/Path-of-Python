@@ -1,0 +1,9 @@
+Oracle Database (known as Oracle RDBMS) is a Database Management System produced and marketed by Oracle Corporation.
+The Most Fundamental and common usage of Oracle Database is to store a Pre-Defined type of Data.
+It supports the Structured Query language (SQL) to Manage and Manipulate the Data that it has.
+It is one of the most Reliable and highly used Relational Database Engines.
+
+There are many versions of Oracle Database like Oracle Database 10g, Oracle Database 11g, Oracle Database 12c,
+Oracle Database 19c, etc. from which Oracle 19c is the Latest Version.
+
+In this article, we will learn how to Install version 11g on Windows.

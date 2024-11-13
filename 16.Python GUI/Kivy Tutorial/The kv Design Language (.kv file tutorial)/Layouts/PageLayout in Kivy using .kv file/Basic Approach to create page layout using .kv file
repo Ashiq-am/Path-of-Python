@@ -1,0 +1,22 @@
+1) import kivy
+2) import kivyApp
+3) import Pagelayout
+4) Set minimum version(optional)
+5) create Layout class
+6) create App class
+      - create build() function
+7) Set up .kv file(name same as the App class)
+8) return Layout/widget/Class(according to requirement)
+9) Run an instance of the class
+
+
+
+
+
+
+
+
+
+
+1). kv file is just Simply how to create pages in .kv file
+2). kv file is how can yo add features like : color, text, image, canvas, swipe_threshold, button in the pages.

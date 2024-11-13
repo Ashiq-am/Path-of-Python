@@ -1,0 +1,51 @@
+ProgressBar widget is used to visualize the progress of some task. Only the horizontal mode is
+currently supported:
+
+the vertical mode is not yet available. The progress bar has no interactive elements and is a
+display-only widget.
+
+
+
+
+To work with the progressbar widget you must have to import it by the command:
+
+[from kivy.uix.progressbar import ProgressBar]
+
+
+
+
+
+
+
+
+The progress bar take takes two arguments:
+1) max: Maximum value allowed for value. It is a Numericproperty and defaults to 100.
+2) value: Current Value for the slider
+
+
+
+
+
+
+
+
+
+
+
+
+
+Basic Approach:
+
+1) import kivy
+2) import kivyApp
+3) import progressbar
+4) import Boxlayout(according to need)
+5) Set minimum version(optional)
+6) Create Layout class:
+7) Create App class
+8) Create .kv file:
+         1) Add progress bar
+         2) Add label
+         3) Add canvas if you want as i did
+8) return Layout/widget/Class(according to requirement)
+9) Run an instance of the class

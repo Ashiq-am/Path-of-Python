@@ -1,0 +1,15 @@
+SN	                      Method	                                    Description
+
+1	               add(child, options)	                It is used to add a window to the parent window.
+
+
+
+
+2	           get(startindex, endindex)	        This method is used to get the text present at the
+                                                     specified range.
+
+
+
+
+3	                 config(options)	            It is used to configure the widget with the specified
+                                                    options.

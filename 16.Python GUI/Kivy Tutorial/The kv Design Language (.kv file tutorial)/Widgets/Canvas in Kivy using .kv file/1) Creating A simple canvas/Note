@@ -1,0 +1,4 @@
+Kivy drawing instructions are not automatically relative to the widgets position or size.
+You therefore you need to consider these factors when drawing. In order to make your drawing
+instructions relative to the widget, the instructions need either to be declared in the
+KvLang or bound to pos and size changes.

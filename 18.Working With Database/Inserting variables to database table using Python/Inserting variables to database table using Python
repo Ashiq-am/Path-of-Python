@@ -1,0 +1,12 @@
+In this article, we will see how one can insert the user data using variables.
+
+Here, we are using the sqlite module to work on a database but before that, we need to import that package.
+
+''import sqlite3''
+
+
+
+To see the operation on a database level just download the SQLite browser database.
+
+
+Note: For the demonstration, we have used certain values but you can take input instead of those sample values.

@@ -1,0 +1,26 @@
+Ellipse is a vertex canvas instruction. It allows drawing of a regular polygon, or an arc based on
+them. In this article, we will see different polygons have different number of sides and
+also many vertices on circle.
+
+As in Kivy, we can make polygons based on an ellipse. Note, the angles in Kivy, are different than
+those in math. In Kivy, the 0-degree point, corresponds to the 90 degree-point, in math.
+
+
+
+
+Note:
+These are the formulas for x and y. These math formulas assume the center is 0, 0.
+Thus, after calculations are done, there has to be a translation by x of a and y of b.
+The width is 2a, and height is 2b.
+
+
+N segments = N vertices
+
+1) angle[i]= i*360/n ; i=0 to n
+
+2) x[i]=a cos(angle[i])
+
+3) y[i]=b sin(angle[i])
+
+4) In kivy 12’o clock is 0 degree and increases clockwise but in math 3’o clock is 0 degree increases
+   counter clockwise.

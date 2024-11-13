@@ -1,0 +1,16 @@
+SN	Method	Description
+1	activate(index)	It is used to select the lines at the specified index.
+2	curselection()	It returns a tuple containing the line numbers of the selected element or elements, counting from 0. If nothing is selected, returns an empty tuple.
+3	delete(first, last = None)	It is used to delete the lines which exist in the given range.
+4	get(first, last = None)	It is used to get the list items that exist in the given range.
+5	index(i)	It is used to place the line with the specified index at the top of the widget.
+6	insert(index, *elements)	It is used to insert the new lines with the specified number of elements before the specified index.
+7	nearest(y)	It returns the index of the nearest line to the y coordinate of the Listbox widget.
+8	see(index)	It is used to adjust the position of the listbox to make the lines specified by the index visible.
+9	size()	It returns the number of lines that are present in the Listbox widget.
+10	xview()	This is used to make the widget horizontally scrollable.
+11	xview_moveto(fraction)	It is used to make the listbox horizontally scrollable by the fraction of width of the longest line present in the listbox.
+12	xview_scroll(number, what)	It is used to make the listbox horizontally scrollable by the number of characters specified.
+13	yview()	It allows the Listbox to be vertically scrollable.
+14	yview_moveto(fraction)	It is used to make the listbox vertically scrollable by the fraction of width of the longest line present in the listbox.
+15	yview_scroll (number, what)	It is used to make the listbox vertically scrollable by the number of characters specified.

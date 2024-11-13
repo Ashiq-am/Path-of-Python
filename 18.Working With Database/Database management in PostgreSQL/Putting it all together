@@ -1,0 +1,7 @@
+Once we have created the database in PostgreSQL, we can access that database in python. We first create an emp
+table in the database called test with the schema: (id INTEGER PRIMARY KEY, name VARCHAR(10), salary INT, dept INT).
+Once the table is created without any errors, we insert values into the table.
+
+
+Once the values are inserted, we can query the table to select all the rows and display them to the user using the
+fetchall() function.

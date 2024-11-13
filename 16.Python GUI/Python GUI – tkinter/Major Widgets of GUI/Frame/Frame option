@@ -1,0 +1,39 @@
+SN	                            Option	                                  Description
+
+1	                              bd	                          It represents the border width.
+
+
+
+2	                              bg	                        The background color of the widget.
+
+
+
+3	                            cursor	                    The mouse pointer is changed to the cursor
+                                                       type set to different values like an arrow, dot, etc.
+
+
+
+4	                            height	                             The height of the frame.
+
+
+
+5	                      highlightbackground	            The color of the background color when it is
+                                                                           under focus.
+
+
+
+6	                        highlightcolor	                The text color when the widget is under focus.
+
+
+
+7	                      highlightthickness	            It specifies the thickness around the border
+                                                                  when the widget is under the focus.
+
+
+
+8	                           relief	                          It specifies the type of the border.
+                                                                       The default value if FLAT.
+
+
+
+9	                           width	                          It represents the width of the widget.

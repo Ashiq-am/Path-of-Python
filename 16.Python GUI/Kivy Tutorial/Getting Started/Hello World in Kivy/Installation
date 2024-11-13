@@ -1,0 +1,39 @@
+There are several ways to get Kivy installed in your system, depending upon your Operating System.
+Let’s dive into it.
+
+
+1.Windows OS:
+
+****Using pip
+          pip install kivy
+
+****Using conda
+         conda install -c conda-forge kivy
+
+
+
+2.Linux
+
+****Add the PPA using the following command:
+                    sudo add-apt-repository ppa:kivy-team/kivy
+
+****Update your package list using your package manager-
+                    sudo apt-get update
+
+****Install Kivy
+          sudo apt-get install python3-kivy
+
+
+
+
+
+
+
+
+3.OS X
+
+***Using Wheels
+             Wheels are precompiled binaries for the specific platform you are on.
+             All you need to do to install Kivy using wheels on osx is
+
+                         $ python -m pip install kivy

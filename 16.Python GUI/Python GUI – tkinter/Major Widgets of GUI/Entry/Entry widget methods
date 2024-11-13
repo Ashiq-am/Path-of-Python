@@ -1,0 +1,77 @@
+SN	                 Method	                                            Description
+
+1	        delete(first, last = none)	                 It is used to delete the specified characters
+                                                                     inside the widget.
+
+
+
+
+2	                  get()	                              It is used to get the text written inside the
+                                                                              widget.
+
+
+
+
+3	             icursor(index)	                        It is used to change the insertion cursor position. We can specify the index of the character before which, the cursor to be placed.
+
+
+
+
+4	              index(index)	                          It is used to place the cursor to the left of
+                                                           the character written at the specified index.
+
+
+
+
+5	             insert(index,s)	                     It is used to insert the specified string before
+                                                            the character placed at the specified index.
+
+
+
+
+6	          select_adjust(index)	                    It includes the selection of the character present
+                                                                      at the specified index.
+
+
+
+
+7	              select_clear()	                        It clears the selection if some selection
+                                                                           has been done.
+
+
+
+
+8	            select_form(index)	                         It sets the anchor index position to the
+                                                                  character specified by the index.
+
+
+
+
+9	             select_present()	                        It returns true if some text in the Entry is
+                                                                  selected otherwise returns false.
+
+
+
+
+10	          select_range(start,end)	                    It selects the characters to exist between the
+                                                                          specified range.
+
+
+
+
+11	           select_to(index)	                          It selects all the characters from the beginning
+                                                                       to the specified index.
+
+
+
+
+
+12	              xview(index)	                           It is used to link the entry widget to a
+                                                                     horizontal scrollbar.
+
+
+
+
+
+13	          xview_scroll(number,what)	                   It is used to make the entry scrollable
+                                                                           horizontally.

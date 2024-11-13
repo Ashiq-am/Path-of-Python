@@ -1,0 +1,30 @@
+Animation and AnimationTransition are used to animate Widget properties. You must specify at least a
+property name and target value. To use Animation, follow these steps:
+
+
+
+**Setup an Animation object
+**Use the Animation object on a Widget
+
+
+
+
+To use animation you must have to import:
+
+[from kivy.animation import Animation]
+
+
+
+
+
+Basic Approaches:
+
+1) import kivy
+2) import kivyApp
+3) import Button
+4) import Animation
+5) set kivy version (optional)
+6) Create the App class
+7) Define animation
+8) Add animations
+9) Run the App

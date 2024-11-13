@@ -1,0 +1,29 @@
+The screen manager is a widget which is used to managing multiple screens for your application.
+The default ScreenManager displays only one Screen at a time and uses a TransitionBase to switch
+from one Screen to another. Multiple transitions are supported.
+
+The ScreenManager and Screen class are imported. The ScreenManager will be used for the root like:
+
+
+[from kivy.uix.screenmanager import ScreenManager, Screen]
+
+
+
+
+Note:The default ScreenManager.transition is a SlideTransition with options direction and duration.
+
+
+
+
+
+Basic Approach:
+1) import kivy
+2) import kivyApp
+3) import Screen Manager, Screen, ""Transitions you want to use""
+4) Set minimum version(optional)
+5) Create Different Screen classes and pass them
+6) Create features of Screen classes in .kv file
+       :: Add features in different screens
+7) Create App class
+8) return screen manager
+9) Run an instance of the class

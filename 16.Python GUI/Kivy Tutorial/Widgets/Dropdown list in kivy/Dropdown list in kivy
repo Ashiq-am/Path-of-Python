@@ -1,0 +1,47 @@
+A dop-down list can be used with custom widgets. It allows you to display a list of widgets under a
+displayed widget.
+
+Unlike other toolkits, the list of widgets can contain any type of widget: simple buttons, images etc.
+
+
+
+The positioning of the drop-down list is fully automatic: we will always try to place the dropdown
+list in a way that the user can select an item in the list.
+
+
+
+Some important points to keep in mind while making a drop-down list:
+
+
+1.When adding widgets, we need to specify the height manually (disabling the size_hint_y) so the
+dropdown can calculate the area it needs.
+
+
+
+2.All the buttons within the dropdown list will trigger the dropdown DropDown.select() method.
+After being called, the main button text will display the selection of the dropdown.
+
+
+
+
+To work with this widget you must have to import:
+
+[from kivy.uix.dropdown import DropDown]
+
+
+
+
+
+
+
+Basic Approach:
+1) import kivy
+2) import kivy App
+3) import dropdown list
+4) import button
+5) set minimum version(optional)
+6) import runTouchApp
+7) Create dropdown
+8) create runtouchApp method
+   which takes widget as an argument
+   to run the App

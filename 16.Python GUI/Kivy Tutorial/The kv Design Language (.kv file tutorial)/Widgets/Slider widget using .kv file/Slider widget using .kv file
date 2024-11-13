@@ -1,0 +1,19 @@
+To work with the slider you first have to import the module which consists all features,
+functions of the slider i.e.
+
+
+[Module: kivy.uix.slider]
+
+
+
+
+
+Basic Approach to follow while creating Slider –
+
+1) import kivy
+2) import kivyApp
+3) import BoxLayout
+4) set minimum version(optional)
+5) Extend the class
+6) set up .kv file (name same as the Slider.kv)
+7) Run an instance of the class

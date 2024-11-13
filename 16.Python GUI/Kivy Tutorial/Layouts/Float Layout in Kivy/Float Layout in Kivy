@@ -1,0 +1,36 @@
+Floatlayout allows us to place the elements relatively based on the current window size and
+height especially in mobiles i.e.
+
+Floatlayout allow us to place the elements using something called relative position.
+This means rather than defining the specific position or the coordinates we will place everything using
+the percentage w.r.t the size of window.
+
+When we change the dimensions of the window everything placed in the window will adjust its size and
+position accordingly. This makes the Application more reliable and scaleable to window size.
+
+
+
+
+Note: FloatLayout honors the pos_hint and the size_hint properties of its children.
+
+The first thing we need to do to use a FloatLayout is import it.
+
+[from kivy.uix.floatlayout import FloatLayout]
+
+
+
+
+
+
+
+For example, a FloatLayout with a size of (300, 300) is created:
+
+[layout = FloatLayout(size=(300, 300))]
+
+
+
+By default, all widgets have their size_hint = (1, 1), so this below button will adopt the same size as
+the layout:
+
+[button = Button(text='Hello world')
+layout.add_widget(button)]

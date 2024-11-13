@@ -1,0 +1,14 @@
+The Button is a Label with associated actions that are triggered when the button is pressed
+(or released after a click/touch). We can add functions behind the button and style the button.
+
+
+
+Basic Approach to follow while creating button :
+
+-> import kivy
+-> import kivy App
+-> import button
+-> set minimum version(optional)
+-> Extend the class
+-> Add and return a button
+-> Run an instance of the class

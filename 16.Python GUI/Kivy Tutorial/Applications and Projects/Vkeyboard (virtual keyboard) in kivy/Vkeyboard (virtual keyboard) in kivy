@@ -1,0 +1,43 @@
+VKeyboard is an onscreen keyboard for Kivy. Its operation is intended to be transparent to the user.
+Using the widget directly is NOT recommended. Read the section Request keyboard first.
+
+
+
+Modes in Vkeyboard:
+
+
+
+This virtual keyboard has a docked and free mode:
+
+**Docked mode: (VKeyboard.docked = True) Generally used when only one person is using the computer,
+               like a tablet or personal computer etc.
+
+**Free mode: (VKeyboard.docked = False) Mostly for multitouch surfaces. This mode allows multiple
+             virtual keyboards to be used on the screen.
+
+
+If the docked mode changes, you need to manually call VKeyboard.setup_mode() otherwise, the change
+will have no impact.
+
+During that call, the VKeyboard, implemented on top of a Scatter, will change the behavior of
+the scatter and position the keyboard near the target (if target and docked mode are set).
+
+
+
+
+
+
+
+
+
+
+
+Basic Approach:
+1) import kivy
+2) import kivyApp
+3) import vkeyboard
+4) set kivy version (optional)
+5) Create the Vkeyboard class
+6) Create the App class
+7) return the vkeyboard class
+8) Run the App

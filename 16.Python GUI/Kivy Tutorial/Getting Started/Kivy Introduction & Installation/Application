@@ -1,0 +1,9 @@
+Create an application
+There are three steps of creating a application with kivy-
+
+
+1.Inherit Kivy’s App class which represents the window for our widgets
+
+2.Create build() method, which will show the content of the widgets.
+
+3.And at last calling of run() method.

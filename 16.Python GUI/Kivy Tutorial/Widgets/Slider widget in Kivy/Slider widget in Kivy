@@ -1,0 +1,35 @@
+To work with the slider you first have to import the module which consists all featuers, functions of
+the slider i.e.
+
+
+
+[Module: kivy.uix.slider]
+
+
+
+The Slider widget looks like same we are using in android to increase the brightness, volume etc.
+It supports horizontal and vertical orientations, min/max values and a default value.
+Kivy supports several slider widget options for customizing the cursor, cursor image, border, background
+to be used in different orientations, region between the minimum value and the maximum value.
+
+Kivy also supports to deal in term of Normalized value (range 0 to 1) rather than the real ranges
+supported by the slider.
+
+
+
+
+
+
+
+Basic Approach to follow while creating Slider :
+
+1) import kivy
+2) import kivy App
+3) import gridlayout(not compulsory according to need)
+4) import Label(not compulsory according to need)
+5) import Slider
+6) import Numeric property
+7) set minimum version(optional)
+8) Extend the class
+9) Add and return a widget
+10) Run an instance of the class

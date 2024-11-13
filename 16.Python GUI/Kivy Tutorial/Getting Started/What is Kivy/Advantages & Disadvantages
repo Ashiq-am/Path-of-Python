@@ -1,0 +1,28 @@
+                                      Advantages
+
+1.Based on Python, which is the extremely powerful given it’s library rich nature.
+2.Write code once and use it across all devices.
+3.Easy to use widgets built with multi-touch support.
+4.Performs better than HTML5 cross-platform alternatives.
+
+
+
+
+
+
+
+
+
+
+                                              Disadvantages
+
+1.Non-native looking User Interface.
+
+2.Bigger package size (because Python interpreter needs to be included).
+
+3.Lack of community support (Kivy Community isn’t particularly large).
+
+4.Lack of good examples and documentation.
+
+5.Better and more community rich alternates available if only focusing on Mobile Cross-platform
+  devices i.e React Native.

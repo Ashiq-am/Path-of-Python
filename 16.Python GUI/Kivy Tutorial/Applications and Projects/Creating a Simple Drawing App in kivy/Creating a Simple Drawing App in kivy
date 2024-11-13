@@ -1,0 +1,29 @@
+In this we are going to create a simple drawing App withe the help of kivy initially we are just
+making a canvas and a paint brush so that by moving the cursour you can just feel like a
+drawing Application.
+
+
+In this, the widgets are added dynamically. If widgets are to be added dynamically, at run-time,
+depending on user interaction, they can only be added in the Python file.
+We are using widgets, layout, random to make it good.
+
+
+
+
+
+
+
+
+Now Basic Approach of the App:
+
+1) import kivy
+2) import kivy App
+3) import Relativelayout
+4) import widget
+5) set minimum version(optional)
+6) Create widget class as needed
+7) Create Layout class
+8) create the App class
+9) create .kv file
+10) return the widget/layout etc class
+11) Run an instance of the class

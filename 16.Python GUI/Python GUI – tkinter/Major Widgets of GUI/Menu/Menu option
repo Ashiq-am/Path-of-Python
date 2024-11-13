@@ -1,0 +1,102 @@
+SN	                     Option	                                         Description
+
+1	                activebackground	               The background color of the widget when the widget
+                                                                   is under the focus.
+
+
+
+
+2	                activeborderwidth	                  The width of the border of the widget when it is
+                                                               under the mouse. The default is 1 pixel.
+
+
+
+
+
+3	                activeforeground	                    The font color of the widget when the widget
+                                                                           has the focus.
+
+
+
+
+
+4	                      bg	                                    The background color of the widget.
+
+
+
+
+
+5	                      bd	                                      The border width of the widget.
+
+
+
+
+
+6	                    cursor	                                     The mouse pointer is changed to the
+                                                                    cursor type when it hovers the widget.
+                                                                    The cursor type can be set to arrow
+                                                                    or dot.
+
+
+
+
+
+
+7	               disabledforeground	                            The font color of the widget when it
+                                                                               is disabled.
+
+
+
+
+
+8	                     font	                                   The font type of the text of the widget.
+
+
+
+
+
+9	                      fg	                                        The foreground color of the widget.
+
+
+
+
+
+10	                  postcommand	                                   The postcommand can be set to any
+                                                                       of the function which is called when
+                                                                       the mourse hovers the menu.
+
+
+
+
+
+11	                    relief	                                       The type of the border of the widget.
+                                                                           The default type is RAISED.
+
+
+
+
+
+12	                     image	                                 It is used to display an image on the menu.
+
+
+
+
+
+13	                 selectcolor	                               The color used to display the
+                                                          checkbutton or radiobutton when they are selected.
+
+
+
+
+
+14	                    tearoff	                                 By default, the choices in the menu start
+                                                                   taking place from position 1.
+                                                                   If we set the tearoff = 1, then it will
+                                                                   start taking place from 0th position.
+
+
+
+
+
+15	                     title	                                Set this option to the title of the window
+                                                             if you want to change the title of the window.

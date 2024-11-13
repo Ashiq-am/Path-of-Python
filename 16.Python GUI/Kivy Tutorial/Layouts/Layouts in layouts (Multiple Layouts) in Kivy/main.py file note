@@ -1,0 +1,5 @@
+If you were using .kv file to make multiple layouts There is no need to import Gridlayout,
+Boxlayout, AnchorLayout, FloatLayout, StackLayout, PageLayout, Button etc.
+
+As .kv file supports all this as It has all this imported already. But if doing this without .kv file
+you must have to import these.

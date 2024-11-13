@@ -1,0 +1,2 @@
+We normally use the method call, also remember to close the connection and database for the next use if we want to
+write error-free code because without closing we can’t open the connection again.

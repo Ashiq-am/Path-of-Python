@@ -1,0 +1,6 @@
+# Ensure the hostname in the connection string matches the server's certificate
+conn_params = {
+    ...
+    'host': 'your_server_hostname',  # Must match the certificate's CN or SAN
+    ...
+}

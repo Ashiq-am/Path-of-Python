@@ -1,0 +1,52 @@
+SN	                  Option	                                        Description
+
+1	           add_command(options)	                 It is used to add the Menu items to the menu.
+
+
+
+2	         add_radiobutton(options)	             This method adds the radiobutton to the menu.
+
+
+
+3	         add_checkbutton(options)	         This method is used to add the checkbuttons to the menu.
+
+
+
+4	           add_cascade(options)	             It is used to create a hierarchical menu to the parent
+                                                 menu by associating the given menu to the parent menu.
+
+
+
+5	             add_seperator()	                  It is used to add the seperator line to the menu.
+
+
+
+6	           add(type, options)	                It is used to add the specific menu item to the menu.
+
+
+
+7	       delete(startindex, endindex)	               It is used to delete the menu items exist in the
+                                                                       specified range.
+
+
+
+8	        entryconfig(index, options)               	It is used to configure a menu item identified
+                                                                     by the given index.
+
+
+
+9	               index(item)	                     It is used to get the index of the specified menu item.
+
+
+
+10	        insert_seperator(index)	                It is used to insert a seperator at the specified index.
+
+
+
+11	              invoke(index)	                     It is used to invoke the associated with the choice
+                                                                given at the specified index.
+
+
+
+12	               type(index)	                   It is used to get the type of the choice specified
+                                                                        by the index.

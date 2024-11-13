@@ -1,0 +1,67 @@
+Animation : Animation and AnimationTransition are used to animate Widget properties. You must
+specify at least a property name and target value. To use an Animation, follow these steps:
+
+1.Setup an Animation object
+2.Use the Animation object on a Widget
+
+
+
+
+
+
+
+
+
+
+To animate a Widget’s x or y position, simply specify the target x/y values where you want the
+widget positioned at the end of the animation:
+
+anim = Animation(x=100, y=100)
+anim.start(widget)
+
+
+
+
+
+
+
+
+
+
+
+Clock: The Clock object allows you to schedule a function call in the future; once or repeatedly at
+       specified intervals.
+
+It is must to use kivy inbuilt module while working with Animation and clock –
+
+[from kivy.animation import Animation]
+[from kivy.clock import Clock]
+
+
+
+
+
+
+
+
+
+
+
+
+
+Basic Approach:
+
+1) import kivy
+2) import kivyApp
+3) import Boxlayout
+4) import Animation
+5) Import Clock
+6) Set minimum version(optional)
+7) create Layout class and Add(create) animation in it
+8) create App class
+9) Set up .kv file :
+       1) Add Floating Button Properties
+       2) Create Main Window
+       3) Add Float Button(don't forget to give id)
+10) return Layout/widget/Class(according to requirement)
+11) Run an instance of the class

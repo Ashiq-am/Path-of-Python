@@ -1,0 +1,69 @@
+In this article we will going to learn about how can we create a rounded or circular button in kivy
+using canvas.
+
+You must have a very clear concept of canvas, button and their properties to learn how can you
+make buttons like this. As we know canvas is the root object used for drawing by a Widget.
+
+Each Widget in Kivy already has a Canvas by default. When you create a widget, you can create all
+the instructions needed for drawing.
+
+
+
+
+
+
+To use canvas you must have to import the graphics in your file.
+
+[from kivy.graphics import Rectangle, Color]
+
+
+
+
+
+
+
+
+
+Some important properties used in this article –
+
+border :
+1) Border used for BorderImage graphics instruction. Used with background_normal and background_down.
+   Can be used for custom backgrounds.
+2) It must be a list of four values: (bottom, right, top, left).
+3) border is a ListProperty and defaults to (16, 16, 16, 16)
+
+
+
+Button behavior :
+1) The ButtonBehavior mixin class provides Button behavior.
+2) You can combine this class with other widgets, such as an Image, to provide alternative buttons
+   that preserve Kivy button behavior.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Basic Approach -
+-> import kivy
+-> import kivy App
+-> import widget
+-> import Canvas i.e.:
+      from kivy.graphics import Rectangle, Color
+-> set minimum version(optional)
+-> Extend the Widget class
+-> Create the App Class
+-> create the .kv file:
+    -> create the button using the canvas
+    -> Use border property to give them a circular shape.
+    -> Add action/callback if needeed
+-> return a Widget
+-> Run an instance of the class

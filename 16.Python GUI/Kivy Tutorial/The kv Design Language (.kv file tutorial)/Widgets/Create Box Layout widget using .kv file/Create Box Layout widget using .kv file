@@ -1,0 +1,29 @@
+Now in this article, we will learn about the use of Box layout widget in kivy using the .kv file and
+how to add some features like color, size etc to it.
+
+
+
+
+BoxLayout:
+
+Kivy offers several layouts to keep the widgets at the desired places on an application.
+BoxLayout is a simple yet powerful layout often used either in a nested way or in a simple plain way.
+BoxLayout arranges widgets in either in a vertical fashion that is one on top of another or in a
+horizontal fashion that is one after another.
+When you will not provide any size-hint then the child widgets divides the size of its parent
+widget equally or accordingly.
+
+
+
+
+
+
+Basic Approach to follow while creating button :
+1) import kivy
+2) import kivyApp
+3) import BoxLayout
+4) set minimum version(optional)
+5) Extend the class
+6) set up .kv file (name same as the Appclass)
+7) Return layout
+8) Run an instance of the class

@@ -1,0 +1,36 @@
+The Accordion widget is a form of menu where the options are stacked either vertically or horizontally
+and the item in focus (when touched) opens up to display its content.
+
+
+It can contain many item instances, each of which should contain one root content widget.
+Yow will be end up like a tree.
+
+
+
+
+
+The current implementation divides the AccordionItem into two parts:
+
+1.One container for the title bar(made from kv templet)
+2.One container for the content
+
+
+
+
+
+
+
+
+
+
+
+Basic Approach:
+1) import kivy
+2) import kivyApp
+3) import Accordian
+4) Set minimum version(optional)
+5) Create Accordion class
+6) Create App class
+7) create .kv file (name same as the app class)
+8) return Layout/widget/Class(according to requirement)
+9) Run an instance of the class

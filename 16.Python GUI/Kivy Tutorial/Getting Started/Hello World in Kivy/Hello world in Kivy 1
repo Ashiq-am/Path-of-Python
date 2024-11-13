@@ -1,0 +1,45 @@
+1.Let’s create a Python file i.e. with .py extension.
+
+
+
+
+2.First of all let’s import kivy and ensure it’s up-to-date.
+
+[import kivy
+
+# Replace this with your
+# current version
+kivy.require('1.11.1')
+# To find your kivy version use,
+# print(kivy.__version__)]
+
+
+
+
+
+
+3.Now to create a Kivy interface we need to import Kivy App module in our program using the
+  following code:
+
+     from kivy.app import App
+
+
+
+
+
+
+
+4.Now import Label from kivy.uix.label
+
+    from kivy.uix.label import Label
+
+
+
+
+
+
+5.Now let’s write main block that prints Hello World, yayy finally!!
+
+class MyFirstKivyApp(App):
+    def build(self):
+        return Label(text ="Hello World !")

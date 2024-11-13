@@ -1,0 +1,35 @@
+The TextInput widget provides a box for editable plain text. Unicode, multiline, cursor navigation,
+selection and clipboard features are supported.
+
+
+
+
+
+The TextInput uses two different coordinate systems:
+
+1.(x, y) – coordinates in pixels, mostly used for rendering on screen.
+2.(row, col) – cursor index in characters / lines, used for selection and cursor movement.
+
+
+
+
+
+
+
+
+
+
+Basic Approach:
+
+1) import kivy
+2) import kivyApp
+3) import widger
+4) import Relativelayout
+5) import textinput
+6) Set minimum version(optional)
+7) Create Widget class
+8) Create App class
+9) create .kv file (name same as the app class):
+        1) create textinput
+10) return Layout/widget/Class(according to requirement)
+11) Run an instance of the class

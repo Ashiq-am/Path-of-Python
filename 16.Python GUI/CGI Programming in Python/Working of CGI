@@ -1,0 +1,17 @@
+When a request is made by the client-server to the webserver, the CGI uses external script files to
+handle such requests.
+These files could be written in any language. The main objective of these script files is to retrieve
+the data from the database quickly and more efficiently.
+
+
+These scripts convert the retrieved data into an Html format that sends the data to these web servers
+in Html formatted page.
+
+
+
+
+
+Install apache2 on your system can we will run ‘hello.py’ on host ‘127.0.0.1’
+
+It is recommended to have basic knowledge of HTML before trying this example.
+hello.py

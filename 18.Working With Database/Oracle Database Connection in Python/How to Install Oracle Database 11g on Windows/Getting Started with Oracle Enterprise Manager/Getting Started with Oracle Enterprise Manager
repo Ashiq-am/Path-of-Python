@@ -1,0 +1,23 @@
+There are two ways to start Oracle Enterprise Manager:
+
+
+1.One way to launch Enterprise Manager is using the Link provided in last step of Installation Process.
+    Note: In case if you misplace this link in the future, follow the next step to start it the other way.
+
+
+
+
+2.Go to Start Menu and
+     **Search Oracle Folder
+     **Click on Database Control – Oracle (Your Global Database Name)
+     **This will take you to the Login Screen of your Oracle Enterprise Manager.
+
+
+
+
+Incase the above Error arises, just Click Advanced ->Proceed To Localhost
+
+
+
+
+Login with your Credentials and begin using the Oracle Database 11g on your Windows.

@@ -1,0 +1,4 @@
+The execute() method takes in one parameter, the SQL query to be executed. The SQL query is taken in the form of
+a string that contains the SQL statement.
+
+ cur.execute("SELECT * FROM emp")

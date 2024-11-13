@@ -1,0 +1,14 @@
+One of the common problems is how to add functionality to the button. So to add functionality we use
+bind() function it binds the function to the button. bind() creates an event that is send to callback().
+
+One of the most common problems for new Kivy users is misunderstanding how the bind method works,
+especially amongst newer Python users who haven’t fully formed their intuition about function calls.
+
+The thing is that the bind method doesn’t know about the existence of a function or its arguments,
+it only receives the result of this function call.
+
+As in the given code when the button is pressed it prints that “button pressed” def in the function
+callback.
+
+In the given code inside bind() we use on_press because when button press it tells the function that
+button is pressed then the bind uses its functionality.

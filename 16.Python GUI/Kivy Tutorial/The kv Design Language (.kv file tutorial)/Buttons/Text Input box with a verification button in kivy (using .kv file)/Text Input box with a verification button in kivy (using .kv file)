@@ -1,0 +1,47 @@
+In this article we will learn how we can add a button with the Text input in kivy using .kv file
+in python just like the same we have in the input and submit button.
+
+So to make this you firstly must know about Textinput widget and Button in kivy.
+
+
+
+
+TextInput: The TextInput widget provides a box for editable plain text. Unicode, multiline,
+           cursor navigation, selection and clipboard features are supported.
+
+
+Button: The Button is a Label with associated actions that are triggered when the button is
+        pressed (or released after a click/touch). We can add functions behind the button and style
+        the button.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Basic Approach -
+
+1) import kivy
+2) import kivyApp
+3) import widget
+4) import Boxlayout
+5) import textinput and Button
+6) Set minimum version(optional)
+7) Create Widget class
+8) Create App class
+9) create .kv file (name same as the app class):
+        1) create textinput
+        2) create Button
+10) return Layout/widget/Class(according to requirement)
+11) Run an instance of the class

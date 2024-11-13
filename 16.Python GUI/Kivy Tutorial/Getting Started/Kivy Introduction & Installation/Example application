@@ -1,0 +1,4 @@
+To run this code open cmd(terminal in linux) and go through the directory in which the code is saved and
+type this command-
+
+python file_name.py

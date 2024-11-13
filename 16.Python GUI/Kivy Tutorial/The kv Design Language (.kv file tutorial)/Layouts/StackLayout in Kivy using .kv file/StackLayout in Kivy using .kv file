@@ -1,0 +1,42 @@
+To use StackLayout firt import StackLayout by below command:
+
+[from kivy.uix.stacklayout import StackLayout]
+
+
+
+
+The StackLayout arranges children vertically or horizontally, as many as the layout can fit.
+The size of the individual children widgets does not have to be uniform. There are 4 row-wise and 4
+column wise orientations.
+
+
+
+
+
+
+
+StackLayout Orientation (2D):
+ - right to left or left to right
+ - top to bottom or bottom to top
+ - 'rl-bt', 'rl-tb', lr-bt', 'lr-tb'(Row wise)
+ - 'bt-rl', 'bt-lr', 'tb-rl', 'tb-lr'(Column wise)
+
+
+
+
+
+
+
+
+Basic Approach to create Stack layout :
+
+1) import kivy
+2) import kivyApp
+3) import Button
+4) import Stacklayout
+5) Set minimum version(optional)
+6) Create the StackLayout class
+7) Create the App class
+8) Set up .kv file (name same as App class)
+9) return StackLayout Class
+10) Run an instance of the class

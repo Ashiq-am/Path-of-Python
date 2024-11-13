@@ -1,0 +1,63 @@
+GridLayout:
+
+1.The widget must be placed in a specific column/row. Each child is automatically assigned a position determined by the layout configuration and the child’s index in the children list.
+
+
+
+2.Grid Layout must always contain any one of the below input constraints:
+        GridLayout.cols or GridLayout.rows. If you do not specify cols or rows, the Layout will
+        throw an exception.
+
+
+
+
+3.The GridLayout arranges children in a matrix. It takes the available space and divides it into
+   columns and rows, then adds widgets to the resulting “cells”.
+
+
+
+
+4.The row and coloums are just like the same as we observe in a matrix, here we can adjust the
+    size of each grid.
+
+
+
+
+5.Initial the size is given by the col_default_width and row_default_height properties. We can
+   force the default size by setting the col_force_default or row_force_default property.
+   This will force the layout to ignore the width and size_hint properties of children and
+   use the default size.
+
+
+
+
+
+
+
+
+The first thing we need to do to use a GridLayout is to import it.
+
+[from kivy.uix.gridlayout import GridLayout]
+
+
+
+
+
+
+
+
+
+
+
+Basic Approach to create GridLayout:
+
+1) import kivy
+2) import kivyApp
+3) import button
+4) import Gridlayout
+5) Set minimum version(optional)
+6) create App class:
+          - define build function
+              : add widget (Buttons)
+7) return Layout/widget/Class(according to requirement)
+8) Run an instance of the class

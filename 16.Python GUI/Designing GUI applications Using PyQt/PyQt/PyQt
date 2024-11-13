@@ -1,0 +1,56 @@
+Let’s create a signup form using the QT designer tool. No code is required for creating forms, buttons,
+text boxes etc!It is rather a drag and drop environment. So, using PyQt is a lot simpler than Tkinter.
+
+                                            (1)
+
+
+
+
+
+Open Qt Designer, then select Main Window and click Create. Set your preferred size of the window by
+dragging the edges of the window.
+
+                                       (2)
+
+
+
+To create the layout of Singup form, following widgets are needed :
+
+1.Three text edit boxes.
+2.One button.
+3.Four Text Labels (SignId Banner, UserName label, Password and Confirm Password label).
+
+
+One has to find those widgets in Widget Tool Box. Just drag and drop the required widgets onto the
+Main Window or the window working on.
+
+                                          (3)
+
+
+
+
+
+
+
+To change the appearance of window or the widget, just right click on the widget and click Change
+StyleSheet.
+
+                                         (4)
+
+
+
+
+
+
+To get preview of the window, press Ctrl + R .
+
+
+
+Save the file :
+The file will be saved with .ui extension. To convert this file (.ui extension) to Python file
+(.py extension), follow these steps :
+
+1.Open terminal and navigate to the folder where the layout.ui file is present.
+2.To convert into Python file, type pyuic5 -x layout.ui -o layout.py on terminal.
+3.Run layout.py using python!
+

@@ -1,0 +1,10 @@
+Use this command To install kivy:
+
+[pip install kivy]
+
+
+
+
+Now in this article, we will discuss how to build a window in kivy, just like a login screen which is
+able to take the user name and password from the user without the functionality just the layout of this.
+To make the Login page, we first have to import some features of kivy – widgets, gridlayout.

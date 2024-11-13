@@ -1,0 +1,29 @@
+The FileChooser module provides various classes for describing, displaying and browsing file systems.
+It is Simple like the My computer from where we can choose any file in the system.
+
+
+
+
+1.The FileChooserListView displays file entries as text items in a vertical list, where folders can
+  be collapsed and expanded.
+
+2.The FileChooserIconView presents icons and text from left to right, wrapping them as required.
+
+
+
+
+Note: The both above points provide for scrolling, selection and basic user interaction.
+
+
+
+
+Basic Approach
+1) import kivy
+2) import kivyApp
+3) import Boxlayot
+4) Set minimum version(optional)
+5) create layout class
+6) create App class
+7) create .kv file
+8) return Layout/widget/Class(according to requirement)
+9) Run an instance of the class or App

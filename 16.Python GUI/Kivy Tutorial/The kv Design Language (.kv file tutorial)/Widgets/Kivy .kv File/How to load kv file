@@ -1,0 +1,39 @@
+There are 2-ways to load the .kv file into code or Application
+
+
+
+1.By name convention method-
+
+While writing code we will make the App class. For this method, the name of the file and the app
+class is same and save the kv file with appclassname.kv.
+Kivy looks for a Kv file with the same name as your App class in lowercase, minus “App” if it ends
+with ‘App’ e.g:
+
+[classnameApp ---> classname.kv]
+
+
+If this file defines a Root Widget it will be attached to the App’s root attribute and used as the
+base of the application widget tree.
+
+
+
+
+
+
+
+
+2.Builder method-
+For this method to use you first have to import Builder by writing
+
+[from kivy.lang import builder]
+
+
+
+Now by the builder you can directly load the whole file as a string or as a file. By doing this
+for loading .kv file as a file:
+
+[Builder.load_file('.kv/file/path')]
+
+or, for loading, kv file as a string:
+
+[Builder.load_string(kv_string)]

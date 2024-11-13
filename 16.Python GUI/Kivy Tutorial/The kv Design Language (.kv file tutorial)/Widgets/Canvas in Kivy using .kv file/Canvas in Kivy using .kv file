@@ -1,0 +1,35 @@
+The Canvas is the root object used for drawing by a Widget. A kivy canvas is not the place where you
+paint.
+
+Each Widget in Kivy already has a Canvas by default. When you create a widget, you can create all the
+instructions needed for drawing.
+
+If self is your current widget. The instructions Color and Rectangle are automatically added to
+the canvas object and will be used when the window is drawn.
+
+
+
+To use Canvas you must have to import:
+
+[from kivy.graphics import Rectangle, Color]
+
+
+
+
+
+
+
+Basic Approach -
+-> import kivy
+-> import kivy App
+-> import widget
+-> import Canvas i.e.:
+      from kivy.graphics import Rectangle, Color
+-> set minimum version(optional)
+-> Extend the Widget class
+-> Create the App Class
+-> create the .kv file:
+    -> create the canvas
+    -> Add action/callback if needeed
+-> return a Widget
+-> Run an instance of the class

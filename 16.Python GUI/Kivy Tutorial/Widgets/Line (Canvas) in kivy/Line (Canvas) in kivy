@@ -1,0 +1,15 @@
+Line is a vertex canvas instruction. It allows drawing of lines through points. This code shows how to
+use/draw the extended line drawing such as circles, ellipses, rectangles and Bezier and so on.
+
+
+Basic Approach:
+
+1) import kivy
+2) import kivy App
+3) import Gridlayout
+4) import widget
+5) set minimum version(optional)
+6) Create as much as widget class as needed
+7) create the App class
+8) return the widget/layout etc class
+9) Run an instance of the class

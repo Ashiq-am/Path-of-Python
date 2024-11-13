@@ -1,0 +1,31 @@
+Before we start you should know basics of SQL. Now let us discuss methods used in this code:
+
+1.connect() : This method is used for creating a connection to our database it have four arguments:
+
+                          1.Server Name
+                          2.Database User Name
+                          3.Database Provider
+                          4.Database Name
+
+
+
+
+
+
+2.cursor() : This method creates a cursor object that is capable for executing sql query on database.
+
+
+
+3.execute() : This method is used for executing sql query on database. It takes a sql query( as string)
+              as an argument.
+
+
+
+
+4.fetchone() : This method retrieves the next row of a query result set and returns a single sequence,
+               or None if no more rows are available.
+
+
+
+
+5.close() : This method close the database connection.

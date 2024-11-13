@@ -1,0 +1,55 @@
+1.Relative layout is just similar to the FloatLayout the difference is that its child widget are
+  positioned relative to the layout.
+
+
+
+
+
+2.This layout operates in the same way as FloatLayout does, but the positioning properties
+   (x, y, center_x, right, y, center_y, and top) are relative to the Layout
+    size and not the window size.
+
+
+
+
+
+3.In reality regardless of absolute and relative positioning, the widgets are moved when the
+   position of the layout changes.
+
+
+
+
+
+4.When the widget with position=(0, 0) is added to RelativeLayout, Now if the position of RelativeLayout
+   is changed the child widget will also move.
+   The Child widget coordinates remains same i.e (0, 0) as they are always relative to the parent
+   layout.
+
+
+
+
+
+
+5.The available pos_hint keys (x, center_x, right, y, center_y, and top) are useful for aligning
+   to edges or centering.
+
+
+
+
+
+
+
+
+
+
+
+
+For example:
+pos_hint: {‘center_x’:.5, ‘center_y’:.5} would align a Widget in the middle, no matter what the
+size of the window is.
+
+The first thing we need to do to use a RelativeLayout is to import it.
+
+
+
+[from kivy.uix.relativelayout import RelativeLayout]

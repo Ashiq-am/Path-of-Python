@@ -1,0 +1,4 @@
+Sometimes as the part of programming, we required to work with the databases because we want to store huge amount
+of information so we use databases, such as Oracle, MySQL etc.
+So In this article, we will discuss the connectivity of Oracle database with Python.
+This can be done through the module name cx_Oracle.

@@ -1,0 +1,30 @@
+Now there is something missing or the above code is not perfect you can say.
+We still need to add the placement for the buttons.
+
+We have 2 properties to create dynamic placement:
+
+
+
+1) pos_hint: provide hint of position
+We can define upto 6 keys i.e. it takes arguments in form of dictionary.
+pos_hint = {“x”:1, “y”:1, “left”:1, “right”:1, “top”:1, “bottom”:1}
+
+
+
+
+2) size_hint: provide hint of size
+Contains two arguments i.e. width and height
+
+
+
+
+
+
+
+Note:
+
+1.You can only use values between 0-1 for both size_hint and pos_hint. Where 0 = 0% and 1 = 100%.
+
+
+2.The coordinate system in kivy works from the bottom left! This will be important when placing our objects.
+  (i.e (0, 0) is the bottom left).

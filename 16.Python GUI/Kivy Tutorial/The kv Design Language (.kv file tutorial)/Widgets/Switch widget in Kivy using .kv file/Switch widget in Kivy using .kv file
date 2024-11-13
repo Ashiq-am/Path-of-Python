@@ -1,0 +1,65 @@
+The Switch widget is active or inactive, as a mechanical light switch. The user can swipe to the
+left/right to activate/deactivate it.
+
+The value represented by the switch is either True or False. That is the switch can be either in On
+position or Off position.
+
+
+
+To work with Switch you must have to import:
+
+[from kivy.uix.switch import Switch]
+
+
+
+
+
+
+
+
+
+
+Attaching Callback to Switch:
+
+**A switch can be attached with a call back to retrieve the value of the switch.
+
+**The state transition of a switch is from either ON to OFF or OFF to ON.
+
+**When switch makes any transition the callback is triggered and new state can be retrieved i.e
+  came and any other action can be taken based on the state.
+
+**By default, the representation of the widget is static. The minimum size required is 83*32 pixels.
+
+**The entire widget is active, not just the part with graphics. As long as you swipe over the
+  widget’s bounding box, it will work.
+
+
+
+
+
+
+
+
+
+
+
+
+Basic Approach:
+
+1) import kivy
+2) import kivyApp
+3) import Switch
+4) import Gridlayout
+5) import Label
+6) Set minimum version(optional)
+7) create Layout class(In this you create a switch):
+        --> define the callback of the switch in this
+8) create App class
+9) create .kv file (name same as the app class):
+        1) create boxLayout
+        2) Give Lable
+        3) Create Switch
+        4) Bind a callback if needed
+10) return Layout/widget/Class(according to requirement)
+11) Run an instance of the class
+

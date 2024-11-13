@@ -1,0 +1,51 @@
+The AnchorLayout aligns its children to a border (top, bottom, left, right) or center.
+The class given below is used to implement the anchor layout.
+
+
+[kivy.uix.anchorlayout.AnchorLayout]
+
+
+
+
+{AnchorLayout can be initialized with parameters:
+
+anchor_x
+Parameters can be passed: “left”, “right” and “center”.
+
+anchor_y
+Parameters can be passed:“top”,  “bottom” and “center”.}
+
+
+
+
+
+to select the place where the widgets are placed in the parent container.
+
+There are 9 different layout regions where the Anchorlayout can be placed for effect:
+
+Top-left, top-center, top-right, center-left, center-center, center-right, bottom-left,
+bottom-center and bottom-right.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Basic Approach:
+
+1) import kivy
+2) import kivyApp
+4) import Anchorlayout
+5) Set minimum version(optional)
+6) create App class
+7) return Layout/widget/Class(according to requirement)
+8) Run an instance of the class

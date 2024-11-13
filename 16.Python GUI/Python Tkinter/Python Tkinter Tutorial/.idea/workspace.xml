@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f5f2e57f-dc81-4972-90d7-1512ccf6b7ad" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="17a63dba-fe82-441b-87ed-7e2e90abac02" />
+  <component name="ProjectId" id="1dmmwE213ZQ10yEj5VJBWTrxrPk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1.Python Geeks For Geeks" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\Python Tkinter Tutorial (G)\Tkinter Articles\GUI chat application using Tkinter in Python\Socket Programming in Python\A simple server-client program" />
+      <recent name="C:\Users\User\PycharmProjects\Python Tkinter Tutorial (G)\Applications and Projects" />
+      <recent name="C:\Users\User\PycharmProjects\Python Tkinter Tutorial (G)\Widgets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.2.Standard GUI Unit Converter using Tkinter in Python Converter class implementation">
+    <configuration name="2.Standard GUI Unit Converter using Tkinter in Python Converter class implementation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python Tkinter Tutorial (G)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tkinter Articles/Standard GUI Unit Converter using Tkinter in Python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tkinter Articles/Standard GUI Unit Converter using Tkinter in Python/2.Standard GUI Unit Converter using Tkinter in Python Converter class implementation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Create MySQL Database Login Page in Python using Tkinter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python Tkinter Tutorial (G)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tkinter Articles/Create MySQL Database Login Page in Python using Tkinter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tkinter Articles/Create MySQL Database Login Page in Python using Tkinter/Create MySQL Database Login Page in Python using Tkinter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GUI Calendar using Tkinter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python Tkinter Tutorial (G)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Applications and Projects/GUI Calendar using Tkinter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Applications and Projects/GUI Calendar using Tkinter/GUI Calendar using Tkinter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python3 program to calculate Percentile   # of a student based on rank" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python Tkinter Tutorial (G)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tkinter Articles/Program to calculate Percentile of a student based on rank" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tkinter Articles/Program to calculate Percentile of a student based on rank/Python3 program to calculate Percentile   # of a student based on rank.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Sentiment Detector GUI using Tkinter – Python" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python Tkinter Tutorial (G)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tkinter Articles/Sentiment Detector GUI using Tkinter – Python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tkinter Articles/Sentiment Detector GUI using Tkinter – Python/Sentiment Detector GUI using Tkinter – Python.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.2.Standard GUI Unit Converter using Tkinter in Python Converter class implementation" />
+        <item itemvalue="Python.Sentiment Detector GUI using Tkinter – Python" />
+        <item itemvalue="Python.Python3 program to calculate Percentile   # of a student based on rank" />
+        <item itemvalue="Python.GUI Calendar using Tkinter" />
+        <item itemvalue="Python.Create MySQL Database Login Page in Python using Tkinter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5f2e57f-dc81-4972-90d7-1512ccf6b7ad" name="Default Changelist" comment="" />
+      <created>1593038878679</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593038878679</updated>
+      <workItem from="1593038931344" duration="11000" />
+      <workItem from="1595971260976" duration="593000" />
+      <workItem from="1596014773197" duration="9530000" />
+      <workItem from="1596028720005" duration="262000" />
+      <workItem from="1596028998192" duration="25236000" />
+      <workItem from="1596363015298" duration="19745000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="292" y="0" key="#Plugins" timestamp="1596028979152">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="292" y="0" key="#Plugins/0.0.1600.860@0.0.1600.860" timestamp="1596028979152" />
+    <state x="497" y="208" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596022722433">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="497" y="208" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1596022722433" />
+    <state x="477" y="149" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1596028347821">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="477" y="149" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1600.860@0.0.1600.860" timestamp="1596028347821" />
+    <state x="527" y="124" key="FileChooserDialogImpl" timestamp="1596130963782">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="527" y="124" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1596130963782" />
+    <state width="1545" height="206" key="GridCell.Tab.0.bottom" timestamp="1596448067224">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1545" height="206" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1596448067224" />
+    <state width="1545" height="206" key="GridCell.Tab.0.center" timestamp="1596448067223">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1545" height="206" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1596448067223" />
+    <state width="1545" height="206" key="GridCell.Tab.0.left" timestamp="1596448067223">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1545" height="206" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1596448067223" />
+    <state width="1545" height="206" key="GridCell.Tab.0.right" timestamp="1596448067223">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1545" height="206" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1596448067223" />
+    <state x="194" y="0" key="SettingsEditor" timestamp="1596025400340">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="194" y="0" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1596025400340" />
+    <state x="379" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1596134615292">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="379" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1596134615292" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python_Tkinter_Tutorial__G_$Python_program_to__create_a_simple_GUI______weight_converter_using_Tkinter.coverage" NAME="Python program to  create a simple GUI    # weight converter using Tkinter Coverage Results" MODIFIED="1596363205051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Applications and Projects/Weight Conversion GUI using Tkinter" />
+    <SUITE FILE_PATH="coverage/Python_Tkinter_Tutorial__G_$Python_program_to_illustrate_the_usage_of_____autohiding_scrollbars_using_tkinter.coverage" NAME="Python program to illustrate the usage of   # autohiding scrollbars using tkinter Coverage Results" MODIFIED="1596031424014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Advance/Autohiding Scrollbars" />
+    <SUITE FILE_PATH="coverage/Python_Tkinter_Tutorial__G_$Create_a_digital_clock_using_Tkinter.coverage" NAME="Create a digital clock using Tkinter Coverage Results" MODIFIED="1596133123113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Applications and Projects/Create a digital clock using Tkinter" />
+    <SUITE FILE_PATH="coverage/Python_Tkinter_Tutorial__G_$Code__2_Prompting_a_message_after_certain_time__in_our_program_after_5_seconds__.coverage" NAME="Code #2 Prompting a message after certain time (in our program after 5 seconds). Coverage Results" MODIFIED="1596028225271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Advance/After method in Tkinter" />
+    <SUITE FILE_PATH="coverage/Python_Tkinter_Tutorial__G_$Code__2_Adding_Style_to_the_entered_text_in_Entry_widget_.coverage" NAME="Code #2 Adding Style to the entered text in Entry widget. Coverage Results" MODIFIED="1596029108885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Advance/Adding style to the input text using ttk.Entry widget" />
+    <SUITE FILE_PATH="coverage/Python_Tkinter_Tutorial__G_$Python_program_to_trace____variable_in_tkinter.coverage" NAME="Python program to trace  # variable in tkinter Coverage Results" MODIFIED="1596030913352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Advance/Tracing Tkinter variables in Python" />
+    <SUITE FILE_PATH="coverage/Python_Tkinter_Tutorial__G_$Code__1_Creating_Entry_widget_and_taking_input_from_user__taking_only_String_data_.coverage" NAME="Code #1 Creating Entry widget and taking input from user (taking only String data) Coverage Results" MODIFIED="1596029084714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Advance/Adding style to the input text using ttk.Entry widget" />
+    <SUITE FILE_PATH="coverage/Python_Tkinter_Tutorial__G_$Python_program_to_create_color_chooser_dialog_box_1.coverage" NAME="Python program to create color chooser dialog box 1 Coverage Results" MODIFIED="1596045794233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Widgets/Toplevel Widgets/Choose color Dialog" />
+    <SUITE FILE_PATH="coverage/Python_Tkinter_Tutorial__G_$Python3_program_to_calculate_Percentile_____of_a_student_based_on_rank.coverage" NAME="Python3 program to calculate Percentile   # of a student based on rank Coverage Results" MODIFIED="1596380977755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Articles/Program to calculate Percentile of a student based on rank" />
+    <SUITE FILE_PATH="coverage/Python_Tkinter_Tutorial__G_$Example_1.coverage" NAME="Example 1 Coverage Results" MODIFIED="1596045693676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Widgets/Toplevel Widgets/Choose color Dialog/Examples" />
+    <SUITE FILE_PATH="coverage/Python_Tkinter_Tutorial__G_$3__Using_setvar___method.coverage" NAME="3. Using setvar() method Coverage Results" MODIFIED="1596030697816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Advance/Setting and retrieving values of Tkinter variable/Setting values of Tkinter variables" />
+    <SUITE FILE_PATH="coverage/Python_Tkinter_Tutorial__G_$Program_to_demonstrate_use_of_CollapsiblePane.coverage" NAME="Program to demonstrate use of CollapsiblePane Coverage Results" MODIFIED="1596025898297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Advance/Collapsible Pane in Tkinter" />
+    <SUITE FILE_PATH="coverage/Python_Tkinter_Tutorial__G_$Python_program_to_create_color_chooser_dialog_box.coverage" NAME="Python program to create color chooser dialog box Coverage Results" MODIFIED="1596045469471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Widgets/Toplevel Widgets/Choose color Dialog" />
+    <SUITE FILE_PATH="coverage/Python_Tkinter_Tutorial__G_$Binding_Function_with_double_click_with_Tkinter_ListBox.coverage" NAME="Binding Function with double click with Tkinter ListBox Coverage Results" MODIFIED="1596102820278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ Binding Functions/Binding Function with double click with Tkinter ListBox" />
+    <SUITE FILE_PATH="coverage/Python_Tkinter_Tutorial__G_$Sentiment_Detector_GUI_using_Tkinter__Python.coverage" NAME="Sentiment Detector GUI using Tkinter – Python Coverage Results" MODIFIED="1596388028052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Articles/Sentiment Detector GUI using Tkinter – Python" />
+    <SUITE FILE_PATH="coverage/Python_Tkinter_Tutorial__G_$Implementation_of_Collapsible_Pane_container.coverage" NAME="Implementation of Collapsible Pane container Coverage Results" MODIFIED="1596025914450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Advance/Collapsible Pane in Tkinter" />
+    <SUITE FILE_PATH="coverage/Python_Tkinter_Tutorial__G_$Another_Example.coverage" NAME="Another Example Coverage Results" MODIFIED="1596031541317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Advance/Autohiding Scrollbars" />
+    <SUITE FILE_PATH="coverage/Python_Tkinter_Tutorial__G_$Complete_Code.coverage" NAME="Complete Code Coverage Results" MODIFIED="1596102814680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Widgets/Basic Widgets/How to make a proper double scrollbar frame in Tkinter" />
+    <SUITE FILE_PATH="coverage/Python_Tkinter_Tutorial__G_$Exmaple_1.coverage" NAME="Exmaple 1 Coverage Results" MODIFIED="1596024750470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Advance/Open a new Window with a button in Python-Tkinter" />
+    <SUITE FILE_PATH="coverage/Python_Tkinter_Tutorial__G_$Complete_code_for_validation_of_Entry_widget.coverage" NAME="Complete code for validation of Entry widget Coverage Results" MODIFIED="1596031119975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Advance/ Validating Entry Widget" />
+    <SUITE FILE_PATH="coverage/Python_Tkinter_Tutorial__G_$Create_MySQL_Database_Login_Page_in_Python_using_Tkinter.coverage" NAME="Create MySQL Database Login Page in Python using Tkinter Coverage Results" MODIFIED="1596378951905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Articles/Create MySQL Database Login Page in Python using Tkinter" />
+    <SUITE FILE_PATH="coverage/Python_Tkinter_Tutorial__G_$8_MenuButton.coverage" NAME="8.MenuButton Coverage Results" MODIFIED="1596023432305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Introduction/Python GUI – tkinter Overview" />
+    <SUITE FILE_PATH="coverage/Python_Tkinter_Tutorial__G_$GUI_Calendar_using_Tkinter.coverage" NAME="GUI Calendar using Tkinter Coverage Results" MODIFIED="1596379264728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Applications and Projects/GUI Calendar using Tkinter" />
+    <SUITE FILE_PATH="coverage/Python_Tkinter_Tutorial__G_$The_complete_program_is_as_follows.coverage" NAME="The complete program is as follows Coverage Results" MODIFIED="1596043981115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Widgets/Toplevel Widgets/ Create a Yes or No Message Box" />
+    <SUITE FILE_PATH="coverage/Python_Tkinter_Tutorial__G_$How_to_create_a_COVID19_Data_Representation_GUI.coverage" NAME="How to create a COVID19 Data Representation GUI Coverage Results" MODIFIED="1596133426781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Applications and Projects/How to create a COVID19 Data Representation GUI" />
+    <SUITE FILE_PATH="coverage/Python_Tkinter_Tutorial__G_$Age_Calculator_using_Tkinter.coverage" NAME="Age Calculator using Tkinter Coverage Results" MODIFIED="1596378620463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Applications and Projects/Age Calculator using Tkinter" />
+    <SUITE FILE_PATH="coverage/Python_Tkinter_Tutorial__G_$2_Standard_GUI_Unit_Converter_using_Tkinter_in_Python_Converter_class_implementation.coverage" NAME="2.Standard GUI Unit Converter using Tkinter in Python Converter class implementation Coverage Results" MODIFIED="1596448027206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Articles/Standard GUI Unit Converter using Tkinter in Python" />
+    <SUITE FILE_PATH="coverage/Python_Tkinter_Tutorial__G_$Code__1.coverage" NAME="Code #1 Coverage Results" MODIFIED="1596028212239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Advance/After method in Tkinter" />
+  </component>
+</project>

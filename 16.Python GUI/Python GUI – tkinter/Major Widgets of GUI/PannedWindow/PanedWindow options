@@ -1,0 +1,97 @@
+SN	                     Option	                                        Description
+
+1	                       bg	                          It represents the background color of the widget
+                                                               when it doesn't have the focus.
+
+
+
+
+2	                       bd	                           It represents the 3D border size of the widget.
+                                                           The default option specifies that the trough
+                                                           contains no border whereas the arrowheads and
+                                                           slider contain the 2-pixel border size.
+
+
+
+
+3	                   borderwidth	                       It represents the border width of the widget.
+                                                           The default is 2 pixel.
+
+
+
+
+4	                     cursor	                           The mouse pointer is changed to the specified
+                                                           cursor type when it is over the window.
+
+
+
+
+5	                   handlepad	                        This option represents the distance between
+                                                            the handle and the end of the sash. For the
+                                                            horizontal orientation, it is the distance
+                                                            between the top of the sash and the handle.
+                                                            The default is 8 pixels.
+
+
+
+
+6	                   handlesize	                            It represents the size of the handle.
+                                                              The default size is 8 pixels. However,
+                                                              the handle will always be a square.
+
+
+
+
+
+7	                     height	                               It represents the height of the widget.
+                                                               If we do not specify the height, it will be
+                                                               calculated by the height of the child window.
+
+
+
+
+8                        orient                                The orient will be set to HORIZONTAL if we
+                                                              want to place the child windows side by side.
+                                                              It can be set to VERTICAL if we want to place
+                                                              the child windows from top to bottom.
+
+
+
+
+9	                      relief	                           It represents the type of the border.
+                                                               The default is FLAT.
+
+
+
+
+10	                     sashpad	                           It represents the padding to be done around
+                                                               each sash. The default is 0.
+
+
+
+
+
+11	                   sashrelief	                            It represents the type of the border around
+                                                                each of the sash. The default is FLAT.
+
+
+
+
+12	                   sashwidth	                            It represents the width of the sash.
+                                                                The default is 2 pixels.
+
+
+
+
+
+13	                   showhandle	                            It is set to True to display the handles.
+                                                                The default value is false.
+
+
+
+
+
+14	                      Width	                                 It represents the width of the widget.
+                                                                 If we don't specify the width of the
+                                                                 widget, it will be calculated by the
+                                                                 size of the child widgets.

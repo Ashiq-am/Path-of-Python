@@ -1,0 +1,67 @@
+In this article we will going to learn how to round the button corners in kivy using .kv file in Python.
+
+Widgets are always rectangle, but we can change the background of widgets and put couple of images
+for the normal and the down state of the button by using some properties of buttons like
+background_normal and background_down properties respectively.
+
+Also, to round the corners of the button you also must have understand one more property of
+button that is the border property.
+
+
+
+
+
+
+
+
+
+background_down :
+1) Background image of the button used for the default graphical representation when the button is
+   pressed.
+2) background_down is a StringProperty .
+
+
+
+background_normal :
+1) Background image of the button used for the default graphical representation when the button
+   is not pressed.
+2) background_normal is also a StringProperty
+
+
+
+border :
+1) Border used for BorderImage graphics instruction. Used with background_normal and background_down.
+    Can be used for custom backgrounds.
+2) It must be a list of four values: (bottom, right, top, left).
+3) border is a ListProperty and defaults to (16, 16, 16, 16)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Basic Approach:
+
+1) import kivy
+2) import kivyApp
+3) import button and floatlayout
+4) set minimum version(optional)
+5) Create the Layout class
+6) Create App class
+7) Create .kv file:
+          1) Add Base class
+          2) Add Button properties
+          3) Add Image as button
+          4) Round the corners of the button using border property
+8) return instance of the layout class
+9) Run an instance of the class

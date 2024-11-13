@@ -1,0 +1,6 @@
+***You can only use values between 0-1 for both size_hint and pos_hint. Where 0 = 0% and 1 = 100%.
+
+
+
+***The coordinate system in kivy works from the bottom left! This will be important when placing our
+objects. (i.e (0, 0) is the bottom left).

@@ -1,0 +1,50 @@
+Clock Object:
+
+The Clock object allows you to schedule a function call in the future; once or repeatedly at specified
+intervals.
+
+You can get the time elapsed between the scheduling and the calling of the callback via the dt argument:
+
+
+
+
+
+
+Note: If the callback returns False, the schedule will be canceled and won’t repeat.
+
+
+In this we are going to create the kivy the stopwatch and we are creating 3 buttons in this which
+are start, pause, resume.
+
+[It is good to use kivy inbuilt module while working with clock and:
+
+from kivy.clock import Clock]
+
+
+
+
+
+
+
+
+
+
+
+
+
+Basic Approach:
+1) import kivy
+2) import kivyApp
+3) import Builder
+4) import Boxlayout
+5) Import clock
+6) import kivy properties(only needed one)
+7) Set minimum version(optional)
+8) Create the .kv code:
+     1) Create Buttons
+     2) Add call to button
+     3) Add label
+9) Create Layout class
+10) Create App class
+11) return Layout/widget/Class(according to requirement)
+12) Run an instance of the class

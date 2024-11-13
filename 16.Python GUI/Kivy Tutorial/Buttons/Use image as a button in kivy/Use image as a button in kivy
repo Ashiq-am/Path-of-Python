@@ -1,0 +1,59 @@
+To learn about it you must be aware about some properties, that are –
+
+
+
+background_down :
+1) Background image of the button used for the default graphical representation when the button is pressed.
+2) background_down is a StringProperty .
+
+
+
+
+
+background_normal :
+1) Background image of the button used for the default graphical representation when the button is
+   not pressed.
+2) background_normal is also a StringProperty .
+
+
+
+
+
+background_disabled_normal :
+1) Background image of the button used for the default graphical representation when the button
+   is disabled and not pressed.
+2) background_disabled_normal is also a StringProperty .
+
+
+
+
+
+
+
+Notes :
+1) Now its only sufficient to understand that string property means they only take values in string
+   that means like background_down: “normal.png” like this.
+2) On click on the image it looks same like a simple button (as we uses it in a button).
+
+
+
+
+
+
+
+
+
+
+
+Basic Approach  :
+
+-> import kivy
+-> import kivy App
+-> import button
+-> set minimum version(optional)
+-> Extend the class :
+              -> create an image a  button
+              -> Do styling
+              -> Arrange call back if needed
+-> Add and return a button
+-> Run an instance of the class

@@ -1,0 +1,39 @@
+A drop-down list can be used with custom widgets. It allows you to display a list of widgets under
+a displayed widget.
+
+Unlike other toolkits, the list of widgets can contain any type of widget: simple buttons, images etc.
+
+The positioning of the drop-down list is fully automatic: we will always try to place the dropdown
+list in a way that the user can select an item in the list.
+
+
+
+
+
+To work with this widget you must have to import:
+
+[from kivy.uix.dropdown import DropDown]
+
+
+
+
+
+
+
+
+
+
+Basic Approach:
+1) import kivy
+2) import kivyApp
+3) import dropdown
+4) import Floatlayout(according to need)
+5) Set minimum version(optional)
+6) Create Layout class
+7) Create App class
+9) create .kv file (name same as the app class):
+        1) create Dropdown
+        2) create callback
+        3) And many more styling as needed
+10) return Layout/widget/Class(according to requirement)
+11) Run an instance of the class

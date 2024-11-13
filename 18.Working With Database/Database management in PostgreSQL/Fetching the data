@@ -1,0 +1,9 @@
+Once the query has been executed, the results of the query can be obtained using the fetchall() method.
+This method takes no parameters and returns the result of select queries.
+
+ res = cur.fetchall()
+
+
+
+
+The result of the query is stored in the res variable.

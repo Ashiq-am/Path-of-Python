@@ -1,0 +1,53 @@
+The PageLayout works in a different manner from other layouts. It is a dynamic layout, in the sense that it allows flipping through pages
+using its borders.
+
+The idea is that its components are stacked in front of each other, and we can just see the one that
+is on top.
+
+The PageLayout class is used to create a simple multi-page layout, in a way that allows easy flipping
+from one page to another using border.
+
+
+
+
+
+To use PageLayout you have to import it by the below command:
+
+[from kivy.uix.pagelayout import PageLayout]
+
+
+
+
+
+
+Note:
+PageLayout does not currently honor the size_hint, size_hint_min, size_hint_max, or pos_hint properties.
+That means we can not use all these in a page layout.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Basic Approach to create PageLayout:
+1) import kivy
+2) import kivyApp
+3) import Pagelayout
+4) import button
+5) Set minimum version(optional)
+6) create App class:
+        - define build() function
+7) return Layout/widget/Class(according to requirement)
+8) Run an instance of the class

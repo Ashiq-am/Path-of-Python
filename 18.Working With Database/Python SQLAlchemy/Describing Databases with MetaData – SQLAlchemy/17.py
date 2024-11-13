@@ -1,0 +1,1 @@
+Student.__table__

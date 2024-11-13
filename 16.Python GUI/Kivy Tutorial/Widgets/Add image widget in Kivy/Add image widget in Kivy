@@ -1,0 +1,41 @@
+The Image widget is used to display an image. To use the image widget you must have to import :
+
+
+
+[from kivy.uix.image import Image, AsyncImage]
+
+
+
+because the module kivy.uix.image have all the functionality related to images.
+
+
+
+Images can be loaded to the Application via two types:
+
+1) From system :
+wimg = Image(source='mylogo.png')
+
+2) Asynchronous Loading:
+To load an image asynchronously (for example from an external webserver), use the AsyncImage subclass:
+aimg = AsyncImage(source='http://mywebsite.com/logo.png')
+
+
+
+
+
+
+
+
+
+Note: By default, the image is centered and fits inside the widget bounding box.
+If you don’t want that, you can set allow_stretch to True and keep_ratio to False.
+
+
+Basic Approach to create multiple layout in one file:
+1) import kivy
+2) import kivyApp
+3) import image
+4) set minimum version(optional)
+5) create App class
+6) return Image/layout/widget
+7) Run an instance of the class

@@ -1,0 +1,14 @@
+If want to change orientation, just change the orientation in line no 31 with any of the below
+orientations –
+
+For row wise orientation use:
+  -'lr-tb'
+  -'lr-bt'
+  -'rl-tb'
+  -'rl-bt'
+
+For column wise orientation use:
+  -'tb-lr'
+  -'tb-rl'
+  -'bt-lr'
+  -'bt-rl'

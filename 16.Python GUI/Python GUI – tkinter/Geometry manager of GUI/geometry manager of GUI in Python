@@ -1,0 +1,14 @@
+tkinter also offers access to the geometric configuration of the widgets which can organize the widgets
+in the parent windows. There are mainly three geometry manager classes class.
+
+
+
+pack() method:It organizes the widgets in blocks before placing in the parent widget.
+
+
+
+grid() method:It organizes the widgets in grid (table-like structure) before placing in the parent widget.
+
+
+
+place() method:It organizes the widgets by placing them on specific positions directed by the programmer.

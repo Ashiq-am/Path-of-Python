@@ -1,0 +1,31 @@
+The Switch widget is active or inactive, as a mechanical light switch. The user can swipe to the
+left/right to activate/deactivate it.
+The value represented by the switch is either True or False.
+That is the switch can be either in On position or Off position.
+
+
+
+To work with Switch you must have to import:
+
+[from kivy.uix.switch import Switch]
+
+
+
+Note: If you want to control the state with a single touch instead of a swipe, use the ToggleButton
+instead.
+
+
+
+
+Basic Approach:
+
+1) import kivy
+2) import kivyApp
+3) import Switch
+4) import Gridlayout
+5) import Label
+6) Set minimum version(optional)
+7) create Layout class(In this you create a switch)
+8) create App class
+9) return Layout/widget/Class(according to requirement)
+10) Run an instance of the class

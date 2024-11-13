@@ -1,0 +1,53 @@
+The Bubble widget is a form of menu or a small popup where the menu options are stacked either
+vertically or horizontally. The Bubble contains an arrow pointing in the direction you choose.
+
+
+
+To choose the direction in which arrow points use:
+
+[Bubble(arrow_pos=’top_mid’)]
+
+
+
+
+The orientation of the bubble is by default horizontally but you can change it by the command:
+
+[orientation = ‘vertical’]
+
+
+
+
+
+To add items to the bubble:
+
+[bubble = Bubble(orientation = ‘vertical’)
+bubble.add_widget(your_widget_instance)]
+
+
+
+
+
+To remove items:
+
+[bubble.remove_widget(widget)
+or
+bubble.clear_widgets()]
+
+
+
+
+
+
+Basic Approach :
+1) import kivy
+2) import kivyApp
+3) import Button
+4) import Floatlayout(according to need)
+5) import Bubble
+6) import object property
+7) Create Layout class:
+8) Create App class
+9) create .kv file (name same as the app class):
+        1) createBubble
+10) return Layout/widget/Class(according to requirement)
+11) Run an instance of the class

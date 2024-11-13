@@ -1,0 +1,61 @@
+The Button is a Label with associated actions that are triggered when the button is pressed
+(or released after a click/touch). We can add functions behind the button and style the button.
+
+In this article, we are going to discuss how we can create the buttons using .kv file. We do a
+little bit of button styling also and also we define you how to bind a button to a callback.
+
+
+
+
+To use button you must have to import :
+
+[import kivy.uix.button as Button]
+
+
+
+
+
+
+
+Basic Approach:
+
+1) import kivy
+2) import kivyApp
+3) import Widget
+4) import Button
+5) Set minimum version(optional)
+6) Create widget class:
+          1) Arrange a callback
+          2) Define Callback function
+7) create App class
+8) create .kv file (name same as the app class):
+        1) create Widget
+        2) Create Button
+        3) Specify requirements
+9) return Layout/widget/Class(according to requirement)
+10) Run an instance of the class
+
+
+
+
+
+
+
+
+
+
+
+
+One of the common problems is how to add functionality to the button. So to add functionality we
+use bind() function it binds the function to the button.
+bind() creates an event that is send to callback().
+
+One of the most common problems for new Kivy users is misunderstanding how the bind method works,
+especially amongst newer Python users who haven’t fully formed their intuition about function calls.
+
+The thing is that the bind method doesn’t know about the existence of a function or its arguments,
+it only receives the result of this function call.
+
+As in the given code when the button is pressed it prints that “button pressed” def in the
+function callback.
+

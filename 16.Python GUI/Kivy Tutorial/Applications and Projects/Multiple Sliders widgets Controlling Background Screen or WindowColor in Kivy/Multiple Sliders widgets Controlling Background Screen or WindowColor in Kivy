@@ -1,0 +1,22 @@
+In this article, we will learn How we can control the background color in kivy that means if we
+slide the slider the color of window changes accordingly.
+
+
+There are many different methods by which you can make this. Let’s see one simple approach.
+
+
+
+Basic Approach to make it is very simple:
+1) import kivy
+2) import kivyApp
+3) import BoxLayout
+4) set minimum version(optional)
+5) Extend the class
+6) set up .kv file :
+        -> Set orientation
+        -> Set slider color
+        -> Create canvas.before property
+        -> Create Sliders
+        -> Create label
+7) Return layout
+8) Run an instance of the class

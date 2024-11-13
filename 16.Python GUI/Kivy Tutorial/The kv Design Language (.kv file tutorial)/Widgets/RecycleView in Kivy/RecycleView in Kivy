@@ -1,0 +1,13 @@
+Recycleview helps to deal with a large number of data items. Recycleview provides the user with the
+flexibility to scroll down or scroll-up the data displayed in the kivy application.
+
+You can also select multiple data items at once.
+Recycleview is memory efficient as compared to Listview.
+
+
+
+
+
+To use RecycleView you have to first import it.
+
+[from kivy.uix.recycleview import RecycleView]

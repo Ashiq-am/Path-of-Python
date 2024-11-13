@@ -1,0 +1,38 @@
+In this we are going to see how can we create a stopwatch using label .
+In the code i am creating just a counter using label in which when you set the time in seconds it
+will start decreasing like a countdown and in the second we will do the same by using clock object.
+
+
+
+Clock Object:
+1) Kivy provides Clock objects.
+
+2) Clock objects can be made to call a function when a specified time period has elapsed.
+
+3) A clock object in Kivy can be configured to call a function upon every elapse of a time
+    duration or only once.
+
+
+          It is good to use kivy inbuilt module while working with clock:
+                               [from kivy.clock import Clock]
+
+
+
+
+
+
+
+
+
+Basic Approach:
+1) import kivy
+2) import kivyApp
+3) import label
+4) import Animation
+5) Import clock
+6) import kivy properties(only needed one)
+7) Set minimum version(optional)
+8) Create Label class
+9) Create App class
+10) return Layout/widget/Class(according to requirement)
+11) Run an instance of the class

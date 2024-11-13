@@ -1,0 +1,34 @@
+SN	                       Option	                                    Description
+
+1	             delete(startindex, endindex)	           This method is used to delete the characters
+                                                           present at the specified range.
+
+
+
+
+2	              get(startindex, endindex)	                It is used to get the characters present in
+                                                            the specified range.
+
+
+
+
+3	                   identify(x, y)	                    It is used to identify the widget's element
+                                                            within the specified range.
+
+
+
+
+4	                    index(index)	                     It is used to get the absolute value of the
+                                                             given index.
+
+
+
+
+5	                 insert(index, string)	                 This method is used to insert the string at
+                                                             the specified index.
+
+
+
+
+6	                    invoke(element)	                     It is used to invoke the callback associated
+                                                             with the widget.

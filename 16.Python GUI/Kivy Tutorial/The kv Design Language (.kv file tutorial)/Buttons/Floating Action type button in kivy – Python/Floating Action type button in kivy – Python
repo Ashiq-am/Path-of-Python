@@ -1,0 +1,35 @@
+What is Floating Action Button ??
+
+A floating action button (FAB) performs the primary, or most common, action on a screen.
+It appears in front of all screen content, typically as a circular shape with an icon in its center.
+To learn how to create this you must have the good knowledge about the Layouts, Button, canvas
+and Ellipse in canvas. These all we are going to use to create the button.
+
+So We are creating a button like the one we see on gmail on the right side i.e foe writing a
+new email in mobile Application (not on website) sign.
+
+
+
+
+
+
+
+
+
+
+
+
+Basic Approach:
+
+1) import kivy
+2) import kivyApp
+3) import Boxlayout
+4) Set minimum version(optional)
+5) create Layout class
+6) create App class
+7) Set up .kv file :
+       1) Add Floating Button Properties
+       2) Create Main Window
+       3) Add Float Button
+8) return Layout/widget/Class(according to requirement)
+9) Run an instance of the class

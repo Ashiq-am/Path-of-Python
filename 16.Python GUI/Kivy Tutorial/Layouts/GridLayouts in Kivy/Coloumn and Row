@@ -1,0 +1,16 @@
+Now the Coulums represent the width and the rows represents the hight just like matrix.
+
+1.Initial the size is given by the col_default_width and row_default_height properties.
+We can force the default size by setting the col_force_default or row_force_default property.
+This will force the layout to ignore the width and size_hint properties of children and use the
+default size.
+
+
+
+2.To customize the size of a single column or row, use cols_minimum or rows_minimum.
+
+
+
+
+3.It is not necessary to give both rows and columns, it depends on the requirement. We can provide
+either both or anyone accordingly.

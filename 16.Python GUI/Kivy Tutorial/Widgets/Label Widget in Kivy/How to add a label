@@ -1,0 +1,8 @@
+1) import kivy
+2) import kivy App
+3) import label
+4) set minimum version (optional)
+5) Extend the App class
+6) overwrite the build function
+7) Add and return label
+8) Run the instance of class

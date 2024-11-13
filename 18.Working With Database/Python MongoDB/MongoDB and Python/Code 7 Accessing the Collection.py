@@ -1,0 +1,1 @@
+mycollection = mydatabase["myTable"]

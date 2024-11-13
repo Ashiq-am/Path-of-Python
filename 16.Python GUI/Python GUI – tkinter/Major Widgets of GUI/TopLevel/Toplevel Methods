@@ -1,0 +1,77 @@
+SN	                    Method	                                      Description
+
+1	                  deiconify()	                      This method is used to display the window.
+
+
+
+
+2	                    frame()	                   It is used to show a system dependent window identifier.
+
+
+
+
+3	                 group(window)	            It is used to add this window to the specified window group.
+
+
+
+
+4	                   iconify()	                 It is used to convert the toplevel window into an icon.
+
+
+
+
+5	            protocol(name, function)	         It is used to mention a function which will be called
+                                                     for the specific protocol.
+
+
+
+
+6	                    state()	                     It is used to get the current state of the window.
+                                                    Possible values are normal, iconic, withdrawn, and icon.
+
+
+
+
+
+7	              transient([master])	              It is used to convert this window to a transient
+                                                      window (temporary).
+
+
+
+
+8	                  withdraw()	                 It is used to delete the window but doesn't destroy it.
+
+
+
+
+9	            maxsize(width, height)	              It is used to declare the maximum size for the window.
+
+
+
+
+
+10	            minsize(width, height)	              It is used to declare the minimum size for the window.
+
+
+
+
+
+11	              positionfrom(who)	                         It is used to define the position controller.
+
+
+
+
+
+12	            resizable(width, height)	               It is used to control whether the window can be
+                                                           resizable or not.
+
+
+
+
+13	                sizefrom(who)	                            It is used to define the size controller.
+
+
+
+
+
+14	                title(string)	                          It is used to define the title for the window.

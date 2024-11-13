@@ -1,0 +1,65 @@
+To use popup you must have to import :
+
+[from kivy.uix.popup import Popup]
+
+
+
+
+The Popup widget is used to create popups. By default, the popup will cover the whole “parent” window.
+When you are creating a popup, you must at least set a Popup.title and Popup.content.
+
+Keep one thing in mind that the default size of a widget is size_hint=(1, 1).
+If you don’t want your popup to be on the full screen you must gave either size hints with values
+less than 1 (for instance size_hint=(.8, .8)) or deactivate the size_hint and use fixed size
+attributes.
+
+
+
+
+
+
+
+
+
+
+Note:
+
+Popup is a special widget. Don’t try to add it as a child to any other widget. If you do,
+Popup will be handled like an ordinary widget and won’t be created hidden in the background, like:
+
+
+                                    BoxLayout:
+                                       MyPopup: # bad !
+
+
+
+
+
+
+
+
+
+
+
+
+
+Basic Approach:
+
+1) import kivy
+2) import kivyApp
+3) import Widget
+4) import Floatlayout
+5) import Label
+6) import popup
+7) Set minimum version(optional)
+8) Create widget class
+9) Create Layout class :
+10) create App class
+9) create .kv file (name same as the app class):
+        1) create Widget
+        2) create popup
+        3) Give label to popup
+        4) create button to close popup
+10) return Layout/widget/Class(according to requirement)
+11) define popup function(Which shows the popup on press the button)
+12) Run an instance of the class

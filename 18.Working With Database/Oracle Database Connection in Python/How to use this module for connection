@@ -1,0 +1,50 @@
+1.Import database specific module
+           Ex. import cx_Oracle
+
+
+
+
+2.connect(): Now Establish a connection between Python program and Oracle database by using connect() function.
+          con = cx_Oracle.connect('username/password@localhost')
+
+
+
+
+
+3.cursor(): To execute sql query and to provide result some special object required is nothing but cursor() object
+           cursor = cx_Oracle.cursor()
+
+
+
+
+
+4.execute method :
+                cursor.execute(sqlquery) – – – -> to execute single query.
+                cursor.execute(sqlqueries) – – – -> to execute a group of multiple sqlquery seperated by “;”
+
+
+
+
+
+
+5.commit(): For DML(Data Manuplate Language) query in this query you have (update, insert, delete) operation we
+            need to commit() then only the result reflecte in database.
+
+
+
+
+
+
+6.Fetch(): This retrieves the next row of a query result set and returns a single sequence, or None if no more
+           rows are available.
+
+
+
+
+
+
+
+
+7.close(): After all done mendentory to close all operation
+          cursor.close()
+          con.close()

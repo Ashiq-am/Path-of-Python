@@ -1,0 +1,19 @@
+What is CGI?
+
+Common Gateway Interface (also known as CGI) is not a kind of language but just a
+specification(set of rules) that helps to establish a dynamic interaction between a web application and
+the browser (or the client application).
+
+The CGI programs make possible communication between client and web servers.
+Whenever the client browser sends a request to the webserver the CGI programs send the output back to
+the web server based on the input provided by the client-server.
+
+
+
+
+1.CGI is the standard for programs to interface with HTTP servers.
+
+
+
+2.CGI programming is written dynamically generating webpages that respond to user input or webpages
+that interact with software on the server

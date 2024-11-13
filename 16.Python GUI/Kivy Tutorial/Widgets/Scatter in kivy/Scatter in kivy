@@ -1,0 +1,15 @@
+Scatter is used to build interactive widgets that can be translated, rotated and scaled with two or
+more fingers on a multitouch system.
+
+
+
+It contains its own matrix transformations. The Scatter class allows a user to drag, scale, and rotate
+any widget, which is under its control.
+
+
+Just like in Relativelayout, the children are positioned relative to the scatter.
+So when dragging the scatter, the position of the children don’t change, only the position of
+the scatter does.
+
+The scatter size has no impact on the size of its children. If you want to resize it you can use scale,
+which transform both the scatter and its children but does not change size.

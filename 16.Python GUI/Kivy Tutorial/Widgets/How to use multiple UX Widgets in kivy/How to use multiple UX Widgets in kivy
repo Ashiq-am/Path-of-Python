@@ -1,0 +1,67 @@
+Classical user interface widgets, ready to be assembled to create more complex widgets.
+There are multiple UX Widgets such as Label, Button, CheckBox, Image, Slider, Progress Bar,
+Text Input, Toggle button, Switch.
+
+
+
+
+
+1.Label: The Label widget is for rendering text. It supports ascii and unicode strings.
+
+
+
+2.Button: The Button is a Label with associated actions that are triggered when the button is pressed
+          (or released after a click/touch).
+
+
+
+
+3.CheckBox: CheckBox is a specific two-state button that can be either checked or unchecked.
+
+
+
+
+4.Image: The Image widget is used to display an image.
+
+
+
+
+5.Slider: The Slider widget looks like a scrollbar. It supports horizontal and vertical orientations,
+          min/max values and a default value.
+
+
+
+
+6.Progress Bar: ProgressBar widget is used to visualize the progress of some task.
+
+
+
+
+7.TextInput: The TextInput widget provides a box for editable plain text.
+
+
+
+
+8.Toggle Button: The ToggleButton widget acts like a checkbox. When you touch or click it, the state
+toggles between ‘normal’ and ‘down’ (as opposed to a Button that is only ‘down’ as long as it is pressed).
+
+
+
+
+9.Switch: The Switch widget is active or inactive, like a mechanical light switch.
+
+
+
+
+
+
+
+
+Basic Approach:
+1) import kivy
+2) import kivyApp
+3) import window
+4) Set minimum version(optional)
+5) Create the App class
+6) Create the .kv file
+7) Make the run method/ run the App

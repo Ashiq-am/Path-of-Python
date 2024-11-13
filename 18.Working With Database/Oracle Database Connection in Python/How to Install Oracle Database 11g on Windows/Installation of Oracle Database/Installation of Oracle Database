@@ -1,0 +1,100 @@
+Step 1: Go to Main Database Folder where you’ll find Setup.Right click the setup.exe file and choose Run as
+        Administrator.
+
+
+
+
+
+
+
+
+Step 2: Click Yes to continue. This will start Oracle Universal Installer.
+
+
+
+
+
+
+
+
+Step 3: Provide your Email Address to receive all the Notifications and News Alerts from Oracle.
+        (In case you don’t want to recieve any Alerts from Oracle, then Simply leave these fields empty and click
+        on Next to move ahead.)
+
+
+
+
+
+
+
+Step 4: Select any of the three different Installation Options according to your needs.
+                     Option 1 – If you want to Install Oracle Server Software and want to Create Database also.
+                     Option 2 – If you want to Install Oracle Server only.
+                     Option 3 – If you want to Upgrade your Existing Database.
+
+
+
+
+
+
+
+
+Step 5: Choose between Server Class and Desktop Class as per your requirement and click on Next.
+       (Note: Ignore the warning related to the Admin Password)
+
+
+
+
+
+
+
+
+
+Step 6: Configure the basic settings and create a Password for your database. Once the configuration is done
+        click on Next to continue.
+
+
+
+
+
+
+
+
+
+Step 7: Here, Oracle Universal Installer(OUI) will check for the Prerequisites such as Hardware compatibility.
+        If there will be any Errors, then OUI will show them here and will recommend the changes.
+
+
+
+
+
+
+
+
+
+
+Step 8: Click on Finish to start the Installation process. This installation might take some time depending
+        on your Hardware.
+
+
+
+
+
+
+
+
+Step 9: Click OK to finish the installation.
+
+
+
+
+
+
+
+
+Step 10: Copy the localhost link provided to open your Enterprise Manager.
+        (Click the Close Button and you are done with the Installation Process.)
+
+
+
+

@@ -1,0 +1,47 @@
+SN	                    Options	                                          Description
+
+1	                      bg	                        It represents the background color of the window.
+
+
+
+
+2	                      bd	                          It represents the border size of the window.
+
+
+
+
+3	                    cursor	                       The mouse pointer is changed to the cursor type set
+                                                    to the arrow, dot, etc. when the mouse is in the window.
+
+
+
+
+4	                    class_	                      The text selected in the text widget is exported to
+                                                      be selected to the window manager. We can set this to
+                                                      0 to make this behavior false.
+
+
+
+
+5	                    font	                      The font type of the text inserted into the widget.
+
+
+
+
+6	                     fg	                                  The foreground color of the widget.
+
+
+
+
+7	                    height	                            It represents the height of the window.
+
+
+
+
+8	                    relief	                              It represents the type of the window.
+
+
+
+
+
+9	                    width	                               It represents the width of the window,

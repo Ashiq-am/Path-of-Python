@@ -1,0 +1,19 @@
+***In this class, we made the grids and the blocks like username, password and provide the fuctionality of
+text input. Let’s see the detailed description now.
+
+In the class LoginScreen, we override the method __init__() so as to add widgets and to define
+their behavior.One should not forget to call super in order to implement the functionality of the
+original class being
+overloaded. Also note that it is good practice not to omit the **kwargs while calling super,
+as they are sometimes used internally.
+
+
+
+
+
+
+
+
+***We ask the GridLayout to manage its children in two columns and add a Label and a TextInput for
+the username and password.
+

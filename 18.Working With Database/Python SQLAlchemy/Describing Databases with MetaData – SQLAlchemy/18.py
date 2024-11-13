@@ -1,0 +1,1 @@
+Address.__table__

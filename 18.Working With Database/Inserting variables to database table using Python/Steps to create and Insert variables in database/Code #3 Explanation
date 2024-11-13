@@ -1,0 +1,4 @@
+Another function called data_entry. We are trying to add the values into the database with the help of user input
+or by variables.
+
+We use the execute() method to execute the query. Then use the commit() method to save the changes you have done above.

@@ -1,0 +1,14 @@
+Now lets try to create a program using Tkinter module to create a stopwatch.
+A stopwatch is a handheld timepiece designed to measure the amount of time elapsed from a particular
+time when it is activated to the time when the piece is deactivated.
+A large digital version of a stopwatch designed for viewing at a distance, as in a sports stadium,
+is called a stopclock.
+
+In manual timing, the clock is started and stopped by a person pressing a button.
+In fully automatic time, both starting and stopping are triggered automatically, by sensors.
+
+
+
+
+Required Modules: We are only going to use tkinter for creating gui and no other libraries will be used
+in this program.

@@ -1,0 +1,18 @@
+Python offers multiple options for developing GUI (Graphical User Interface).
+Out of all the GUI methods, tkinter is most commonly used method. It is a standard Python interface to the
+Tk GUI toolkit shipped with Python.
+
+Python with tkinter outputs the fastest and easiest way to create the GUI applications.
+Creating a GUI using tkinter is an easy task.
+
+
+
+
+Basic steps:
+
+1.First we create an object named root out of tk.
+
+2.We create an object of the calc and pass root as master to the init method.
+
+3.Mainloop starts an event loop, which is basically an infinite loop waiting for events and respond
+accordingly. The mainloop can be terminated by closing the window or using close method.

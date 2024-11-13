@@ -1,0 +1,2 @@
+PageLayout does not currently honor the size_hint, size_hint_min, size_hint_max, or pos_hint properties.
+That means we can not use all these in a page layout.

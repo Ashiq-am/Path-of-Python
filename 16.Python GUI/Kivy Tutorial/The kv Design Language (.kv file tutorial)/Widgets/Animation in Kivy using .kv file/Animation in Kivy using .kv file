@@ -1,0 +1,55 @@
+Animation and AnimationTransition are used to animate Widget properties.
+You must specify at least a property name and target value. To use Animation, follow these steps:
+
+***Setup an Animation object
+***Use the Animation object on a Widget
+
+
+
+
+To use animation you must have to import:
+
+[from kivy.animation import Animation]
+
+
+
+
+
+
+
+
+
+Basic Approaches:
+
+1) import runTouchApp
+2) import Builder
+3) import Widget
+4) import Animation
+5) import Clock
+6) import Window
+7) import random
+8) import listproperty
+9) Build the .kv file
+10) Create root class
+11) Create the clock and anim react class used to animate the boxes
+12) Run the App
+
+
+
+
+
+
+
+
+
+
+
+
+
+In the below example we are creating the two boxes (red and green) in which we are giving animations
+to the red box i.e when the App starts the red box is in its animated view but to clear the concepts
+i am providing the green box which on click provide random animations i.e it goes anywhere at random.
+
+
+The program consists of two main classes first is clock class which is for the red box as we are
+declaring it animated and the green box animation is in anim class.

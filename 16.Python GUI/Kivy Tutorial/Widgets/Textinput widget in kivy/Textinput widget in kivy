@@ -1,0 +1,40 @@
+Kivy is a platform-independent GUI tool in Python. As it can be run on Android, IOS, linux and Windows etc.
+It is basically used to develop the Android application, but it does not mean that it can not be used
+on Desktops applications.
+
+
+TextInput:
+The TextInput widget provides a box for editable plain text. Unicode, multiline, cursor navigation,
+selection and clipboard features are supported.
+
+
+
+To create a multiline TextInput (the ‘enter’ key adds a new line).
+To create a singleline TextInput, set the TextInput.multiline property to False.
+
+[TextInput(text='Hello world', multiline=False)]
+
+
+
+To work with Textinput you have to import it by the command –
+
+from kivy.uix.textinput import TextInput
+
+
+
+
+
+
+
+Basic Approach:
+1) import kivy
+2) import kivyApp
+3) import Label
+4) import Scatter
+5) import Floatlayout
+6) import Textinput
+7) import BoxLayout
+8) Set minimum version(optional)
+9) create App class
+10) return Layout/widget/Class(according to requirement)
+11) Run an instance of the class

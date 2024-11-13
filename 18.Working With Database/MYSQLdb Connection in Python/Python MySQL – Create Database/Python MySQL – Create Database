@@ -1,0 +1,27 @@
+Python Database API ( Application Program Interface ) is the Database interface for the standard Python.
+This standard is adhered to by most Python Database interfaces. There are various Database servers supported by
+Python Database such as
+
+
+MySQL,
+GadFly,
+mSQL,
+PostgreSQL,
+Microsoft SQL Server 2000,
+Informix,
+Interbase,
+Oracle,
+Sybase etc.
+
+
+
+To connect with MySQL database server from Python, we need to import the mysql.connector interface.
+
+
+
+
+
+
+Syntax:
+
+CREATE DATABASE DATABASE_NAME

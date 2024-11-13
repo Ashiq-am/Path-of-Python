@@ -1,0 +1,20 @@
+BoxLayout arranges widgets in either in a vertical fashion that is one on top of another or in a
+horizontal fashion that is one after another.
+
+When you will not provide any size-hint then the child widgets divides the size of its parent widget
+equally or accordingly.
+
+
+
+
+
+
+Basic Approach to follow while creating button :
+1) import kivy
+2) import kivyApp
+3) import BoxLayout
+4) set minimum version(optional)
+5) Add widgets
+6) Extend the class
+7) Return layout
+8) Run an instance of the class

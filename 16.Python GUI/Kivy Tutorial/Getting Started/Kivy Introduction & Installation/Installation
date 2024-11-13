@@ -1,0 +1,33 @@
+Note- Python3 should be installed in your system.
+
+1.Installation in Windows:
+
+                 ***Update the pip and wheel before installing kivy by entering this command in cmd-
+                          python -m pip install --upgrade pip wheel setuptools
+
+
+
+                 ***Install the dependencies-
+                        python -m pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew
+                        python -m pip install kivy.deps.gstreamer
+                        python -m pip install kivy.deps.angle
+
+
+                 ***Install kivy
+                        python -m pip install kivy
+
+
+
+
+2.Installation in Linux:
+
+                   ***Add the PPA by entering this command in terminal-
+                                   sudo add-apt-repository ppa:kivy-team/kivy
+
+
+                   ***Update your package list using your package manager-
+                                   sudo apt-get update
+
+
+                   ***Install Kivy
+                         sudo apt-get install python3-kivy

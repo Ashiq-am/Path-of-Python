@@ -1,0 +1,19 @@
+SN	                  Method	                                    Description
+
+1	                 deselect()	                       It is called to turn off the checkbutton.
+
+
+
+2	                  flash()	              The checkbutton is flashed between the active and normal colors.
+
+
+
+3	                  invoke()	                This will invoke the method associated with the checkbutton.
+
+
+
+4	                  select()	                              It is called to turn on the checkbutton.
+
+
+
+5	                  toggle()	                    It is used to toggle between the different Checkbuttons.

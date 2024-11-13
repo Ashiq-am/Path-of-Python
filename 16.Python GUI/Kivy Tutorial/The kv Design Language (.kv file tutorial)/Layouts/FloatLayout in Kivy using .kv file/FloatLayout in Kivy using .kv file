@@ -1,0 +1,70 @@
+Floatlayout provides us the flexibility to arrange the elements like button relatively i.e it allows
+us to place the elements using something called relative position.
+This means rather than defining the specific position or the coordinates we will place everything
+using the percentage w.r.t the size of window i.e we can dynamically arrange the position of the
+elements.
+
+
+
+
+
+The first thing we need to do import FloatLayout –
+
+[from kivy.uix.floatlayout import FloatLayout]
+
+
+
+
+
+
+
+
+We have 2 properties to create the dynamic placement –
+
+1) pos_hint: provide hint of position
+We can define upto 6 keys i.e. it takes arguments in form of dictionary.
+pos_hint = {“x”:1, “y”:1, “left”:1, “right”:1, “top”:1, “bottom”:1}
+
+2) size_hint: provide hint of size
+Contains two arguments i.e. width and height
+
+
+
+
+
+
+
+
+
+
+
+
+Note:
+
+1.You can only use values between 0-1 for both size_hint and pos_hint. Where 0 = 0% and 1 = 100%.
+
+2.The coordinate system in kivy works from the bottom left! This will be important when placing our
+   objects. (i.e (0, 0) is the bottom left).
+
+
+
+
+
+
+
+
+
+
+
+Basic Approach:
+
+1) import kivy
+2) import kivyApp
+3) import Floatlayout
+4) Set minimum version(optional)
+5) create Layout class
+6) create App class
+7) Set up .kv file
+8) return Layout/widget/Class(according to requirement)
+9) Run an instance of the class
+

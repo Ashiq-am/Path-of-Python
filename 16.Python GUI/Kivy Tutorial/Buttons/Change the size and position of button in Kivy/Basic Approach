@@ -1,0 +1,9 @@
+1) import kivy
+2) import kivyApp
+3) import all neaded(like button and layouts to use them)
+4) Set minimum version(optional)
+5) create Layout class
+6) create App class
+7) Set up the position and size of the buttons
+8) return Layout/widget/Class(according to requirement)
+9) Run an instance of the class

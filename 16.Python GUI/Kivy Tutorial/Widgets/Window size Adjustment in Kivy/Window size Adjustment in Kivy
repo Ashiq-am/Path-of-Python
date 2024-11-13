@@ -1,0 +1,21 @@
+In this article, we are going to see three formats of resizing the window size in kivy.
+
+Note: Just note the size in the outputs of the window and check the minimize and maximize button on
+window when it is visible or when not visible.
+
+
+For resizing window we have:
+
+[from kivy.config import Config]
+
+
+
+
+Kivy has a configuration file which determines the default settings. In order to change these settings,
+you can alter this file manually or use the Config object.
+Configuration options control the initialization of the App. In order to avoid situations where the
+config settings do not work or are not applied before window creation
+(like setting an initial window size),
+Config.set should be used before importing any other Kivy modules.
+
+Ideally, this means setting them right at the start of your main.py script.

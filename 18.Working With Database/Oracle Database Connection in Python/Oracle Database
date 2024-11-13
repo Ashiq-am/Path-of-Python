@@ -1,0 +1,16 @@
+For communicating any database with our Python program, then we required some connector which is nothing but
+the cx_Oracle module.
+
+
+
+
+{For installing cx_Oracle :
+pip install cx_Oracle}
+
+
+
+
+
+
+
+By this command, you can install cx_Oracle package but it is required to install Oracle database first in your PC.

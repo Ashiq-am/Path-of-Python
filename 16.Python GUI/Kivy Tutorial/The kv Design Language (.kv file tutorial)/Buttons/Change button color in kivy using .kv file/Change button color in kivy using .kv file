@@ -1,0 +1,46 @@
+In this article we will learn how to change the background color of button in kivy in .kv file.
+
+
+
+
+background_color:
+
+There is a property name background color which is used to change the the color
+of the button in kivy python.
+The background-color kivy property sets the background color of an element.
+The background-color property is specified as a single color value.
+
+
+
+
+Syntax: background_color: 1, 0, 0, 1
+
+
+
+
+
+
+Note: By default the color of button is black and it only takes the value between 0 to 1
+
+
+
+
+
+
+Basic Approach:
+
+1) import kivy
+2) import kivyApp
+3) import Widget
+4) import Button
+5) Set minimum version(optional)
+6) Create widget class
+7) create App class
+8) create .kv file (name same as the app class):
+        1) Create Widget
+        2) Create Button
+        3) set the background color of the button as you want
+        4) Specify requirements
+9) return Layout/widget/Class(according to requirement)
+10) Run an instance of the class
+
