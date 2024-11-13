@@ -1,0 +1,2 @@
+#End Session
+spark.stop()

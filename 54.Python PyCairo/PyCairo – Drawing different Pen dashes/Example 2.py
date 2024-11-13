@@ -1,0 +1,29 @@
+# importing pycairo
+import cairo
+
+# creating a SVG surface
+# here geekline is file name & 700, 700 is dimension
+with cairo.SVGSurface("geekline.svg", 700, 700) as surface:
+    # creating a cairo context object
+    context = cairo.Context(surface)
+
+    # setting color of the context
+    context.set_source_rgba(0, 0, 0, 1)
+
+    # setting of line width
+    context.set_line_width(4)
+
+    # setting of line pattern
+    context.set_dash([14.0, 6.0])
+
+    # move the context to x,y position
+    context.move_to(40, 30)
+
+    # creating a line
+    context.line_to(250, 30)
+
+    # stroke out the color and width property
+    context.stroke()
+
+# printing message when file is saved
+print("File Saved")

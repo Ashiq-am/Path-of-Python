@@ -1,0 +1,3 @@
+# Good Superheroes with both highest Powers and Speeds...
+Max_Power_Speed = good.sort_values(by=['Power', 'Speed'], ascending=False)
+Max_Power_Speed
