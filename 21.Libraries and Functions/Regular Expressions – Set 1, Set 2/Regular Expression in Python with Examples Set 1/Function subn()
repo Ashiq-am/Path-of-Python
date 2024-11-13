@@ -1,0 +1,10 @@
+Syntax:
+
+
+re.subn(pattern, repl, string, count=0, flags=0)
+
+
+
+subn() is similar to sub() in all ways, except in its way to providing output.
+It returns a tuple with count of total
+of replacement and the new string rather than just the string.

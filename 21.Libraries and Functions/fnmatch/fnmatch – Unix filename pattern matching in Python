@@ -1,0 +1,17 @@
+This module is used for matching Unix shell-style wildcards. fnmatch() compares a single file name against a
+pattern and returns TRUE if they match else returns FALSE.
+The comparison is case-sensitive when the operating system uses a case-sensitive file system.
+
+The special characters and their functions used in shell-style wildcards are :
+
+1.‘*’ – matches everything
+
+2.‘?’ – matches any single character
+
+3.‘[seq]’ – matches any character in seq
+
+4.‘[!seq]’ – matches any character not in seq
+
+
+
+The meta-characters should be wrapped in brackets for a literal match. For example, ‘[?]’ matches the character ‘?’.

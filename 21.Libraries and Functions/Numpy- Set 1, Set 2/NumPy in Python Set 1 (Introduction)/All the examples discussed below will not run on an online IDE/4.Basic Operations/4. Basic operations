@@ -1,0 +1,35 @@
+Plethora of built-in arithmetic functions are provided in NumPy.
+
+
+
+
+***Operations on single array: We can use overloaded arithmetic operators to do element-wise operation on array
+                               to create a new array.
+                               In case of +=, -=, *= operators, the exsisting array is modified.
+
+
+
+
+***Unary operators: Many unary operations are provided as a method of ndarray class.
+                    This includes sum, min, max, etc.
+                    These functions can also be applied row-wise or column-wise by setting an axis parameter.
+
+
+
+
+
+
+
+***Binary operators: These operations apply on array elementwise and a new array is created.
+                     You can use all basic arithmetic operators like +, -, /, , etc.
+                     In case of +=, -=, = operators, the exsisting array is modified.
+
+
+
+
+
+
+
+
+***Universal functions (ufunc): NumPy provides familiar mathematical functions such as sin, cos, exp, etc.
+                             These functions also operate elementwise on an array, producing an array as output.

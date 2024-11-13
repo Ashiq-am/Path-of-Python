@@ -1,0 +1,19 @@
+Python in its language allows various mathematical operations, which has manifolds application in scientific domain.
+
+One such offering of Python is the inbuilt gamma() function, which numerically computes the gamma value
+of the number that is passed in the function.
+
+
+
+
+Syntax : math.gamma(x)
+
+
+
+Parameters :
+x : The number whose gamma value needs to be computed.
+
+
+
+
+Returns : The gamma value, which is numerically equal to “factorial(x-1)”.

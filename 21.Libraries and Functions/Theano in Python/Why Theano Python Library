@@ -1,0 +1,20 @@
+Theano is a sort of hybrid between numpy and sympy, an attempt is made to combine the two into one powerful
+library. Some advantages of theano are as folows:
+
+
+
+
+1.Stability Optimization: Theano can find out some unstable expressions and can use more stable means
+                          to evaluate them
+
+
+
+
+2.Execution Speed Optimization: As mentioned earlier, theano can make use of recent GPUs and execute parts
+                                of expressions in your CPU or GPU, making it much faster than Python
+
+
+
+
+
+3.Symbolic Differentiation: Theano is smart enough to automatically create symbolic graphs for computing gradients

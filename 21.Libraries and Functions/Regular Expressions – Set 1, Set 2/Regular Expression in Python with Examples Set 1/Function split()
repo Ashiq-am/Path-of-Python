@@ -1,0 +1,18 @@
+Split string by the occurrences of a character or a pattern, upon finding that pattern,
+the remaining characters from the string are returned as part of the resulting list.
+
+
+Syntax :
+
+re.split(pattern, string, maxsplit=0, flags=0)
+
+
+
+The First parameter, pattern denotes the regular expression, string is the given string in which pattern will
+be searched for and in which splitting occurs, maxsplit if not provided is considered to be zero ‘0’,
+and if any nonzero value is provided, then at most that many splits occurs.
+
+
+If maxsplit = 1, then the string will split once only, resulting in a list of length 2.
+The flags are very useful and can help to shorten code,
+they are not necessary parameters, eg: flags = re.IGNORECASE, In this split, case will be ignored.

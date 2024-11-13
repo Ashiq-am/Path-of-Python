@@ -1,0 +1,14 @@
+1.exception pickle.PickleError
+This exception inherits Exception. It is the base class for all other exceptions raised in pickling.
+
+
+
+2.exception pickle.PicklingError
+This exception inherits PickleError. This exception is raised when an unpicklable object is encountered by Pickler.
+
+
+
+
+3.exception pickle.UnpicklingError
+This exception inherits PickleError. This exception is raised when there is a problem like data corruption
+or a security violation while unpickling an object.

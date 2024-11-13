@@ -1,0 +1,10 @@
+Moving object in turtle
+Example 2:  Move the Object (box)
+
+Following steps are used:
+
+1)Import Turtle package.
+2)Set screen with dimensions and color.
+3)Form turtle object with color.
+4)Form the object (box – made of colored square).
+5)Call the function for making object again and again and clear the screen.

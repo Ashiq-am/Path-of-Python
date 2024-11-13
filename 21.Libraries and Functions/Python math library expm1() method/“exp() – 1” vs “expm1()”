@@ -1,0 +1,8 @@
+There would be a question why expm1() method was even created if we could always compute exp() and then subtract
+1 from it.
+
+The first reason is that value exp() - 1 is used a lot in mathematics and science applications and formulas.
+
+
+The most important reason is that for smaller value of x, of the order less than e-10, expm1() method give
+a result more accurate than exp() - 1.

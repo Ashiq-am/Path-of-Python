@@ -1,0 +1,19 @@
+Knowing the basics of array indexing is important for analysing and manipulating the array object.
+NumPy offers many ways to do array indexing.
+
+
+
+***Slicing: Just like lists in python, NumPy arrays can be sliced. As arrays can be multidimensional,
+            you need to specify a slice for each dimension of the array.
+
+
+
+
+***Integer array indexing: In this method, lists are passed for indexing for each dimension.
+                          One to one mapping of corresponding elements is done to construct a new arbitrary array.
+
+
+
+
+***Boolean array indexing: This method is used when we want to pick elements from array which satisfy some
+                           condition.

@@ -1,0 +1,45 @@
+This post discusses two HTTP (Hypertext Transfer Protocol) request methods  GET and POST requests in Python
+and theirimplementation in python.
+
+
+
+
+What is HTTP?
+
+HTTP is a set of protocols designed to enable communication between clients and servers.
+It works as a request-response protocol between a client and server.
+A web browser may be the client, and an application on a computer that hosts a web site may be the server.
+
+So, to request a response from the server, there are mainly two methods:
+
+*GET : to request data from the server.
+*POST : to submit data to be processed to the server.
+
+
+Here is a simple diagram which explains the basic concept of GET and POST methods.
+
+
+
+
+
+
+
+
+
+
+
+Now, to make HTTP requests in python, we can use several HTTP libraries like:
+
+httplib
+urllib
+requests
+
+
+
+The most elegant and simplest of above listed libraries is Requests.
+We will be using requests library in this article.
+To download and install Requests library, use following command:
+
+
+
+pip install requests

@@ -1,0 +1,50 @@
+Important points to infer :
+
+PARAMS = {'address':location}
+
+
+
+
+The URL for a GET request generally carries some parameters with it. For requests library,
+parameters can be defined as a dictionary.
+These parameters are later parsed down and added to the base url or the api-endpoint.
+To understand the parameters role, try to print r.url after the response object is created.
+You will see something like this:
+
+
+
+http://maps.googleapis.com/maps/api/geocode/json?address=delhi+technological+university
+
+
+
+
+
+
+
+This is the actual URL on which GET request is made
+
+
+r = requests.get(url = URL, params = PARAMS)
+
+
+
+
+
+
+
+Here we create a response object ‘r’ which will store the request-response.
+We use requests.get() method since we are sending a GET request.
+The two arguments we pass are url and the parameters dictionary.
+
+
+data = r.json()
+
+
+
+
+Now, in order to retrieve the data from the response object, we need to convert the raw response content into
+a JSON type data structure.
+This is achieved by using json() method. Finally, we extract the required information by parsing down the
+JSON type object.
+
+

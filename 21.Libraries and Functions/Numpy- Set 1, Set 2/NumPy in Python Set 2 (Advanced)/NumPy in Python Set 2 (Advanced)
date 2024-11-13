@@ -1,0 +1,92 @@
+1.Stacking: Several arrays can be stacked together along different axes.
+
+              *np.vstack: To stack arrays along vertical axis.
+              *np.hstack: To stack arrays along horizontal axis.
+              *np.column_stack: To stack 1-D arrays as columns into 2-D arrays.
+              *np.concatenate: To stack arrays along specified axis (axis is passed as argument).
+
+
+
+
+
+
+
+2.Splitting:For splitting, we have these functions:
+
+                   *np.hsplit: Split array along horizontal axis.
+                   *np.vsplit: Split array along vertical axis.
+                   *np.array_split: Split array along specified axis.
+
+
+
+
+
+
+
+
+3.Broadcasting:
+
+The term broadcasting describes how NumPy treats arrays with different shapes during arithmetic operations.
+Subject to certain constraints, the smaller array is “broadcast” across the larger array so that they have
+compatible shapes.
+
+Broadcasting provides a means of vectorizing array operations so that looping occurs in C instead of Python.
+It does this without making needless copies of data and usually leads to efficient algorithm implementations.
+There are also cases where broadcasting is a bad idea because it leads to inefficient use of memory that
+slows computation.
+
+NumPy operations are usually done element-by-element which requires two arrays to have exactly the same shape.
+Numpy’s broadcasting rule relaxes this constraint when the arrays’ shapes meet certain constraints.
+
+
+
+
+
+
+
+
+
+
+
+4.Working with datetime:
+
+Numpy has core array data types which natively support datetime functionality.
+The data type is called “datetime64”, so named because “datetime” is already taken by the datetime library
+included in Python.
+
+
+
+
+
+
+
+
+
+
+
+
+
+5.Linear algebra in NumPy:
+
+The Linear Algebra module of NumPy offers various methods to apply linear algebra on any numpy array.
+
+You can find:
+
+***rank, determinant, trace, etc. of an array.
+
+***eigen values of matrices
+
+***matrix and vector products (dot, inner, outer,etc. product), matrix exponentiation
+
+***solve linear or tensor equations and much more!
+
+
+
+
+
+
+
+Let us assume that we want to solve this linear equation set:
+
+x + 2*y = 8
+3*x + 4*y = 18

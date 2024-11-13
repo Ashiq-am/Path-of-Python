@@ -1,0 +1,7 @@
+Finally, I demonstrate below how you can utilize the command line interface of timeit module.
+
+
+So, this was a brief yet concise introduction to timeit module and its practical applications.
+
+Its a pretty handy tool for python programmers when they need a quick glance of the execution
+time of their code snippets.

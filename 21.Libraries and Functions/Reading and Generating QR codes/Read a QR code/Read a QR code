@@ -1,0 +1,4 @@
+Scanning and reading a QR code is relatively simple. While creating the QR object, we must simply specify the
+path to the QR code as an argument.
+
+Suppose we are trying to decode the QR code created at the beginning of the article.

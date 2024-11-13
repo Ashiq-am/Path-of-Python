@@ -1,0 +1,22 @@
+NetworkX is a Python language software package for the creation, manipulation, and study of the structure,
+dynamics, and function of complex networks.
+
+It is used to study large complex networks represented in form of graphs with nodes and edges.
+
+Using networkx we can load and store complex networks. We can generate many types of random and classic networks,
+analyze network structure, build network models, design new network algorithms and draw networks.
+
+
+
+
+
+
+Installation of the package:
+
+pip install networkx
+
+
+
+
+
+

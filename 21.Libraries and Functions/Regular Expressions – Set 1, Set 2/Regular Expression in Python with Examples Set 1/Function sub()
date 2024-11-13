@@ -1,0 +1,8 @@
+Syntax:\
+    re.sub(pattern, repl, string, count=0, flags=0)
+
+
+
+"""The ‘sub’ in the function stands for SubString, a certain regular expression pattern is searched in the given
+string(3rd parameter), and upon finding the substring pattern is replaced by repl(2nd parameter),
+count checks and maintains the number of times this occurs."""

@@ -1,0 +1,68 @@
+1. bisect(list, num, beg, end) :-
+
+This function returns the position in the sorted list,
+where the number passed in argument can be placed so as to maintain the resultant list in sorted order.
+If the element is already present in the list, the right most position where element has to be inserted is returned.
+This function takes 4 arguments, list which has to be worked with, number to insert, starting position in list
+to consider, ending position which has to be considered.
+
+
+
+
+
+
+
+
+
+
+2. bisect_left(list, num, beg, end) :-
+
+This function returns the position in the sorted list, where the number passed in argument can be placed so
+as to maintain the resultant list in sorted order.
+If the element is already present in the list, the left most position where element has to be inserted is returned.
+This function takes 4 arguments, list which has to be worked with, number to insert, starting position in
+list to consider, ending position which has to be considered.
+
+
+
+
+
+
+
+
+
+3. bisect_right(list, num, beg, end) :- This function works similar to the “bisect()” and mentioned above.
+
+
+
+
+
+
+
+
+
+4. insort(list, num, beg, end) :-
+
+This function returns the sorted list after inserting number in appropriate position,
+if the element is already present in the list, the element is inserted at the rightmost possible position.
+This function takes 4 arguments, list which has to be worked with, number to insert, starting position in list
+to consider, ending position which has to be considered.
+
+
+
+
+
+
+5. insort_left(list, num, beg, end) :-
+
+This function returns the sorted list after inserting number in appropriate position, if the element is already
+present in the list, the element is inserted at the leftmost possible position.
+This function takes 4 arguments, list which has to be worked with, number to insert, starting position in
+list to consider, ending position which has to be considered.
+
+
+
+
+
+
+6. insort_right(list, num, beg, end) :- This function works similar to the “insort()” as mentioned above.

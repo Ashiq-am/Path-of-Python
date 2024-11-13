@@ -1,0 +1,25 @@
+1.Debian Linux:-
+
+qrtools can be installed on debian based linux systems with the following commands
+
+sudo apt-get update
+sudo apt-get install python-qrtools
+
+
+The following dependencies must be installed as well
+
+[sudo] pip install pypng
+[sudo] pip install zbar
+[sudo] pip install pillow
+
+
+
+
+
+2.Windows:-
+
+qrtools can be installed on windows by downloading the file from here. On downloading and extraction,
+run the following command from inside the folder
+
+
+python setup.py install

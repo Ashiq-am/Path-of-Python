@@ -1,0 +1,16 @@
+Add one node at a time:
+
+
+G.add_node(1)
+
+
+
+Add a list of nodes:
+
+
+G.add_nodes_from([2,3])
+
+
+
+
+Let us create nodes in the graph G. After adding nodes 1, 2, 3, 4, 7, 9

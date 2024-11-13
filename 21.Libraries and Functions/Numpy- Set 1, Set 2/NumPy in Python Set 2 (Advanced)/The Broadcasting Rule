@@ -1,0 +1,51 @@
+In order to broadcast, the size of the trailing axes for both arrays in an operation must either
+be the same size or one of them must be one.
+
+Let us see some examples:
+
+A(2-D array): 4 x 3
+B(1-D array):     3
+Result      : 4 x 3
+
+
+A(4-D array): 7 x 1 x 6 x 1
+B(3-D array):     3 x 1 x 5
+Result      : 7 x 3 x 6 x 5
+
+
+
+But this would be a mismatch:
+
+A: 4 x 3
+B:     4
+
+
+
+
+
+The simplest broadcasting example occurs when an array and a scalar value are combined in an operation.
+
+
+
+
+
+
+
+
+
+
+
+We can think of the scalar b being stretched during the arithmetic operation into an array with the same shape
+as a.
+
+The new elements in b, as shown in above figure, are simply copies of the original scalar.
+Although, the stretching analogy is only conceptual.
+
+
+Numpy is smart enough to use the original scalar value without actually making copies so that broadcasting
+operations are as memory and computationally efficient as possible.
+
+Because Example 1 moves less memory, (b is a scalar, not an array) around during the multiplication,
+it is about 10% faster than Example 2 using the standard numpy on Windows 2000 with one million element arrays!
+
+The figure below makes the concept more clear:

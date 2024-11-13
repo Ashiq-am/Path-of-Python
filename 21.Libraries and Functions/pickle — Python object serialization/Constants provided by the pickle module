@@ -1,0 +1,20 @@
+1.pickle.HIGHEST_PROTOCOL:-
+
+This is an integer value representing the highest protocol version available.
+This is considered as the protocol value which is passed to the functions dump(), dumps().
+
+
+
+
+
+
+
+
+
+
+
+
+2.pickle.DEFAULT_PROTOCOL:-
+
+This is an integer value representing the default protocol used for pickling whose value may be less
+than the value of highest protocol.

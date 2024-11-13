@@ -1,0 +1,9 @@
+This example shows how to modify pickling behavior for a class. The TextReader class opens a text file,
+and returns the line number and line contents each time its readline() method is called.
+
+
+
+1.If a TextReader instance is pickled, all attributes except the file object member are saved.
+
+
+2.When the instance is unpickled, the file is reopened, and reading resumes from the last location.

@@ -1,0 +1,6 @@
+The purpose of Bisect algorithm is to find a position in list where an element needs to be inserted to keep the
+list sorted.
+
+Python in its definition provides the bisect algorithms using the module “bisect” which allows to keep the
+list in sorted order after insertion of each element. This is essential as this reduces overhead time required
+to sort the list again and again after insertion of each element.

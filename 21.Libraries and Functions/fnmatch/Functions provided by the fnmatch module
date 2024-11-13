@@ -1,0 +1,40 @@
+1.fnmatch.fnmatch(filename, pattern):
+
+This function tests whether the given filename string matches the pattern string and returns a boolean value.
+If the operating system is case-insensitive, then both parameters will be normalized to all lower-case
+or upper-case before the comparison is performed.
+
+
+
+
+
+
+
+2.fnmatch.fnmatchcase(filename, pattern):
+
+This function performs the case sensitive comparison and tests whether the given
+filename string matches the pattern string and returns a boolean value.
+
+
+
+
+
+
+
+
+
+3.fnmatch.filter(names, pattern):
+
+This function returns the subset of the list of names passed in the function
+that match the given pattern.
+
+
+
+
+
+
+
+4.fnmatch.translate(pattern):
+
+This function returns the shell-style pattern converted to a regular expression for using with
+re.match() (re.match() will only match at the beginning of the string and not at the beginning of each line).

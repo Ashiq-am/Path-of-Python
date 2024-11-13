@@ -1,0 +1,80 @@
+                                                 Searching an occurrence of pattern
+
+
+re.search() :
+
+This method either returns None (if the pattern doesn’t match), or a re.MatchObject that contains information
+about the matching part of the string. This method stops after the first match,
+so this is best suited for testing a regular expression more than extracting data.
+
+
+
+
+
+                                                   Matching a Pattern with Text
+
+
+re.match() :
+
+This function attempts to match pattern to whole string.
+The re.match function returns a match object on success, None on failure.
+
+
+re.match(pattern, string, flags=0)
+
+pattern : Regular expression to be matched.
+string : String where p attern is searched
+flags : We can specify different flags
+        using bitwise OR (|).
+
+
+
+
+
+
+
+
+
+                                                   Finding all occurrences of a pattern
+
+
+re.findall() :
+
+Return all non-overlapping matches of pattern in string, as a list of strings.
+The string is scanned left-to-right, and matches are returned in the order found
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Regular expression is a vast topic. It’s a complete library.
+Regular expressions can do a lot of stuff.
+
+You can Match, Search, Replace, Extract a lot of data.
+For example, below small code is so powerful that it can extract email address from a text.
+So we can make our own Web Crawlers and scrappers in python with easy.Look at below regex.
+
+
+
+
+# extract all email addresses and add them into the resulting set
+new_emails = set(re.findall(r"[a-z0-9\.\-+_]+@[a-z0-9\.\-+_]+\.[a-z]+",
+                           text, re.I))
+
+
+
+We will soon be discussing more methods on regular expressions.
+
+
+

@@ -1,0 +1,88 @@
+1.unicodedata.lookup(name):-
+
+This function looks up for the character by name. If a character with the given name is found in the database,
+then, the corresponding character is returned otherwise Keyerror is raised.
+
+
+
+
+
+
+2.unicodedata.name(chr[, default]):-
+
+This function returns the name assigned to the given character as a string. If no name is defined, default is
+returned by the function otherwise ValueError is raised if name is not given.
+
+
+
+
+
+3.unicodedata.decimal(chr[, default]):-
+
+This function returns the decimal value assigned to the given character as integer.
+If no value is defined, default is returned by the function otherwise ValueError is raised if value is not given.
+
+
+
+
+
+4.unicodedata.digit(chr[, default]):-
+
+This function returns the digit value assigned to the given character as integer.
+If no value is defined, default is returned by the function otherwise ValueError is raised if value is not given.
+
+
+
+
+
+
+
+5.unicodedata.numeric(chr[, default]):-
+
+This function returns the numeric value assigned to the given character as integer.
+If no value is defined, default is returned by the function otherwise ValueError is raised if value is not given.
+
+
+
+
+
+
+
+
+
+6.unicodedata.bidirectional(chr):-
+
+This function returns the bidirectional class assigned to the given character as string.
+For example, it returns ‘A’ for arabic and ‘N’ for number. An empty string is returned by this function if no
+such value is defined.
+
+
+
+
+
+
+
+
+
+
+
+
+
+7.unicodedata.normalize(form, unistr)
+
+This function returns the normal form form for the Unicode string unistr.
+Valid values for form are ‘NFC’, ‘NFKC’, ‘NFD’, and ‘NFKD’.
+
+
+
+
+
+
+
+
+
+
+8.unicodedata.category(chr)
+
+This function returns the general category assigned to the given character as string.
+For example, it returns ‘L’ for letter and ‘u’ for uppercase.

@@ -1,0 +1,45 @@
+Matplotlib is an amazing visualization library in Python for 2D plots of arrays.
+Matplotlib is a multi-platform data visualization library built on NumPy arrays and designed to work with the
+broader SciPy stack. It was introduced by John Hunter in the year 2002.
+
+
+One of the greatest benefits of visualization is that it allows us visual access to huge amounts of data in
+easily digestible visuals. Matplotlib consists of several plots like line, bar, scatter, histogram etc.
+
+
+Ticks are the values used to show specific points on the coordinate axis. It can be a number or a string.
+Whenever we plot a graph, the axes adjust and take the default ticks.
+Matplotlib’s default ticks are generally sufficient in common situations but are in no way optimal for every plot.
+Here, we will see how to customize these ticks as per our need.
+
+
+
+
+
+
+
+
+
+
+
+
+Parameters:
+
+
+PARAMETER	                                VALUE	                                               USE
+
+axis	                                  x, y, both	                                Tells which axis to operate
+
+reset	                                  True, False	                       If True, set all parameters to default
+
+direction	                             in, out, inout	                     Puts the ticks inside or outside or both
+
+length	                                    Float	                                         Sets tick’s length
+
+width	                                    Float	                                         Sets tick’s width
+
+rotation	                                Float	                                   Rotates ticks wrt the axis
+
+colors	                                    Color	                                        Changes tick color
+
+pad	                                        Float	                        Distance in points between tick and label

@@ -1,0 +1,44 @@
+Important features of this code:
+
+
+
+data = {'api_dev_key':API_KEY,
+        'api_option':'paste',
+        'api_paste_code':source_code,
+        'api_paste_format':'python'}
+
+
+
+
+
+Here again, we will need to pass some data to API server. We store this data as a dictionary.
+
+r = requests.post(url = API_ENDPOINT, data = data)
+
+
+
+
+
+
+Here we create a response object ‘r’ which will store the request-response.
+We use requests.post() method since we are sending a POST request.
+The two arguments we pass are url and the data dictionary.
+
+
+pastebin_url = r.text
+
+
+
+
+In response, the server processes the data sent to it and sends the pastebin URL of your source_code which
+can be simply accessed by r.text .
+
+
+
+
+
+
+
+
+requests.post method could be used for many other tasks as well like filling and submitting the web forms, posting
+on your FB timeline using the Facebook Graph API, etc.

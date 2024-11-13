@@ -1,0 +1,82 @@
+1. sqrt() :- This function computes the square root of the decimal number.
+
+
+
+
+2. exp() :- This function returns the e^x (exponent) of the decimal number.
+
+
+
+
+3. ln() :- This function is used to compute natural logarithm of the decimal number.
+
+
+
+
+4. log10() :- This function is used to compute log(base 10) of a decimal number.
+
+
+
+
+5. as_tuple() :- Returns the decimal number as tuple containing 3 arguments, sign(0 for +, 1 for -),
+                  digits and exponent value.
+
+
+
+
+6. fma(a,b) :- This “fma” stands for fused multiply and add. It computes (num*a)+b from the numbers in argument.
+                No rounding of (num*a) takes place in this function.
+
+
+
+
+
+
+
+7. compare() :- This function is used to compare decimal numbers.
+                Returns 1 if 1st Decimal argument is greater than 2nd, -1 if 1st Decimal argument is smaller than 2nd
+                and 0 if both are equal.
+
+
+
+
+
+
+8. compare_total_mag() :- Compares the total magnitute of decimal numbers.
+                          Returns 1 if 1st Decimal argument is greater than 2nd(ignoring sign), -1 if 1st Decimal
+                          argument is smaller than 2nd(ignoring sign) and 0 if both are equal(ignoring sign).
+
+
+
+
+
+
+
+
+
+9. copy_abs() :- This function prints the absolute value of decimal argument.
+
+
+
+
+
+10. copy_negate() :- This function prints the negation of decimal argument.
+
+
+
+
+
+11. copy_sign() :- This function prints the first argument by copying the sign from 2nd argument.
+
+
+
+
+
+
+12. max() :- This function computes the maximum of two decimal numbers.
+
+
+
+
+
+13. min() :- This function computes the minimum of two decimal numbers.

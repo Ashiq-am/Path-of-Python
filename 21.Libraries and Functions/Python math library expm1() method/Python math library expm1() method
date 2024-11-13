@@ -1,0 +1,15 @@
+Python has math library and has many functions regarding to it. One such function is expm1().
+This function mathematically computes the value of exp(x) - 1.
+This method can be used if we need to compute this very value.
+
+
+
+Syntax : math.expm1()
+
+
+
+Parameters :
+x : Number whose exp(x)-1 has to be computed.
+
+
+Returns : Returns the computed value of “exp(x)-1”

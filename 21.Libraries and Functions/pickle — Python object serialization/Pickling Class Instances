@@ -1,0 +1,41 @@
+This section explains the general mechanisms available to define, customize,
+and control how class instances are pickled and unpickled.
+
+No additional code is needed to make instances picklable.
+By default, pickle will retrieve the class and the attributes of an instance via introspection.
+
+Classes can alter the default behaviour by providing one or several special methods :
+
+
+1.object.__getnewargs_ex__()
+This method dictates the values passed to the __new__() method upon unpickling.
+The method must return a pair (args, kwargs) where args is a tuple of positional arguments and kwargs a dictionary
+of named arguments for constructing the object.
+
+
+2.object.__getnewargs__()
+This method supports only positive arguments. It must return a tuple of arguments args which will be passed to
+the __new__() method upon unpickling.
+
+
+
+3.object.__getstate__()
+If this method is defined by classes, it is called and the returned object is pickled as the contents for the
+instance, instead of the contents of the instance’s dictionary.
+
+
+
+4.object.__setstate__(state)
+If this method is defined by classes, it is called with the unpickled state.
+The pickled state must be a dictionary and its items are assigned to the new instance’s dictionary.
+
+
+
+5.object.__reduce__()
+The __reduce__() method takes no argument and shall return either a string or preferably a tuple.
+
+
+
+6.object.__reduce_ex__(protocol)
+This method is similar to __reduce__ method. It takes a single integer argument. The main use for this method
+is to provide backwards-compatible reduce values for older Python releases.

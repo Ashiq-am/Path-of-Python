@@ -1,0 +1,58 @@
+There are various ways to create arrays in NumPy.
+
+
+***For example, you can create an array from a regular Python list or tuple using the array function.
+    The type of the resulting array is deduced from the type of the elements in the sequences.
+
+
+
+
+
+***Often, the elements of an array are originally unknown, but its size is known. Hence, NumPy offers several
+    functions to create arrays with initial placeholder content.
+     These minimize the necessity of growing arrays, an expensive operation.
+
+      For example: np.zeros, np.ones, np.full, np.empty, etc.
+
+
+
+
+
+
+***To create sequences of numbers, NumPy provides a function analogous to range that returns arrays instead
+    of lists.
+
+
+
+
+
+
+***arange: returns evenly spaced values within a given interval. step size is specified.
+
+
+
+
+
+***linspace: returns evenly spaced values within a given interval. num no. of elements are returned.
+
+
+
+
+
+
+
+***Reshaping array: We can use reshape method to reshape an array. Consider an array with shape (a1, a2, a3, …, aN).
+                    We can reshape and convert it into another array with shape (b1, b2, b3, …, bM).
+                     The only required condition is:
+
+                      a1 x a2 x a3 … x aN = b1 x b2 x b3 … x bM . (i.e original size of array remains unchanged.)
+
+
+
+
+
+
+
+***Flatten array: We can use flatten method to get a copy of array collapsed into one dimension.
+                  It accepts order argument. Default value is ‘C’ (for row-major order).
+                  Use ‘F’ for column major order.

@@ -1,0 +1,20 @@
+NumPy’s main object is the homogeneous multidimensional array.
+
+*It is a table of elements (usually numbers), all of the same type, indexed by a tuple of positive integers.
+
+*In NumPy dimensions are called axes. The number of axes is rank.
+
+*NumPy’s array class is called ndarray. It is also known by the alias array.
+
+
+
+
+
+Example :
+
+[[ 1, 2, 3],
+ [ 4, 2, 5]]
+Here,
+rank = 2 (as it is 2-dimensional or it has 2 axes)
+first dimension(axis) length = 2, second dimension has length = 3
+overall shape can be expressed as: (2, 3)

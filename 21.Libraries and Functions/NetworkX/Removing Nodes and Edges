@@ -1,0 +1,10 @@
+One can demolish the graph using any of these functions:
+
+
+
+Graph.remove_node(), Graph.remove_nodes_from(),
+Graph.remove_edge() and Graph.remove_edges_from()
+
+
+
+

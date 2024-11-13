@@ -1,0 +1,11 @@
+This article aims to introduce the use of the python library: qrtools.
+This library can be used to both read QR codes and generate them.
+
+
+
+
+
+                                                    What are QR codes?
+
+QR code, or quick response code, is a trademark for a type of 2 dimensional barcode.
+2 dimensional barcodes are similar to one dimensional barcodes, but can store more information per unit area.

@@ -1,0 +1,45 @@
+This module provides several functions for generating secure tokens for applications such as password resets,
+hard-to-guess URLs etc.
+
+
+
+
+
+
+1.secrets.token_bytes([nbytes=None]) : This function is responsible for generating a random byte string containing
+                                      nbytes number of bytes. If no value is provided, a reasonable default is used.
+
+
+
+
+
+
+
+
+2.secrets.token_hex([nbytes=None]) : This function is responsible for generating a random text string in hexadecimal
+                               containing nbytes random bytes. If no value is provided, a reasonable default is used.
+
+
+
+
+
+
+
+
+
+3.secrets.token_urlsafe([nbytes=None]) : This function is responsible for generating a random URL-safe text string
+                                  containing nbytes random bytes. This is suitable for password recovery applications.
+
+
+
+
+
+
+
+
+
+
+
+
+How many bytes should tokens use?
+At least 32 bytes for tokens should be used to be secure against a brute-force attack.

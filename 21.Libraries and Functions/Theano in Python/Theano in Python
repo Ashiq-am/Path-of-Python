@@ -1,0 +1,37 @@
+Theano is a Python library that allows us to evaluate mathematical operations including multi-dimensional
+arrays so efficiently. It is mostly used in building Deep Learning Projects.
+
+It works a way more faster on Graphics Processing Unit (GPU) rather than on CPU.
+Theano attains high speeds that gives a tough competition to C implementations for problems involving large amounts
+of data.
+
+It can take advantage of GPUs which makes it perform better than C on a CPU by considerable orders of
+magnitude under some certain circumstances.
+
+
+It knows how to take structures and convert them into very efficient code that uses numpy and some native libraries.
+It is mainly designed to handle the types of computation required for large neural network algorithms used in
+Deep Learning. That is why, it is a very popular library in the field of Deep Learning.
+
+
+
+
+
+
+
+
+
+How to install Theano :
+
+pip install theano
+
+
+
+Several of the symbols we will need to use are in the tensor subpackage of Theano.
+We often import such packages with a handy name, let’s say, T.
+
+
+
+
+from theano import *
+import theano.tensor as T
