@@ -1,0 +1,1 @@
+soup = bs(url.text)

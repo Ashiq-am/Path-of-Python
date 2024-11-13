@@ -1,0 +1,18 @@
+# Python3 code to demonstrate working of
+# Split and Pass list as separate parameter
+# using * operator
+
+# Helper function for demonstration
+def pass_args(arg1, arg2):
+	print("The first argument is : " + str(arg1))
+	print("The second argument is : " + str(arg2))
+
+# initialize list
+test_list = [4, 5]
+
+# printing original list
+print("The original list is : " + str(test_list))
+
+# Split and Pass list as separate parameter
+# using * operator
+pass_args(*test_list)

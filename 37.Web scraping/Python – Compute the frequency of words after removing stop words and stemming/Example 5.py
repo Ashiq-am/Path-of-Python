@@ -1,0 +1,3 @@
+sentence_after_tokenizing = word_tokenize(sentence_without_punctuations)
+paragraph_after_tokenizing = word_tokenize(paragraph_without_punctuations)
+webpage_after_tokenizing = word_tokenize(web_page_paragraphs_without_punctuations)

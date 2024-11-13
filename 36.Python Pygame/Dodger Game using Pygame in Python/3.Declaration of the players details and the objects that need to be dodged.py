@@ -1,0 +1,9 @@
+gamer_detail = 45
+gamer_movement = [display_width // 2, display_height - 2 * gamer_detail]
+gamer_speed = 15
+to_dodge_detail = 45
+to_dodge_position1 = [random.randint(0, display_width - to_dodge_detail), 0]
+to_dodge_position2 = [random.randint(0, display_width - to_dodge_detail), 0]
+to_dodge_speed = 10
+points = 0
+font = pygame.font.SysFont("calibri", 35)

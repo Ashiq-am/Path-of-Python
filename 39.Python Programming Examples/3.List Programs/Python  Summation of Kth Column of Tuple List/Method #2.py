@@ -1,0 +1,22 @@
+# Python code to demonstrate working of
+# Summation of Kth Column of Tuple List
+# using imap() + sum() + itemgetter()
+from operator import itemgetter
+from itertools import imap
+
+# initialize list
+test_list = [(5, 6, 7), (1, 3, 5), (8, 9, 19)]
+
+# printing original list
+print("The original list is : " + str(test_list))
+
+# initialize K
+K = 2
+
+# Summation of Kth Column of Tuple List
+# using imap() + sum() + itemgetter()
+idx = itemgetter(K)
+res = sum(imap(idx, test_list))
+
+# printing result
+print("Summation of Kth Column of Tuple List : " + str(res))
