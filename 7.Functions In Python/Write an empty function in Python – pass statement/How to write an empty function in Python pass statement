@@ -1,0 +1,8 @@
+In C/C++ and Java, we can write empty function as following
+
+// An empty function in C/C++/Java
+void fun() {  }
+
+
+
+In Python, if we write something like following in Python, it would produce compiler error.

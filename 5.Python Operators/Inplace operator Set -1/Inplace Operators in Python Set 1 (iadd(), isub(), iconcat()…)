@@ -1,0 +1,38 @@
+Python in its definition provides methods to perform inplace operations,
+i.e doing assignment and computation in a single statement using “operator” module.
+For example,
+
+x += y is equivalent to x = operator.iadd(x, y)
+
+
+
+
+1. iadd() :- This function is used to assign and add the current value. This operation does “a+=b” operation. Assigning is not performed in case of immutable containers, such as strings, numbers and tuples.
+
+
+
+2. iconcat() :- This function is used to concat one string at end of second.
+
+
+
+3. isub() :- This function is used to assign and subtract the current value.
+This operation does “a-=b” operation. Assigning is not performed in case of immutable containers,
+such as strings, numbers and tuples.
+
+
+
+4. imul() :- This function is used to assign and multiply the current value.
+This operation does “a*=b” operation. Assigning is not performed in case of immutable containers,
+such as strings, numbers and tuples.
+
+
+
+5. itruediv() :- This function is used to assign and divide the current value.
+This operation does “a/=b” operation. Assigning is not performed in case of immutable containers,
+such as strings, numbers and tuples.
+
+
+
+6. imod() :- This function is used to assign and return remainder .
+This operation does “a%=b” operation. Assigning is not performed in case of immutable containers,
+such as strings, numbers and tuples.

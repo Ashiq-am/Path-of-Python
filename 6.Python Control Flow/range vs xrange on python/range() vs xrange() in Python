@@ -1,0 +1,71 @@
+range() and xrange() are two functions that could be used to iterate a certain number of times in for loops in Python.
+In Python 3, there is no xrange , but the range function behaves like xrange in Python 2.
+
+If you want to write code that will run on both Python 2 and Python 3, you should use range().
+
+range() – This returns a range object (a type of iterable).
+
+xrange() – This function returns the generator object that can be used to display numbers only by looping.
+             Only particular range is displayed on demand and hence called “lazy evaluation“.
+
+
+
+Both are implemented in different ways and have different characteristics associated with them.
+
+The points of comparisons are:
+
+
+1.Return Type
+2.Memory
+3.Operation Usage
+4.Speed
+
+
+
+
+
+                                                           Return Type
+range() returns – range object.
+xrange() returns – xrange() object.
+
+
+
+
+
+                                                             Memory
+The variable storing the range created by range() takes more memory as compared to variable storing the range using xrange().
+The basic reason for this is the return type of range() is list and xrange() is xrange() object.
+
+
+
+
+
+                                                        Operations usage
+As range() returns the list, all the operations that can be applied on the list can be used on it.
+On the other hand, as xrange() returns the xrange object, operations associated to list cannot be applied on them,
+hence a disadvantage.
+
+
+
+
+
+                                                             Speed
+Because of the fact that xrange() evaluates only the generator object containing only the values that are required by
+lazy evaluation, therefore is faster in implementation than range().
+
+
+
+
+
+
+
+
+Important Points:
+
+1.If you want to write code that will run on both Python 2 and Python 3, use range() as the xrange funtion
+is deprecated in Python 3
+
+2.range() is faster if iterating over the same sequence multiple times.
+
+3.xrange() has to reconstruct the integer object every time, but range() will have real integer objects.
+(It will always perform worse in terms of memory however)

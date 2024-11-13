@@ -1,0 +1,7 @@
+In Python, there is no existence of “Private” instance variables which cannot be accessed except inside an object.
+However, a convention is being followed by most Python code and coders i.e.,
+a name prefixed with an underscore, For e.g. _geek should be treated as a non-public part of the API or
+any Python code, whether it is a function, a method or a data member.
+
+While going through this we would also try to understand the concept of various forms of trailing underscores,
+for eg., for _ in range(10), __init__(self).

@@ -1,0 +1,44 @@
+We have discussed different approaches to swap two integers without the temporary variable.
+How to swap in a single line without using library function?
+
+Python: In Python, there is a simple and syntactically neat construct to swap variables,
+we just need to write “x, y = y, x”.
+
+C/C++: Below is one generally provided classical solution
+
+
+
+
+// Swap using bitwise XOR (Wrong Solution in C/C++)
+x ^= y ^= x ^= y;
+
+
+
+
+The above solution is wrong in C/C++ as it causes undefined behaviour (compiler is free to behave in any way).
+The reason is, modifying a variable more than once in an expression causes undefined behaviour if there is
+no sequence point between the modifications.
+
+
+
+
+However, we can use comma to introduce sequence points. So the modified solution is
+
+// Swap using bitwise XOR (Correct Solution in C/C++)
+// sequence point introduced using comma.
+(x ^= y), (y ^= x), (x ^= y);
+
+
+
+
+
+
+Java:
+
+In Java, rules for subexpression evaluations are clearly defined.
+The left hand operand is always evaluated before right hand operand (See this for more details).
+In Java, the expression “x ^= y ^= x ^= y;” doesn’t produce the correct result according to Java rules.
+It makes x = 0. However, we can use “x = x ^ y ^ (y = x);” Note the expressions are evaluated from left to right.
+If x = 5 and y = 10 initially, the expression is equivalent to “x = 5 ^ 10 ^ (y = 5);”.
+Note that we can’t use this in C/C++ as in C/C++,
+it is not defined whether left operand or right operand is executed for any operator

@@ -1,0 +1,8 @@
+To define a class method in python, we use @classmethod decorator and to define a static method we use @staticmethod decorator.
+Let us look at an example to understand the difference between both of them.
+Let us say we want to create a class Person.
+Now, python doesn’t support method overloading like C++ or Java so we use class methods to create factory methods.
+In the below example we use a class method to create a person object from birth year.
+
+As explained above we use static methods to create utility functions.
+In the below example we use a static method to check if a person is adult or not.

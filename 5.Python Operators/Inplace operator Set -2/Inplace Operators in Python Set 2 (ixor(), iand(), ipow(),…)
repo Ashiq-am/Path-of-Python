@@ -1,0 +1,34 @@
+1. ixor() :- This function is used to assign and xor the current value.
+This operation does “a^ = b” operation. Assigning is not performed in case of immutable containers,
+such as strings, numbers and tuples.
+
+
+
+2. ipow() :- This function is used to assign and exponentiate the current value.
+This operation does “a ** = b” operation. Assigning is not performed in case of immutable containers,
+such as strings, numbers and tuples.
+
+
+
+
+3. iand() :- This function is used to assign and bitwise and the current value.
+This operation does “a &= b” operation. Assigning is not performed in case of immutable containers,
+such as strings, numbers and tuples.
+
+
+
+4. ior() :- This function is used to assign and bitwise or the current value.
+This operation does “a |=b ” operation. Assigning is not performed in case of immutable containers,
+such as strings, numbers and tuples.
+
+
+
+5. ilshift() :- This function is used to assign and bitwise leftshift the current value by second argument.
+This operation does “a <<=b ” operation. Assigning is not performed in case of immutable containers, such as strings,
+numbers and tuples.
+
+
+
+6. irshift() :- This function is used to assign and bitwise rightshift the current value by second argument.
+This operation does “a >>=b ” operation. Assigning is not performed in case of immutable containers, such as strings,
+numbers and tuples.

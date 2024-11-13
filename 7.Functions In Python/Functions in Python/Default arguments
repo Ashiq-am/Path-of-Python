@@ -1,0 +1,3 @@
+A default argument is a parameter that assumes a default value if a value is not provided in the
+function call for that argument.
+The following example illustrates Default arguments.

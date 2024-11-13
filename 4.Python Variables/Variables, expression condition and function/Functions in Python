@@ -1,0 +1,4 @@
+A function in python is declared by the keyword ‘def’ before the name of the function.
+The return type of the function need not be specified explicitly in python.
+
+The function can be invoked by writing the function name followed by the parameter list in the brackets.

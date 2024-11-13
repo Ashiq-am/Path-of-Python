@@ -1,0 +1,35 @@
+Python in its definition also allows some interesting and useful iterator functions for efficient
+looping and making execution of the code faster. There are many build-in iterators in the module “itertools“.
+This module implements a number of iterator building blocks.
+
+
+
+
+Some useful Iterators :
+
+1. accumulate(iter, func) :- This iterator takes two arguments, iterable target and the function which would
+be followed at each iteration of value in target. If no function is passed, addition takes place by default.
+If the input iterable is empty, the output iterable will also be empty.
+
+
+
+2. chain(iter1, iter2..) :- This function is used to print all the values in iterable targets
+one after another mentioned in its arguments.
+
+
+3. chain.from_iterable() :- This function is implemented similarly as chain() but the argument here is a
+list of lists or any other iterable container.
+
+
+4. compress(iter, selector) :- This iterator selectively picks the values to print from the passed container
+according to the boolean list value passed as other argument. The arguments corresponding to boolean
+true are printed else all are skipped.
+
+
+
+5. dropwhile(func, seq) :- This iterator starts printing the characters only after the func.
+in argument returns false for the first time.
+
+
+6. filterfalse(func, seq) :- As the name suggests, this iterator prints only values that return false for the
+passed function.

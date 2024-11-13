@@ -1,0 +1,28 @@
+1. islice(iterable, start, stop, step) :- This iterator selectively prints the values mentioned in its iterable
+container passed as argument.
+This iterator takes 4 arguments, iterable container, starting pos., ending position and step.
+
+
+
+2. starmap(func., tuple list) :- This iterator takes a function and tuple list as argument and returns the
+value according to the function from each tuple of list.
+
+
+
+3. takewhile(func, iterable) :- This iterator is opposite of dropwhile(), it prints the values till the function
+returns false for 1st time.
+
+
+
+4. tee(iterator, count) :- This iterator splits the container into a number of iterators mentioned in the argument.
+
+
+
+5. zip_longest( iterable1, iterable2, fillval.) :- This iterator prints the values of iterables alternatively
+in sequence.
+If one of the iterables is printed fully, remaining values are filled by the values assigned to fillvalue.
+
+
+
+
+

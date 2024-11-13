@@ -1,0 +1,3 @@
+We can also use the index of elements in the sequence to iterate. The key idea is to first calculate the length of the
+
+list and in iterate over the sequence within the range of this length.

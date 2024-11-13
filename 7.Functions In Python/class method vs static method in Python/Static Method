@@ -1,0 +1,15 @@
+A static method does not receive an implicit first argument.
+
+
+Syntax:
+
+class C(object):
+    @staticmethod
+    def fun(arg1, arg2, ...):
+        ...
+returns: a static method for function fun.
+
+
+A static method is also a method which is bound to the class and not the object of the class.
+A static method can’t access or modify class state.
+It is present in a class because it makes sense for the method to be present in class.

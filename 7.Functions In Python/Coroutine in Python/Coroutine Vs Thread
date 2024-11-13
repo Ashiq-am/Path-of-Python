@@ -1,0 +1,7 @@
+Now you might be thinking how coroutine is different from threads, both seems to do same job.
+In case of threads, it’s operating system (or run time environment)
+that switches between threads according to the scheduler.
+
+While in case of coroutine, it’s the programmer and programming language which decides when to switch coroutines.
+
+Coroutines work cooperatively multi task by suspending and resuming at set points by programmer.

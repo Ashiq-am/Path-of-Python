@@ -1,0 +1,7 @@
+When we use an operator on user defined data types then automatically a special function or magic function
+associated with that operator is invoked.
+
+Changing the behavior of operator is as simple as changing the behavior of method or function.
+You define methods in your class and operators work according to that behavior defined in methods.
+When we use + operator, the magic method __add__ is automatically invoked in which the operation for + operator
+is defined. There by changing this magic method’s code, we can give extra meaning to the + operator.

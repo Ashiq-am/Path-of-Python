@@ -1,0 +1,17 @@
+1. product(iter1, iter2) :- This iterator prints the cartesian product of the two iterable containers passed
+as arguments.
+
+
+
+2. permutations(iter, group_size) :- This iterator prints all possible permutation of all elements of iterable.
+The size of each permuted group is decided by group_size argument.
+
+
+
+3. combinations(iterable, group_size) :- This iterator prints all the possible combinations(without replacement)
+of the container passed in arguments in the specified group size in sorted order.
+
+
+
+4. combinations_with_replacement(iterable, group_size) :- This iterator prints all the possible
+combinations(with replacement) of the container passed in arguments in the specified group size in sorted order.

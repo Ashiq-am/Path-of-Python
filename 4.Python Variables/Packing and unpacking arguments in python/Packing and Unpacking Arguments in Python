@@ -1,0 +1,27 @@
+We use two operators * (for tuples) and ** (for dictionaries).
+
+
+
+Background :
+
+Consider a situation where we have a function that receives four arguments.
+We want to make call to this function and we have a list of size 4 with us that has all arguments for the function.
+If we simply pass list to the function, the call doesn’t work.
+
+
+
+
+
+Unpacking :
+
+We can use * to unpack the list so that all elements of it can be passed as different parameters.
+
+
+
+
+
+
+Packing :
+
+When we don’t know how many arguments need to be passed to a python function,
+we can use Packing to pack all arguments in a tuple.

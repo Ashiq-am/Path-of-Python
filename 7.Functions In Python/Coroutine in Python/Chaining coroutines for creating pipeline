@@ -1,0 +1,7 @@
+Coroutines can be used to set pipes. We can chain together coroutines and push data through pipe using send() method. A pipe needs :
+
+
+1.An initial source(producer) which derives the whole pipe line. Producer is usually not a coroutine,
+it’s just a simple method.
+
+2.A sink, which is the end point of the pipe. A sink might collect all data and display it.

@@ -1,0 +1,37 @@
+                                        Membership Operators
+
+Membership operators are operators used to validate the membership of a value.
+It test for membership in a sequence, such as strings, lists, or tuples.
+
+in operator :
+
+The ‘in’ operator is used to check if a value exists in a sequence or not.
+Evaluates to true if it finds a variable in the specified sequence and false otherwise.
+
+
+
+
+'not in’ operator-
+Evaluates to true if it does not finds a variable in the specified sequence and false otherwise
+
+
+
+
+
+
+
+                                         Identity operators
+
+In Python are used to determine whether a value is of a certain class or type.
+They are usually used to determine the type of data a certain variable contains.
+There are different identity operators such as
+
+
+‘is’ operator –
+Evaluates to true if the variables on either side of the operator point to the same
+object and false otherwise.
+
+
+‘is not’ operator –
+Evaluates to false if the variables on either side of the operator point to the same object and true
+otherwise.

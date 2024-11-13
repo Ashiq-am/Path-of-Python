@@ -1,0 +1,9 @@
+The special syntax **kwargs in function definitions in python is used to pass a keyworded, variable-length argument list.
+We use the name kwargs with the double star.
+The reason is because the double star allows us to pass through keyword arguments (and any number of them).
+
+
+1.A keyword argument is where you provide a name to the variable as you pass it into the function.
+
+2.One can think of the kwargs as being a dictionary that maps each keyword to the value that we pass alongside it.
+That is why when we iterate over the kwargs there doesn’t seem to be any order in which they were printed out.

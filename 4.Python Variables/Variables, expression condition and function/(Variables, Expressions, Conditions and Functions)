@@ -1,0 +1,38 @@
+Running your First Code in Python:
+
+Python programs are not compiled, rather they are interpreted.
+Now, let us move to writing a python code and running it.
+Please make sure that python is installed on the system you are working.
+If it is not installed, download it from here. We will be using python 2.7.
+
+
+
+
+Making a Python file:
+
+Python files are stored with the extension “.py”.
+Open text editor and save a file with the name “hello.py”. Open it and write the following code:
+
+print "Hello World"
+# Notice that NO semi-colon is to be used
+
+
+
+
+
+
+
+
+
+
+
+
+Reading the file contents:
+Linux System – Move to the directory from terminal where the created file (hello.py) is stored by using the ‘cd’ command
+and then type the following in the terminal :
+
+python hello.py
+
+
+Windows system – Open command prompt and move to the directory where the file is stored by using the ‘cd’ command
+and then run the file by writing the file name as command.

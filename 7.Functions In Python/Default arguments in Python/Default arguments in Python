@@ -1,0 +1,28 @@
+Python allows function arguments to have default values.
+If the function is called without the argument, the argument gets its default value.
+
+
+
+Default Arguments:
+Python has a different way of representing syntax and default values for function arguments.
+Default values indicate that the function argument will take that value if no argument value is passed during
+function call. The default value is assigned by using assignment(=) operator of the form keywordname=value.
+
+Let’s understand this through a function student. The function student contains 3-arguments out of which 2
+arguments are assigned with default values. So, function student accept one required argument (firstname)
+and rest two arguments are optional.
+
+
+
+
+
+
+We need to keep the following points in mind while calling functions:
+
+1.In case of passing keyword argument, order of arguments is not important.
+
+2.There should be only one value for one parameter.
+
+3.The passed keyword name should match with the actual keyword name.
+
+4.In case of calling function containing non-keyword arguments, order is important.

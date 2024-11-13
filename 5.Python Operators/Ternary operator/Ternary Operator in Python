@@ -1,0 +1,50 @@
+Ternary operators also known as conditional expressions are operators that evaluate something based on a
+condition being true or false. It was added to Python in version 2.5.
+
+It simply allows to test a condition in a single line replacing the multiline if-else making the code compact.
+
+
+
+Syntax :
+
+[on_true] if [expression] else [on_false]
+
+
+
+
+
+
+
+
+
+Important Points:
+
+1.First the given condition is evaluated (a < b), then either a or b is returned based on the Boolean
+value returned by the condition
+
+2.Order of the arguments in the operator is different from other languages like C/C++ (See C/C++ ternary operators).
+
+3.Conditional expressions have the lowest priority amongst all Python operations.
+
+
+
+
+
+
+
+
+
+Method used prior to 2.5 when ternary operator was not present
+
+In an expression like the one given below , the interpreter checks for the expression
+if this is true then on_true is evaluated, else the on_false is evaluated.
+
+Syntax :
+
+'''When condition becomes true, expression [on_false]
+   is not executed and value of "True and [on_true]"
+   is returned.  Else value of "False or [on_false]"
+   is returned.
+   Note that "True and x" is equal to x.
+   And "False or x" is equal to x. '''
+[expression] and [on_true] or [on_false]

@@ -1,0 +1,21 @@
+Python in its definition allows to handle precision of floating point numbers in several ways using different functions.
+Most of them are defined under the “math” module. Some of the most used operations are discussed in this article.
+
+1. trunc() :- This function is used to eliminate all decimal part of the floating point number and return the integer without the decimal part.
+
+2. ceil() :- This function is used to print the least integer greater than the given number.
+
+3. floor() :- This function is used to print the greatest integer smaller than the given integer.
+
+
+
+
+                                                     Setting Precision
+
+There are many ways to set precision of floating point value. Some of them is discussed below.
+
+1. Using “%” :- “%” operator is used to format as well as set precision in python. This is similar to “printf” statement in C programming.
+
+2. Using format() :- This is yet another way to format the string for setting precision.
+
+3. Using round(x,n) :- This function takes 2 arguments, number and the number till which we want decimal part rounded.

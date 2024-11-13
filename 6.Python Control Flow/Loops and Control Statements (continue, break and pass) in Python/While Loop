@@ -1,0 +1,11 @@
+
+
+
+Syntax :
+while expression:
+    statement(s)
+
+
+
+In Python, all the statements indented by the same number of character spaces after a programming construct are
+considered to be part of a single block of code. Python uses indentation as its method of grouping statements.

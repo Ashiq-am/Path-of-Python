@@ -1,0 +1,14 @@
+In Python, there is no C style for loop, i.e., for (i=0; i<n; i++).
+There is “for in” loop which is similar to for each loop in other languages.
+
+
+
+Syntax:
+
+for iterator_var in sequence:
+    statements(s)
+
+
+
+
+It can be used to iterate over iterators and a range.

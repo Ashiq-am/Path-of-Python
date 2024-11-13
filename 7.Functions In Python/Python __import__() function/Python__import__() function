@@ -1,0 +1,24 @@
+While writing a code, there might be a need for some specific modules.
+So we import those modules by using a single line code in Python.
+
+But what if the name of the module needed is known to us only during runtime?
+How can we import that module? One can use the Python’s inbuilt __import__() function.
+It helps to import modules in runtime also.
+
+
+
+
+Syntax: __import__(name, globals, locals, fromlist, level)
+
+
+
+
+Parameters:
+
+name : Name of the module to be imported
+
+globals and locals : Interpret names
+
+formlist : Objects or submodules to be imported (as a list)
+
+level : Specifies whether to use absolute or relative imports. Default is -1(absolute and relative).

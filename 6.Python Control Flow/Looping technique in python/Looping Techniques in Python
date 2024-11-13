@@ -1,0 +1,13 @@
+Python supports various looping techniques by certain inbuilt functions, in various sequential containers.
+These methods are primarily verya useful in competitive programming and also in various project which require a
+specific technique with loops maintaining the overall structure of code.
+
+
+
+
+
+Where they are used ?
+
+Different looping techniques are primarily useful in the places where we don’t need to actually manipulate
+the structure and ordering of overall container, rather only print the elements for a single use instance,
+no inplace change occurs in the container. This can also be used in instances to save time.

@@ -1,0 +1,3 @@
+We can also combine else statement with for loop like in while loop. But as there is no condition in for loop based on
+
+which the execution will terminate so the else block will be executed immediately after for block finishes execution.

@@ -1,0 +1,24 @@
+1. count(start, step) :- This iterator starts printing from the “start” number and prints infinitely.
+If steps are mentioned, the numbers are skipped else step is 1 by default.
+
+Example :
+
+iterator.count(5,2) prints -- 5,7,9,11...infinitely
+
+
+
+
+
+2. cycle(iterable) :- This iterator prints all values in order from the passed container.
+It restarts printing from beginning again when all elements are printed in a cyclic manner.
+
+Example :
+
+iterator.cycle([1,2,3,4]) prints -- 1,2,3,4,1,2,3,4,1...infinitely
+
+
+
+
+
+3. repeat(val, num) :- This iterator repeatedly prints the passed value infinite number of times.
+If num. is mentioned, them till that number.

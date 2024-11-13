@@ -1,0 +1,10 @@
+1.Once the function yields, the function is paused and the control is transferred to the caller.
+
+2.When the function terminates, StopIteration is raised automatically on further calls.
+
+3.Local variables and their states are remembered between successive calls.
+
+4.Generator function contains one or more yield statement instead of return statement.
+
+5.As the methods like _next_() and _iter_() are implemented automatically,
+  we can iterate through the items using next().

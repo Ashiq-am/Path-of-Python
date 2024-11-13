@@ -1,0 +1,9 @@
+In Python, there is something called name mangling, which means that there is a limited support for
+a valid use-case for class-private members basically to avoid name clashes of names with names defined by subclasses.
+
+Any identifier of the form __geek (at least two leading underscores or at most one trailing underscore)
+is replaced with _classname__geek, where classname is the current class name with leading underscore(s) stripped.
+As long as it occurs within the definition of the class, this mangling is done.
+
+
+This is helpful for letting subclasses override methods without breaking intraclass method calls.

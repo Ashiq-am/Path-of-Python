@@ -1,0 +1,40 @@
+Normal operators do the simple assigning job. On other hand, Inplace operators behave similar to normal operators
+except that they act in a different manner in case of mutable and Immutable targets.
+
+
+1.The _add_ method, does simple addition, takes two arguments, returns the sum and stores it in other
+variable without modifying any of the argument.
+
+2.On the other hand, _iadd_ method also takes two arguments, but it makes in-place change in 1st argument passed
+by storing the sum in it. As object mutation is needed in this process, immutable targets such as numbers, strings
+and tuples, shouldn’t have _iadd_ method.
+
+3.Normal operator’s “add()” method, implements “a+b” and stores the result in the mentioned variable.
+
+4.Inplace operator’s “iadd()” method, implements “a+=b” if it exists (i.e in case of immutable targets,
+it doesn’t exist) and changes the value of passed argument. But if not, “a+b” is implemented.
+In both the cases assignment is required to do to store the value.
+
+
+
+
+
+
+
+
+
+
+Case 1 : Immutable Targets.
+In Immutable targets, such as numbers, strings and tuples. Inplace operator behave same as normal operators,
+i.e only assignment takes place, no modification is taken place in the passed arguments.
+
+
+
+
+
+
+
+
+Case 2 : Mutable Targets
+The behaviour of Inplace operators in mutable targets, such as list and dictionaries, is different from normal operators.
+The updation and assignment both are carried out in case of mutable targets.

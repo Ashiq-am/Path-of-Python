@@ -1,0 +1,8 @@
+                                                    Background
+
+
+Following are important facts about functions in Python that are useful to understand decorator functions.
+
+1.In Python, we can define a function inside another function.
+
+2.In Python, a function can be passed as parameter to another function (a function can also return another function).

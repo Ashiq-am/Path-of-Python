@@ -1,0 +1,10 @@
+1.These techniques are quick to use and reduces coding effort.
+for, while loops needs the entire structure of container to be changed.
+
+
+2.These Looping techniques  do not require any structural changes to container.
+They have keywords which present the exact purpose of usage. Whereas,
+no pre-predictions or guesses can be made in for, while loop i.e not easily understandable the purpose at a glance.
+
+
+3.Looping technique make the code more concise than using for, while loopings.
