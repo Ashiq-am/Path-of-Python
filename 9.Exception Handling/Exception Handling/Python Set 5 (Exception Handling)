@@ -1,0 +1,20 @@
+We have explored basic python till now from Set 1 to 4
+(Set 1 | Set 2 | Set 3 | Set 4).
+
+If you are a beginner, then you might be getting a lot of Tracebacks till now.
+The tracebacks are generated due to runtime errors.
+
+Like other languages, python also provides the runtime errors via exception
+handling method with the help of try-except.
+
+Some of the standard exceptions which are most frequent include IndexError,
+ImportError, IOError, ZeroDivisionError, TypeError.
+
+Exception is the base class for all the exceptions in python. You can check the
+exception hierarchy here.
+
+
+Let us try to access the array element whose index is out of bound and handle the
+corresponding exception.
+
+

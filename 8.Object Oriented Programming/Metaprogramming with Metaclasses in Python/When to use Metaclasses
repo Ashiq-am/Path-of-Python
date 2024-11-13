@@ -1,0 +1,6 @@
+Most of the time we are not using metaclasses, they are like black magic and usually for something complicated,
+but few cases where we use metaclasses are –
+
+1.As we have seen in above example, metaclasses propogate down the inheritance hierarchies. It will affect all the subclasses as well. If we have such situation, then we should use metaclasses.
+2.If we want to change class automatically, when it is created.
+3.If you are API developer, you might use metaclasses.

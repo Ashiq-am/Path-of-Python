@@ -1,0 +1,21 @@
+Bokeh is a data visualization library in Python that provides high-performance interactive charts and plots.
+Bokeh output can be obtained in various mediums like notebook, html and server.
+It is possible to embed bokeh plots in Django and flask apps.
+
+
+
+
+Bokeh provides two visualization interfaces to users:
+
+***bokeh.models : A low level interface that provides high flexibility to application developers.
+
+***bokeh.plotting : A high level interface for creating visual glyphs.
+
+
+
+
+
+To install bokeh package, run the following command in the terminal:
+
+
+pip install bokeh

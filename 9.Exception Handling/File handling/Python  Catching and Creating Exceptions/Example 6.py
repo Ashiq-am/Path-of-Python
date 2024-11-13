@@ -1,0 +1,6 @@
+try:
+	msg = s.recv()
+except TimeoutError as e:
+	...
+except ProtocolError as e:
+	...

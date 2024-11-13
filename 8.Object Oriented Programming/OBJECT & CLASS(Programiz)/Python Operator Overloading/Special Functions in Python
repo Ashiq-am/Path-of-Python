@@ -1,0 +1,33 @@
+Class functions that begins with double underscore __ are called special functions in Python. This is because, well, they are not ordinary. The __init__() function we defined above, is one of them. It gets called every time we create a new object of that class. There are a ton of special functions in Python.
+
+Using special functions, we can make our class compatible with built-in functions.
+
+>>> p1 = Point(2,3)
+>>> print(p1)
+<__main__.Point object at 0x00000000031F8CC0>
+
+
+
+That did not print well. But if we define __str__() method in our class,
+we can control how it gets printed. So, let's add this to our class.
+
+
+Now let's try the print() function again.
+
+>>> p1 = Point(2,3)
+>>> print(p1)
+(2,3)
+
+
+That's better. Turns out, that this same method is invoked when we use the built-in function str() or format().
+
+>>> str(p1)
+'(2,3)'
+>>> format(p1)
+'(2,3)'
+
+
+So, when you do str(p1) or format(p1), Python is internally doing p1.__str__(). Hence the name, special functions.
+
+Ok, now back to operator overloading.
+

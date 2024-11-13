@@ -1,0 +1,19 @@
+Reflection refers to the ability for code to be able to examine attributes about objects that might be passed as parameters to a function.
+For example, if we write type(obj) then Python will return an object which represents the type of obj.
+
+Using reflection, we can write one recursive reverse function that will work for strings, lists, and any other sequence that,
+supports slicing and concatenation.
+If an obj is a reference to a string, then Python will return the str type object.
+Further, if we write str() we get a string which is the empty string.
+In other words, writing str() is the same thing as writing “”. Likewise, writing list() is the same thing as writing [].
+
+
+
+
+
+
+
+
+
+
+

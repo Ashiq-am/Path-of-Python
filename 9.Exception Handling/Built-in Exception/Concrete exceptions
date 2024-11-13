@@ -1,0 +1,342 @@
+The following exceptions are the exceptions that are usually raised.
+
+
+
+
+
+
+1.exception AssertionError:
+An AssertionError is raised when an assert statement fails.
+
+
+
+Example :
+
+assert False, 'The assertion failed'
+
+
+
+
+Output :
+
+Traceback (most recent call last):
+  File "exceptions_AssertionError.py", line 12, in
+    assert False, 'The assertion failed'
+AssertionError: The assertion failed
+
+
+
+
+
+
+
+2.exception AttributeError:
+An AttributeError is raised when an attribute reference or assignment fails such
+as when a non-existent attribute is referenced.
+
+
+
+
+
+
+
+
+
+
+
+3.exception EOFError:
+An EOFError is raised when built-in functions like input() hits an end-of-file
+condition (EOF) without reading any data.
+The file methods like readline() return an empty string when they hit EOF.
+
+
+
+
+
+
+
+
+4.exception FloatingPointError:
+A FloatingPointError is raised when a floating point operation fails.
+This exception is always defined, but can only be raised when Python is configured
+with the–with-fpectl option,
+or the WANT_SIGFPE_HANDLER symbol is defined in the pyconfig.h file.
+
+
+
+
+
+
+
+
+
+5.exception GeneratorExit:
+This exception directly inherits from BaseException instead of Exception since it
+is technically not an error.
+A GeneratorExit exception is raised when a generator or coroutine is closed.
+
+
+
+
+
+
+
+
+6.exception ImportError:
+An ImportError is raised when the import statement is unable to load a module or
+when the “from list” in from … import has a name that cannot be found.
+
+
+
+
+
+
+
+7.exception ModuleNotFoundError:
+This is the subclass of ImportError which is raised by import when a module could
+not be found.
+It is also raised when None is found in sys.modules.
+
+
+
+
+
+
+
+
+8.exception IndexError:
+An IndexError is raised when a sequence is referenced which is out of range.
+
+
+
+
+
+
+
+9.exception KeyError:
+A KeyError is raised when a mapping key is not found in the set of existing keys.
+
+
+
+
+
+
+
+10.exception KeyboardInterrupt:
+This error is raised when the user hits the interrupt key such as Control-C or
+Delete.
+
+
+
+
+
+
+
+
+
+11.exception MemoryError:
+This error is raised when an operation runs out of memory.
+
+
+
+
+
+
+
+
+12.exception NameError:
+This error is raised when a local or global name is not found. For example, an
+unqualified variable name.
+
+
+
+
+
+
+
+13.exception NotImplementedError:
+This exception is derived from RuntimeError.
+Abstract methods in user defined classed should raise this exception when the
+derived classes override the method.
+
+
+
+
+
+
+
+
+14.exception OSError([arg]):
+The OSError exception is raised when a system function returns a system-related
+error,
+including I/O failures such as “file not found” or “disk full” errors.
+
+
+
+
+
+
+
+
+15.exception OverflowError:
+The OverflowError is raised when the result of an arithmetic operation is out of
+range.
+Integers raise MemoryError instead of OverflowError.
+OverflowError is sometimes raised for integers that are outside a required range.
+Floating point operations are not checked because of the lack of standardization
+of floating point exception handling in C.
+
+
+
+
+
+
+
+
+
+
+16.exception RecursionError:
+The RecursionError is derived from the RuntimeError.
+This exception is raised when the interpreter detects that the maximum recursion
+depth is exceeded.
+
+
+
+
+
+
+
+
+
+17.exception ReferenceError:
+The ReferenceError is raised when a weak reference proxy is used to access an
+attribute of the referent after the garbage collection.
+
+
+
+
+
+
+
+
+
+
+18.exception RuntimeError:
+The RuntimeError is raised when no other exception applies. It returns a string
+indicating what precisely went wrong.
+
+
+
+
+
+
+
+
+19.exception StopIteration:
+The StopIteration error is raised by built-in function next() and an iterator‘s
+__next__() method to signal that all items are produced by the iterator.
+
+
+
+
+
+
+
+
+
+
+
+20.exception SyntaxError:
+The SyntaxError is raised when the parser encounters a syntax error.
+A syntax error may occur in an import statement or while calling the built-in
+functions exec() or eval(),
+or when reading the initial script or standard input.
+
+
+
+
+
+
+
+
+
+21.exception SystemError:
+The SystemError is raised when the interpreter finds an internal error.
+The associated value is a string indicating what went wrong.
+
+
+
+
+
+
+
+
+22.exception SystemExit:
+The SystemExit is raised when sys.exit() function is called.
+A call to sys.exit() is translated into an exception to execute clean-up handlers
+(finally clauses of try statements) and to debug a script without running the risk
+of losing control.
+
+
+
+
+
+
+
+
+
+23.exception TypeError:
+TypeError is raised when an operation or function is applied to an object of
+inappropriate type.
+This exception returns a string giving details about the type mismatch.
+
+
+
+
+
+
+
+
+
+24.exception UnboundLocalError:
+UnboundLocalError is a subclass of NameError which is raised when a reference is
+made to a local variable in a function or method,
+but no value has been assigned to that variable.
+
+
+
+
+
+
+
+
+
+25.exception UnicodeError:
+This exception is a subclass of ValueError. UnicodeError is raised when a
+Unicode-related encoding or decoding error occurs.
+
+
+
+
+
+
+
+
+26.exception ValueError:
+A ValueError is raised when a built-in operation or function receives an argument
+that has the right type but an invalid value.
+
+
+
+
+
+
+
+
+
+27.exception ZeroDivisionError:
+A ZeroDivisionError is raised when the second argument of a division or modulo
+operation is zero.
+This exception returns a string indicating the type of the operands and the
+operation.
+

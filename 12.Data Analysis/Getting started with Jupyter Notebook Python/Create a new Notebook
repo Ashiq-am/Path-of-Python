@@ -1,0 +1,37 @@
+Now on the dashboard, you can see a new button at the top right corner. Click it to open a drop-down list and
+then if you’ll click on Python3, it will open a new notebook.
+
+
+
+
+
+Few Useful Commands:
+
+1.Command to open a notebook in the currently running notebook server.
+
+             jupyter notebook notebook_name.ipynb
+
+
+
+
+
+2.By default, the notebook server starts on port 8888. If port 8888 is unavailable or in use, the notebook server
+searches the next available port. You may also specify a port manually. In this example, we set the server’s port
+to 9999:
+
+                       jupyter notebook --port 9999
+
+
+
+
+
+3.Command to start the notebook server without opening a web browser:
+
+                 jupyter notebook --no-browser
+
+
+
+
+4.The notebook server provides help messages for other command line arguments using the –help flag:
+
+                  jupyter notebook --help

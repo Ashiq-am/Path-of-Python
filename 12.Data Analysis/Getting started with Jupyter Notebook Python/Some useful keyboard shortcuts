@@ -1,0 +1,40 @@
+1.To change modes(edit, command):
+
+    Esc - Change mode to command mode
+    Enter - Change mode to edit mode
+
+
+
+
+2.To change content type(code or markdown) [in command mode]
+
+           m - Change to markdown
+           y - Change to code
+
+
+
+
+
+3.To execute code or markdown [any mode]
+
+           Shift + Enter - Execute and go to next cell
+           Ctrl + Enter  - Execute and be in the same cell
+
+
+
+
+
+4.To insert cell [in command mode]
+
+            a - Create cell in above to the cell
+            b - Create cell in below to the cell
+
+
+
+
+
+5.To cut copy paste [in command mode]
+
+          x - Cut the cell that can be paste anywhere any number of times
+          c - Copy the cell that can be paste anywhere and any number of times
+          v - Paste the cell

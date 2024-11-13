@@ -1,0 +1,9 @@
+Like Java Object class, in Python (from version 3.x), object is root of all classes.
+
+In Python 3.x, “class Test(object)” and “class Test” are same.
+In Python 2.x, “class Test(object)” creates a class with object as parent (called new style class) and “class Test” creates old style class (without object parent).
+Refer this for more details.
+
+
+
+

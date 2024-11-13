@@ -1,0 +1,5 @@
+The first step is to read the data. The data is stored as a comma-separated values, or csv, file, where each row
+is separated by a new line, and each column by a comma (,).
+
+In order to be able to work with the data in Python, it is needed to read the csv file into a Pandas DataFrame.
+A DataFrame is a way to represent and work with tabular data.

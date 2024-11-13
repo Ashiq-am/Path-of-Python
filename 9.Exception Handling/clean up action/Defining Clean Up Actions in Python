@@ -1,0 +1,15 @@
+Think of a task you will always want your program to do, whether it runs
+perfectly or raise any kind of error.
+
+For example, We use of try statement which has an optional clause –
+“finally” to perform clean up actions, that must be executed under all conditions.
+
+
+Cleanup actions: Before leaving the try statement, “finally” clause is always
+executed, whether any exception is raised or not.
+
+These are clauses which are intended to define clean-up actions that must be
+executed under all circumstances.
+
+Whenever an exception occurs and is not being handled by the except clause,
+first finally will occur and then the error is raised as default

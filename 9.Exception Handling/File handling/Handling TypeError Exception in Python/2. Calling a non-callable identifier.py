@@ -1,0 +1,2 @@
+geek = "GeeksforGeeks"
+print(geek())

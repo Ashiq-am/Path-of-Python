@@ -1,0 +1,22 @@
+A 404 Error is showed whenever a page is not found.
+Maybe the owner changed it’s URL and forgot to change the link or maybe they deleted the page itself.
+Every site needs a Custom Error page to avoid the user to see the default Ugly Error page.
+
+
+GeeksforGeeks also has a customized error page. If we type a URL like
+www.geeksforgeeks.org/ajneawnewiaiowjf
+
+
+It will show Error 404 page since this URL doesn’t exist. But an error page provides a beautiful layout,
+helps the user to go back or even takes them to the homepage after a specific time interval.
+That is why Custom Error pages are necessary for every website.
+
+Flask provides us with a way to handle the error and return our Custom Error page.
+
+For this, we need to download and import flask. Download flask through the following commands on CMD.
+
+
+pip install flask
+
+
+Using app.py as our Python file to manage templates, 404.html be the file we will return in the case of a 404 error and header.html be the file with header and navbar of a website.

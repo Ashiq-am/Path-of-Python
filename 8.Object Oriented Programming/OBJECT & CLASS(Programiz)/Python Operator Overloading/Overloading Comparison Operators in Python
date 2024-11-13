@@ -1,0 +1,32 @@
+Python does not limit operator overloading to arithmetic operators only. We can overload comparison operators as well.
+
+Suppose, we wanted to implement the less than symbol < symbol in our Point class.
+
+Let us compare the magnitude of these points from the origin and return the result for this purpose.
+It can be implemented as follows.
+
+Try these sample runs in Python shell.
+
+
+>>> Point(1,1) < Point(-2,-3)
+True
+>>> Point(1,1) < Point(0.5,-0.2)
+False
+>>> Point(1,1) < Point(1,1)
+False
+
+
+
+Similarly, the special functions that we need to implement, to overload other comparison operators are tabulated below.
+
+
+
+
+Operator	                                  Expression	                             Internally
+Less than	                                    p1 < p2	                                p1.__lt__(p2)
+Less than or equal to	                        p1 <= p2	                            p1.__le__(p2)
+Equal to                                        p1 == p2	                            p1.__eq__(p2)
+Not equal to	                                p1 != p2	                            p1.__ne__(p2)
+Greater than	                                p1 > p2	                                p1.__gt__(p2)
+Greater than or equal to	                    p1 >= p2	                            p1.__ge__(p2)
+

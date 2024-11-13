@@ -1,0 +1,11 @@
+Invoking the garbage collector manually during the execution of a program can be a good idea,
+on how to handle memory being consumed by reference cycles.
+
+
+
+There are two ways for performing manual garbage collection: time-based and event-based garbage collection.
+
+Time-based :garbage collection is simple: the garbage collector is called after a fixed time interval.
+
+Event-based :garbage collection calls the garbage collector on event occurrence.
+For example, when a user exits the application or when the application enters into idle state.

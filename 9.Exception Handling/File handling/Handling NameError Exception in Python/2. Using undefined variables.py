@@ -1,0 +1,2 @@
+geeky = input()
+print(geek)

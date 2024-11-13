@@ -1,0 +1,43 @@
+1. Histogram :
+
+The histogram represents the frequency of occurrence of specific phenomena which lie within a specific range of values
+and arranged in consecutive and fixed intervals.
+In below code histogram is plotted for Age, Income, Sales. So these plots in the output shows frequency of each unique
+value for each attribute.
+
+
+
+
+2. Column Chart :
+
+A column chart is used to show a comparison among different attributes, or it can show a comparison of
+items over time.
+
+
+
+
+3. Box plot chart :
+
+A box plot is a graphical representation of statistical data based on the minimum, first quartile, median, third
+quartile, and maximum. The term “box plot” comes from the fact that the graph looks like a
+rectangle with lines extending from the top and bottom.
+Because of the extending lines, this type of graph is sometimes called a box-and-whisker plot.
+For quantile and median refer to this Quantile and median.
+
+
+
+
+4. Pie Chart :
+
+A pie chart shows a static number and how categories represent part of a whole the composition of something.
+A pie chart represents numbers in percentages, and the total sum of all segments needs to equal 100%.
+
+
+
+
+
+5. Scatter plot :
+
+A scatter chart shows the relationship between two different variables and it can reveal the distribution trends.
+It should be used when there are many different data points, and you want to highlight similarities in the data set.
+This is useful when looking for outliers and for understanding the distribution of your data.

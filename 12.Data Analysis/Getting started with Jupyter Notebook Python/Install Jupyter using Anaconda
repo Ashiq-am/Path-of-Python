@@ -1,0 +1,28 @@
+Install Python and Jupyter using the Anaconda Distribution, which includes Python, the Jupyter Notebook, and other
+commonly used packages for scientific computing and data science.
+You can download Anaconda’s latest Python3 version from here.Now, install the downloaded version of Anaconda.
+
+
+
+Installing Jupyter Notebook using PIP:
+
+python3 -m pip install --upgrade pip
+python3 -m pip install jupyter
+
+
+
+Command to run the Jupyter notebook:
+
+jupyter notebook
+
+
+
+
+
+
+This will print some information about the notebook server in your terminal, including the URL of the web application
+(by default, http://localhost:8888) and then open your default web browser to this URL.
+When the notebook opens in your browser, you will see the Notebook Dashboard, which will show a list of the notebooks,
+files, and subdirectories in the directory where the notebook server was started.
+Most of the time, you will wish to start a notebook server in the highest level directory containing notebooks.
+Often this will be your home directory.

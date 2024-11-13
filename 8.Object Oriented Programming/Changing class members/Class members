@@ -1,0 +1,7 @@
+Python doesn’t have static keyword. All variables that are assigned a value in class
+declaration are class variables
+
+We should be careful when changing value of class variable.
+If we try to change class variable using object,
+a new instance (or non-static) variable for that particular object is created and this
+variable shadows the class variables.

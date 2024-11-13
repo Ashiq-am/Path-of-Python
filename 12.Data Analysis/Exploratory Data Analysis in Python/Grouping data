@@ -1,0 +1,4 @@
+Group by is an interesting measure available in pandas which can help us figure out effect of different categorical
+attributes on other data variables.
+Let’s see an example on the same dataset where we want to figure out affect of people’s age and education on
+the voting dataset.

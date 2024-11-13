@@ -1,0 +1,43 @@
+try() is used in Error and Exception Handling
+There are two kinds of errors :
+
+Syntax Error : Also known as Parsing Errors, most basic. Arise when the Python parser is unable to understand a line of code.
+Exception : Errors which are detected during execution. eg – ZeroDivisionError.
+List of Exception Errors :
+
+IOError : if file can’t be opened
+KeyboardInterrupt : when an unrequired key is pressed by the user
+ValueError : when built-in function receives a wrong argument
+EOFError : if End-Of-File is hit without reading any data
+ImportError : if it is unable to find the module
+
+
+Now, here comes the task to handle these errors within our code in Python. So here we need try-except statements.
+
+
+
+
+
+Basic Syntax :
+ try:
+    // Code
+ except:
+    // Code
+
+
+
+
+
+
+                                                     How try() works
+
+
+1.First try clause is executed i.e. the code between try and except clause.
+
+2.If there is no exception, then only try clause will run, except clause is finished.
+
+3.If any exception occured, try clause will be skipped and except clause will run.
+
+4.If any exception occurs, but the except clause within the code doesn’t handle it, it is passed on to the outer try statements. If the exception left unhandled, then the execution stops.
+
+5.A try statement can have more than one except clause

@@ -1,0 +1,23 @@
+ANOVA stands for Analysis of Variance. It is performed to figure out the relation between the different group of
+categorical data.
+
+Under ANOVA we have two measures as result:
+
+– F-testscore : which shows the variaton of groups mean over variation
+– p-value: it shows the importance of the result
+
+
+This can be performed using python module scipy method name f_oneway()
+
+
+Syntax:
+
+
+import scipy.stats as st
+st.f_oneway(sample1, sample2, ..)
+
+
+
+These samples are sample measurements for each group.
+As a conclusion, we can say that there is a strong correlation between other variables and a categorical variable
+if the ANOVA test gives us a large F-test value and a small p-value.

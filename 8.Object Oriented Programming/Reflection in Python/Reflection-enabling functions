@@ -1,0 +1,160 @@
+Reflection-enabling functions include type(), isinstance(), callable(), dir() and getattr().
+
+type():Python have a built-in method called as type which generally come in handy while figuring out the type,
+of variable used in the program in the runtime.
+If a single argument (object) is passed to type() built-in,
+it returns type of the given object. If three arguments (name, bases and dict) are passed, it returns a new type object.
+
+
+Syntax:
+
+type(object)
+type(name, bases, dict)
+
+
+
+
+
+
+
+
+
+isinstance()–
+The isinstance() function checks if the object (first argument) is an instance or subclass of classinfo class (second argument).
+
+
+
+Syntax:
+
+isinstance(object, classinfo)
+The isinstance() takes two parameters:
+object : object to be checked
+classinfo : class, type, or tuple of classes and types
+
+
+Return Value :
+true if the object is an instance or subclass of a class, or any element of the tuple false otherwise.
+If class info is not a type or tuple of types, a TypeError exception is raised.
+
+
+
+
+                                          type() vs. isinstance()
+One elementary error people make is using the type() function where isinstance() would be more appropriate.
+
+.If you’re checking to see if an object has a certain type,
+you want isinstance() as it checks to see if the object passed in the first argument is of the type,
+of any of the type objects passed in the second argument.
+Thus, it works as expected with subclassing and old-style classes, all of which have the legacy type object instance.
+
+
+.type(), on the other hand, simply returns the type object of an object and comparing what it returns to another,
+type object will only yield True when you use the exact same type object on both sides.
+In Python, it’s preferable to use Duck Typing( type checking be deferred to run-time,
+and is implemented by means of dynamic typing or reflection) rather than inspecting the type of an object.
+
+
+
+.The next reason not to use type() is the lack of support for inheritance.
+he MyDict class has all the properties of a dict, without any new methods.
+It will behave exactly like a dictionary. But type() will not return the expected result.
+Using isinstance() is preferable in this case because it will give the expected result
+
+
+
+
+
+
+
+
+
+
+
+Callable() :A callable means anything that can be called. For an object, determines whether it can be called.
+A class can be made callable by providing a __call__() method.
+The callable() method returns True if the object passed appears callable. If not, it returns False.
+
+
+
+Examples:
+x = 5
+
+def testFunction():
+  print("Test")
+
+y = testFunction
+
+if (callable(x)):
+    print("x is callable")
+else:
+    print("x is not callable")
+
+if (callable(y)):
+    print("y is callable")
+else:
+    print("y is not callable")
+
+
+Output:
+x is not callable
+y is callable
+
+
+
+
+callable when used in OOP
+
+class Foo1:
+  def __call__(self):
+    print('Print Something')
+
+print(callable(Foo1))
+
+
+Output:
+True
+
+
+
+
+
+
+Dir : The dir() method tries to return a list of valid attributes of the object.
+The dir() tries to return a list of valid attributes of the object.
+If the object has __dir__() method, the method will be called and must return the list of attributes.
+If the object doesn’t have __dir()__ method, this method tries to find information from the __dict__ attribute (if defined),
+and from type object. In this case, the list returned from dir() may not be complete.
+
+
+Examples:
+
+number = [1,2,3]
+print(dir(number))
+
+characters = ["a", "b"]
+print(dir(number))
+
+
+
+
+
+
+
+
+Getattr : The getattr() method returns the value of the named attribute of an object.
+If not found, it returns the default value provided to the function.The getattr method takes three parameters object, name and default(optional).
+
+
+class Employee:
+    salary = 25000
+    company_name= "geeksforgeeks"
+
+employee = Employee()
+print('The salary is:', getattr(employee, "salary"))
+print('The salary is:', employee.salary)
+
+
+
+Output:
+The salary is: 25000
+The salary is: 25000

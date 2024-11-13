@@ -1,0 +1,19 @@
+On the other hand, we can also inherit form a derived class. This is called multilevel inheritance.
+It can be of any depth in Python.
+
+In multilevel inheritance, features of the base class and the derived class is inherited into the new derived class.
+
+An example with corresponding visualization is given below.
+
+
+
+class Base:
+    pass
+class Derived1(Base):
+    pass
+class Derived2(Derived1):
+    pass
+
+
+
+Here, Derived1 is derived from Base, and Derived2 is derived from Derived1.

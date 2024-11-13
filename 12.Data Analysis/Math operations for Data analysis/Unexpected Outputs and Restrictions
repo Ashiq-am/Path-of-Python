@@ -1,0 +1,7 @@
+1..sum(), .mean(), .mode(), .median() and other such mathematical operations are not applicable on string or any other
+data type than numeric value.
+
+
+
+
+2..sum() on a string series would give an unexpected output and return a string by concatenating every string.

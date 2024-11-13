@@ -1,0 +1,3 @@
+Programmers may name their own exceptions by creating a new exception class.
+Exceptions need to be derived from the Exception class, either directly or indirectly. Although not mandatory,
+most of the exceptions are named as names that end in “Error” similar to naming of the standard exceptions in python.

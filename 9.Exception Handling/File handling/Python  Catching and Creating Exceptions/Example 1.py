@@ -1,0 +1,6 @@
+try:
+	...
+except Exception as e:
+	...
+	# Important
+	log('Reason:', e)

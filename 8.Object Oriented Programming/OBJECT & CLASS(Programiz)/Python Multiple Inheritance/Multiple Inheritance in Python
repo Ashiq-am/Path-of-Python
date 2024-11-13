@@ -1,0 +1,18 @@
+Like C++, a class can be derived from more than one base classes in Python. This is called multiple inheritance.
+
+In multiple inheritance, the features of all the base classes are inherited into the derived class.
+The syntax for multiple inheritance is similar to single inheritance.
+
+
+Example
+
+
+class Base1:
+    pass
+class Base2:
+    pass
+class MultiDerived(Base1, Base2):
+    pass
+
+
+Here, MultiDerived is derived from classes Base1 and Base2.The class MultiDerived inherits from both Base1 and Base2.

@@ -1,0 +1,11 @@
+Iterators
+
+
+
+Iterators are objects that can be iterated upon.
+
+Python uses the __iter__() method to return an iterator object of the class.
+
+The iterator object then uses the __next__() method to get the next item.
+
+for loops stops when StopIteration Exception is raised.

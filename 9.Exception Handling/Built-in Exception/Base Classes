@@ -1,0 +1,74 @@
+The following exceptions are used mostly as base classes for other exceptions.
+
+
+
+
+
+1.exception BaseException:
+This is the base class for all built-in exceptions. It is not meant to be directly
+inherited by user-defined classes.
+
+For, user-defined classes, Exception is used.
+This class is responsible for creating a string representation of the exception
+using str() using the arguments passed.
+An empty string is returned if there are no arguments.
+
+*args : The args are the tuple of arguments given to the exception constructor.
+
+*with_traceback(tb) : This method is usually used in exception handling.
+This method sets tb as the new traceback for the exception and returns the
+exception object.
+
+Code :
+
+try:
+    ...
+except SomeException:
+    tb = sys.exc_info()[2]
+    raise OtherException(...).with_traceback(tb)
+
+
+
+
+
+
+
+2.exception Exception:
+This is the base class for all built-in non-system-exiting exceptions.
+All user-defined exceptions should also be derived from this class.
+
+
+
+
+
+
+3.exception ArithmeticError:
+This class is the base class for those built-in exceptions that are raised for
+various arithmetic errors such as :
+
+OverflowError
+ZeroDivisionError
+FloatingPointError
+
+
+
+
+
+
+
+4.exception BufferError
+This exception is raised when buffer related operations cannot be performed.
+
+
+
+
+
+
+
+5.exception LookupError
+This is the base class for those exceptions that are raised when a key or index
+used on a mapping or sequence is invalid or not found.
+
+The exceptions raised are :
+*KeyError
+*IndexError

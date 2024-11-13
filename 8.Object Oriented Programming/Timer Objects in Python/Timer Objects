@@ -1,0 +1,13 @@
+Timer objects are used to represent actions that needs to be scheduled to run after a certain instant of time.
+These objects get scheduled to run on a separate thread that carries out the action. However,
+the interval that a timer is initialized with might not be the actual instant when the action,
+was actually performed by the interpreter because it is the responsibility of the thread scheduler,
+to actually schedule the thread corresponding to the timer object.Timer is a sub class of Thread class defined in python.
+It is started by calling the start() function corresponding to the timer explicitly.
+
+
+
+Syntax:
+
+threading.Timer(interval, function, args = None, kwargs = None)
+

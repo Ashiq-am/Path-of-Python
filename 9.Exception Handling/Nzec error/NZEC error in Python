@@ -1,0 +1,45 @@
+While coding in various competitive sites, many people must have have encountered NZEC error.
+NZEC (non zero exit code) as the name suggests occurs when your code is failed to return 0.
+When a code returns 0 it means it is successfully executed otherwise it will return some other number depending on the type of error.
+
+When the program ends and it is supposed to return “0” to indicate if finished fine and not able to do so it cause NZEC.
+Of course there are more cases associated with NZEC.
+
+
+
+
+                                           Why does NZEC occur?(one example)
+
+In python, generally multiple inputs are separated by commas and we read them using input() or int(input()),
+but most of the online coding platforms while testing gives input separated by space and in those cases int(input())
+is not able to read the input properly and shows error like NZEC.
+
+
+                                              How to resolve?
+For Example, Think of a simple program where you have to read 2 integer and print them(in input file both integer are in same line).
+Suppose you have two integers as shown below:
+23 45
+Instead of using :
+
+n = int(input())
+k = int(input())
+
+Use:
+
+n, k = raw_input().split(" ")
+n = int(n)
+k = int(k)
+to delimit input by white spaces.
+
+
+
+
+
+
+                                           Some prominent reasons for NZEC error
+
+1.Infinite Recursion or if you have run out of stack memory.
+2.Input and output both are NOT exactly same as the test cases.
+3.As the online platforms, test your program using a computer code which matches your output with the specified outputs exactly.
+4.This type of error is also shown when your program is performing basic programming mistakes like dividing by 0.
+5.heck for the values of your variables, they can be vulnerable to integer flow.

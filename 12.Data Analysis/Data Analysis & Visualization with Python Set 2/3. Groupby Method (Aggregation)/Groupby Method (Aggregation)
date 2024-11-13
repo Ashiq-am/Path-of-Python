@@ -1,0 +1,4 @@
+The groupby method allows us to group together the data based off any row or column, thus we can further apply
+the aggregate functions to analyze our data.
+Group series using mapper (dict or key function, apply given function to group, return result as series)
+or by a series of columns.

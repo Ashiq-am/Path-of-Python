@@ -1,0 +1,7 @@
+Classes
+Just like every other Object Oriented Programming language Python supports classes. Let’s look at some points on Python classes.
+
+
+Classes are created by keyword class.
+Attributes are the variables that belong to class.
+Attributes are always public and can be accessed using dot (.) operator. Eg.: Myclass.Myattribute

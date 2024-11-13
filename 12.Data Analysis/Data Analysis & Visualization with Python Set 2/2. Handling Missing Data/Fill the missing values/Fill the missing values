@@ -1,0 +1,2 @@
+Now, to replace any NaN value with mean or mode of the data, fillna is used, which could replace all the
+NaN values from a particular column or even in whole DataFrame as per the requirement.

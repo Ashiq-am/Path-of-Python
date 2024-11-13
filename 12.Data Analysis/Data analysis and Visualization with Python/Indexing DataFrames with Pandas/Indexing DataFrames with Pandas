@@ -1,0 +1,2 @@
+Indexing can be possible using the pandas.DataFrame.iloc method. The iloc method allows to retrieve as
+many as rows and columns by position.

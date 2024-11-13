@@ -1,0 +1,3 @@
+Runtime error is a class is a standard exception which is raised when a generated error does not fall into any category.
+This program illustrates how to use runtime error as base class and network error as derived class.
+In a similar way, any exception can be derived from the standard exceptions of Python.

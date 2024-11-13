@@ -1,0 +1,30 @@
+1.Descriptive statistics is a helpful way to understand characteristics of your data and to get a quick summary of it.
+Pandas in python provide an interesting method describe(). The describe function applies basic statistical
+computations on the dataset like extreme values, count of data points standard deviation etc.
+
+Any missing value or NaN value is automatically skipped. describe() function gives a good picture of
+distribution of data.
+
+
+
+
+
+
+
+
+2.Another useful method if value_counts() which can get count of each category in a categorical attributed series
+of values. For an instance suppose you are dealing with a dataset of customers who are divided as youth,
+medium and old categories under column name age and your dataframe is “DF”.
+You can run this statement to know how many people fall in respective categories.
+In our data set example education column can be used
+
+
+
+
+
+
+
+3.One more useful tool is boxplot which you can use through matplotlib module. Boxplot is a pictorial representation
+of distribution of data which shows extreme values, median and quartiles.
+We can easily figure out outliers by using boxplots.
+Now consider the dataset we’ve been dealing with again and lets draw a boxplot on attribute population

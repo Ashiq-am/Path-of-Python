@@ -1,0 +1,4 @@
+Below code shows how python can use two different class types, in the same way.
+We create a for loop that iterates through a tuple of objects.
+Then call the methods without being concerned about which class type each object is.
+We assume that these methods actually exist in each class.

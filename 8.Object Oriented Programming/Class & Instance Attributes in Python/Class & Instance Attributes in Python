@@ -1,0 +1,20 @@
+Class attributes
+
+Class attributes belong to the class itself they will be shared by all the instances.
+Such attributes are defined in the class body parts usually at the top, for legibility.
+
+
+
+
+
+Instance Attributes
+
+Unlike class attributes, instance attributes are not shared by objects.
+Every object has its own copy of the instance attribute (In case of class attributes all object refer to single copy).
+
+
+
+To list the attributes of an instance/object, we have two functions:-
+1. vars()- This function displays the attribute of an instance in the form of an dictionary.
+2. dir()- This function displays more attributes than vars function,as it is not limited to instance.
+It displays the class attributes as well.

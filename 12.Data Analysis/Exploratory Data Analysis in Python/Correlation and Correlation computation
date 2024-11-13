@@ -1,0 +1,14 @@
+Correlation is a simple relationship between two variables in a context such that one variable affects the other.
+Correlation is different from act of causing.
+One way to calculate correlation among variables is to find Pearson correlation.
+Here we find two parameters namely, Pearson coefficient and p-value.
+We can say there is a strong correlation between two variables when Pearson correlation coefficient is close to
+either 1 or -1 and the p-value is less than 0.0001.
+Scipy module also provides a method to perform pearson correlation analysis,
+
+
+
+syntax:
+
+import scipy.stats as st
+st.pearsonr(sample1, sample2)
