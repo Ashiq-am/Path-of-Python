@@ -1,0 +1,8 @@
+# import sympy and IntegerPartition
+from sympy.combinatorics.partitions import IntegerPartition
+from sympy import *
+
+# Using sympy.combinatorics.partitions.IntegerPartition().as_dict() method
+gfg = IntegerPartition([1] + 3 * [2, 3]).as_dict()
+
+print(gfg)
