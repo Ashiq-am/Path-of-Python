@@ -1,0 +1,8 @@
+<style>
+  .swagger-ui .topbar {
+    background-color: #123456;
+  }
+  .swagger-ui .info {
+    font-family: 'CustomFont', sans-serif;
+  }
+</style>

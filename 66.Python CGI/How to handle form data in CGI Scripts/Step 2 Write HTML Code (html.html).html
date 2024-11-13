@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<style>
+		/* Style for the "GeeksforGeeks" heading */
+		h1 {
+			color: green;
+		}
+
+		/* Style for the form container */
+		.form-container {
+			padding: 20px;
+			margin: 20px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+
+		/* Style for form labels and input fields */
+		label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		input[type="text"],
+		input[type="email"],
+		input[type="password"] {
+			width: 30%;
+			padding: 10px;
+			margin-bottom: 15px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+
+		input[type="submit"] {
+			background-color: green;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<h1>GeeksforGeeks</h1>
+	<div class="form-container">
+		<h2>Registration Form</h2>
+		<form action="python.py" method="post">
+			<label for="name">Name:</label>
+			<input type="text" name="name" required><br><br>
+
+			<label for="email">Email:</label>
+			<input type="email" name="email" required><br><br>
+
+			<label for="password">Password:</label>
+			<input type="password" name="password" required><br><br>
+
+			<input type="submit" name="Register">
+		</form>
+	</div>
+</body>
+</html>

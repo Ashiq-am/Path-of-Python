@@ -1,0 +1,12 @@
+<geeks>
+	<article>
+		<title>Introduction to Python</title>
+		<author>GeeksforGeeks</author>
+		<content>Python is a versatile programming language.</content>
+	</article>
+	<article>
+		<title>Data Structures in Python</title>
+		<author>GeeksforGeeks</author>
+		<content>Learn about various data structures in Python.</content>
+	</article>
+</geeks>

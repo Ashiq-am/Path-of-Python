@@ -1,0 +1,2 @@
+a = 'GeeksforGeeks'
+print(a)
