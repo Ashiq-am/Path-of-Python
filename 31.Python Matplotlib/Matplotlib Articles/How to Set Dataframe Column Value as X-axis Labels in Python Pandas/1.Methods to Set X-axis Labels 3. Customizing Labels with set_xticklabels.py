@@ -1,0 +1,6 @@
+plt.plot(df['Year'], df['Sales'])
+plt.xticks(df['Year'], labels=['2021', '2022', '2023'])
+plt.xlabel('Year')
+plt.ylabel('Sales')
+plt.title('Year vs Sales')
+plt.show()

@@ -1,0 +1,5 @@
+series.plot(kind='bar', color='skyblue')
+plt.title('Sample Bar Graph with Custom Colors')
+plt.xlabel('Categories')
+plt.ylabel('Values')
+plt.show()

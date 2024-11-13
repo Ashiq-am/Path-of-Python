@@ -1,0 +1,7 @@
+plt.figure(figsize=(10, 5))
+librosa.display.specshow(mfccs, x_axis='time')
+plt.colorbar()
+plt.title('MFCC')
+plt.xlabel('Time')
+plt.ylabel('MFCC Coefficients')
+plt.show()

@@ -1,0 +1,33 @@
+# Implementation of matplotlib function
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Fixing random state for reproducibility
+np.random.seed(19680801)
+
+x = np.linspace(0, 2 * np.pi, 100)
+y = np.sin(x)
+y2 = y + 0.2 * np.random.normal(size=x.shape)
+
+fig, ax = plt.subplots()
+ax.plot(x, y)
+ax.plot(x, y2)
+
+ax.set_xticks([0, np.pi, 2 * np.pi])
+
+ax.spines['left'].set_bounds(-1, 1)
+ax.spines['right'].set_visible(False)
+ax.spines['top'].set_visible(False)
+
+w = ax.get_xticks()
+ww = list(w)
+strr = "[ "
+for i in ww:
+    strr += '%.3f' % i + ", "
+strr += "]"
+ax.text(1, 0, "xtick values : " + strr, fontweight="bold")
+
+fig.suptitle('matplotlib.axes.Axes.get_xticks() function\
+Example\n\n', fontweight="bold")
+fig.canvas.draw()
+plt.show()

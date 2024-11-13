@@ -1,0 +1,1 @@
+dp = Dispatcher(bot)

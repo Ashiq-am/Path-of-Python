@@ -1,0 +1,5 @@
+mpl.figure(figsize = (8, 8), facecolor = None)
+mpl.imshow(wordcloud, interpolation = "bilinear")
+mpl.axis("off")
+mpl.tight_layout(pad = 0)
+mpl.show()

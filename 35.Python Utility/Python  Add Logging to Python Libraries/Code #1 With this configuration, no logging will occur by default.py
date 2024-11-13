@@ -1,0 +1,2 @@
+import somelib
+abc.func()

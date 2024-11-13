@@ -1,0 +1,10 @@
+# Plot the heatmap with a customized color bar
+plt.imshow(heatmap.T, origin='lower', cmap='viridis', aspect='auto')
+cbar = plt.colorbar()
+cbar.set_label('Density')
+cbar.set_ticks([0, 50, 100, 150, 200])
+cbar.set_ticklabels(['Low', 'Medium', 'High', 'Very High', 'Extreme'])
+plt.title('Heatmap with Customized Color Bar')
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
+plt.show()

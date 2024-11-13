@@ -1,0 +1,11 @@
+mean_image = np.mean(image, axis=(0, 1))
+median_image = np.median(image, axis=(0, 1))
+std_dev = np.std(image, axis=(0, 1))
+min_val = np.min(image, axis=(0, 1))
+max_val = np.max(image, axis=(0, 1))
+
+print('Mean of Each Channel (RGB):', mean_image)
+print('Median of Each Channel (RGB):', median_image)
+print('Standard Deviation of Each Channel (RGB):', std_dev)
+print('Minimum Value of Each Channel (RGB):', min_val)
+print('Maximum Value of Each Channel (RGB):', max_val)

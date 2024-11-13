@@ -1,0 +1,6 @@
+# Method 1: Using a Built-in Colormap (Viridis)
+plt.subplot(231)
+plt.imshow(data, cmap='viridis')
+plt.colorbar()
+plt.title('Built-in Colormap: Viridis')
+plt.show()

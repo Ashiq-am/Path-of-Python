@@ -1,0 +1,6 @@
+series.plot(kind='bar')
+plt.title('Sample Bar Graph with Rotated Labels')
+plt.xlabel('Categories')
+plt.ylabel('Values')
+plt.xticks(rotation=45)
+plt.show()

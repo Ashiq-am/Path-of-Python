@@ -1,0 +1,2 @@
+# object creation
+obj = TimezoneFinder()

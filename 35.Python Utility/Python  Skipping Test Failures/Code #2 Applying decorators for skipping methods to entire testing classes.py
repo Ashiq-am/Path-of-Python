@@ -1,0 +1,3 @@
+@unittest.skipUnless(platform.system() == 'Darwin', 'Mac specific tests')
+class DarwinTests(unittest.TestCase):
+	...

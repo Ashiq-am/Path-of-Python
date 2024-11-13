@@ -1,0 +1,5 @@
+img = np.dstack((b1, b2, b3))
+f = plt.figure()
+plt.imshow(img)
+plt.savefig('Tiff.png')
+plt.show()

@@ -1,0 +1,6 @@
+ax.set_xlim(0, 1)
+ax.set_ylim(0, 1)
+ax.set_aspect('equal')
+plt.grid(True)
+plt.title('Drawing Shapes in Matplotlib')
+plt.show()

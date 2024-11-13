@@ -1,0 +1,6 @@
+df.set_index('Year', inplace=True)
+df['Sales'].plot(kind='line')
+plt.title('Year vs Sales')
+plt.xlabel('Year')
+plt.ylabel('Sales')
+plt.show()

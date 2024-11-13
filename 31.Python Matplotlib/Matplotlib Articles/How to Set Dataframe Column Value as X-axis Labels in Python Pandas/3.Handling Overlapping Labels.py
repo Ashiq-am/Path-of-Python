@@ -1,0 +1,6 @@
+plt.plot(df.index, df['Sales'])
+plt.xticks(rotation=45)
+plt.xlabel('Year')
+plt.ylabel('Sales')
+plt.title('Year vs Sales')
+plt.show()
