@@ -1,0 +1,6 @@
+img_tensor = F.pil_to_tensor(image)
+img_tensor = img_tensor.type(torch.float)
+mean, std = img_tensor.mean(), img_tensor.std()
+img = F.normalize(img_tensor, mean=mean, std=std)
+output = F.to_pil_image(img)
+output.show()

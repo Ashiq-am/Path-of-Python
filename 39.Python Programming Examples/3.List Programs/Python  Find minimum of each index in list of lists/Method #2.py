@@ -1,0 +1,16 @@
+# Python3 code to demonstrate
+# Minimum index value
+# using min() + map() + zip()
+
+# initializing list
+test_list = [[3, 7, 6], [1, 3, 5], [9, 3, 2]]
+
+# printing original list
+print("The original list : " + str(test_list))
+
+# using min() + map() + zip()
+# Minimum index value
+res = list(map(min, zip(*test_list)))
+
+# print result
+print("The Minimum of each index list is : " + str(res))

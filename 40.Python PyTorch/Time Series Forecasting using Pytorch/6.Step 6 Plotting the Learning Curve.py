@@ -1,0 +1,5 @@
+x = np.linspace(1,num_epochs,num_epochs)
+plt.plot(x,train_hist,scalex=True, label="Training loss")
+plt.plot(x, test_hist, label="Test loss")
+plt.legend()
+plt.show()
