@@ -1,0 +1,53 @@
+Openpyxl is a Python library using which one can perform multiple operations on excel files like reading, writing,
+arithmatic operations and plotting graphs. Let’s see how to perform different arithmatic operations using openpyxl.
+
+
+
+
+
+1.=SUM(cell1:cell2) : Adds all the numbers in a range of cells
+
+
+
+
+
+2.=PRODUCT(cell1:cell2) : Multiplies all the numbers in the range of cells
+
+
+
+
+
+
+
+3.=AVERAGE(cell1:cell2) : It gives the average (arithmetical mean) of all the numbers which is present in the
+                          given cell range.
+
+
+
+
+
+
+
+4.=QUOTIENT(num1, num2) : It returns the integer portion of a division.
+
+
+
+
+
+
+5.=MOD(num1, num2) : Returns the remainder after a number is divided by the divisor.
+
+
+
+
+
+
+6.=COUNT(cell1:cell2) : It counts the number of cells in a range that contain the number.
+
+
+
+
+
+
+
+

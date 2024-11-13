@@ -1,0 +1,69 @@
+# importing libraries
+from PyQt5.QtWidgets import *
+from PyQt5 import QtCore, QtGui
+from PyQt5.QtGui import *
+from PyQt5.QtCore import *
+import sys
+
+class Window(QMainWindow):
+
+	def __init__(self):
+		super().__init__()
+
+		# setting title
+		self.setWindowTitle("Python ")
+
+		# setting geometry
+		self.setGeometry(100, 100, 600, 400)
+
+		# calling method
+		self.UiComponents()
+
+		# showing all the widgets
+		self.show()
+
+	# method for widgets
+	def UiComponents(self):
+
+		# creating spin box
+		self.spin = QSpinBox(self)
+
+		# setting geometry to spin box
+		self.spin.setGeometry(100, 100, 150, 40)
+
+		# alignment
+		alignment = Qt.AlignRight
+
+		# setting alignment
+		self.spin.setAlignment(alignment)
+
+		# creating label
+		label = QLabel(self)
+
+		# setting geometry to the label
+		label.setGeometry(100, 160, 200, 30)
+
+		# getting alignment
+		get_alignment = self.spin.alignment()
+
+		# checking if alignment is right
+		if get_alignment == Qt.AlignRight:
+			text =" Right Aligned"
+
+		else:
+			text ="Not right aligned"
+
+		# setting text to the label
+		label.setText(text)
+
+
+
+
+# create pyqt5 app
+App = QApplication(sys.argv)
+
+# create the instance of our Window
+window = Window()
+
+# start the app
+sys.exit(App.exec())

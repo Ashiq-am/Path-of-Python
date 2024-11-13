@@ -1,0 +1,12 @@
+Openpyxl is a Python library using which one can perform multiple operations
+on excel files like reading, writing, arithmatic operations and plotting graphs.
+Let’s see how to plot different charts using realtime data.
+
+Charts are composed of at least one series of one or more data points.
+Series themselves are comprised of references to cell ranges.
+
+
+
+For plotting the charts on an excel sheet, firstly, create chart object of specific
+chart class( i.e BarChart,LineChart etc.). After creating chart objects, insert data
+in it and lastly, add that chart object in the sheet object.

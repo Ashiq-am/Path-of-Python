@@ -1,0 +1,13 @@
+Using xlrd module, one can retrieve information from a spreadsheet. For example, reading, writing or
+modifying the data can be done in Python.
+
+Also, user might have to go through various sheets and retrieve data based on some criteria or modify some rows
+and columns and do a lot of work.
+
+
+
+xlrd module is used to extract data from a spreadsheet.
+
+Command to install xlrd module :
+
+pip install xlrd

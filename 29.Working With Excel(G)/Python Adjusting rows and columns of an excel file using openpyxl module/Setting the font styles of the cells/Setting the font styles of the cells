@@ -1,0 +1,1 @@
+To customize font styles in cells, important, import the Font() function from the openpyxl.styles module.

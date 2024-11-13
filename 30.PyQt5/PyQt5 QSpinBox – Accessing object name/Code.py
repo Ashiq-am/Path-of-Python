@@ -1,0 +1,63 @@
+# importing libraries
+from PyQt5.QtWidgets import *
+from PyQt5 import QtCore, QtGui
+from PyQt5.QtGui import *
+from PyQt5.QtCore import *
+import sys
+
+class Window(QMainWindow):
+
+	def __init__(self):
+		super().__init__()
+
+		# setting title
+		self.setWindowTitle("Python ")
+
+		# setting geometry
+		self.setGeometry(100, 100, 600, 400)
+
+		# calling method
+		self.UiComponents()
+
+		# showing all the widgets
+		self.show()
+
+	# method for widgets
+	def UiComponents(self):
+
+		# creating spin box
+		self.spin = QSpinBox(self)
+
+		# setting geometry to spin box
+		self.spin.setGeometry(100, 100, 150, 40)
+
+		# setting suffix to spin
+		self.spin.setSuffix(" Spin Box")
+
+		# name
+		name = "Geeky"
+
+		# setting up object name
+		self.spin.setObjectName(name)
+
+		# creating label
+		label = QLabel(self)
+
+		# setting geometry
+		label.setGeometry(100, 200, 300, 40)
+
+		# getting object name
+		get_name = self.spin.objectName()
+
+		# setting text to the label
+		label.setText("Object Name : " + get_name)
+
+
+# create pyqt5 app
+App = QApplication(sys.argv)
+
+# create the instance of our Window
+window = Window()
+
+# start the app
+sys.exit(App.exec())

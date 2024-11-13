@@ -1,0 +1,5 @@
+word = WordCloud(max_font_size = 40).generate(rst)
+plt.figure()
+plt.imshow(word, interpolation ="bilinear")
+plt.axis("off")
+plt.show()

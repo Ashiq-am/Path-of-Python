@@ -1,0 +1,3 @@
+# ...
+# Export DataFrame to Excel
+df.to_excel('output.xlsx', index=False)

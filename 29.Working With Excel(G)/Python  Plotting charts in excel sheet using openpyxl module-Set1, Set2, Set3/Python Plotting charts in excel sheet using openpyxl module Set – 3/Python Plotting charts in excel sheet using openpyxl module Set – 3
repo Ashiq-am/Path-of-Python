@@ -1,0 +1,15 @@
+Openpyxl is a Python library using which one can perform multiple operations on excel files like
+reading, writing, arithmatic operations and plotting graphs.
+
+Charts are composed of at least one series of one or more data points. Series themselves are comprised of
+references to cell ranges.
+
+Let’s see how to plot Doughnot, Radar, Surface, 3D Surface Chart on an excel sheet using openpyxl.
+
+
+
+
+For plotting the charts on an excel sheet, firstly, create chart object of specific chart
+class( i.e SurfaceChart, RadarChart etc.).
+
+After creating chart objects, insert data in it and lastly, add that chart object in the sheet object

@@ -1,0 +1,32 @@
+Code #1 : Using simple trigonometric functions in the program.
+
+=SIN(Number) : Returns the sine of an angle. Number is the angle in radians for which you want the sine.
+=COS(Number) : Returns the cosine of an angle.
+=TAN(Number) : Returns the tangent of an angle.
+=CSC(Number) : Returns the cosecant of an angle.
+=SEC(Number) : Returns the secant of an angle.
+=COT(Number) : Returns the cotangent of an angle.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Code #2 : Using hyperbolic trigonometric functions in the program.
+
+=SINH(Number) : Returns the hyperbolic sine of a Number.
+=COSH(Number) : Returns the hyperbolic cosine of a Number.
+=TANH(number) : Returns the hyperbolic tangent of a Number.
+=CSCH(Number) : Returns the hyperbolic cosecant of a Number.
+=SECH(Number) : Returns the hyperbolic secant of a Number.
+=COTH(Number) : Returns the hyperbolic cotangent of a Number.

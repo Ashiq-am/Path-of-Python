@@ -1,0 +1,8 @@
+Openpyxl is a Python library for reading and writing Excel (with extension xlsx/xlsm/xltx/xltm) files.
+The openpyxl module allows Python program to read and modify Excel files.
+
+
+For example, user might have to go through thousands of rows and pick out few handful information to make small
+changes based on some criteria.
+
+Using Openpyxl module, these tasks can be done very efficiently and easily.

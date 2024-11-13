@@ -1,0 +1,6 @@
+Worksheet objects have row_dimensions and column_dimensions attributes that control row heights and column widths.
+A sheet’s row_dimensions and column_dimensions are dictionary-like values; row_dimensions contains RowDimension
+objects and column_dimensions contains ColumnDimension objects.
+
+In row_dimensions, one can access one of the objects using the number of the row (in this case, 1 or 2).
+In column_dimensions, one can access one of the objects using the letter of the column (in this case, A or B).

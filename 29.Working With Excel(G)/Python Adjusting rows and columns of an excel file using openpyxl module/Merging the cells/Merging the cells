@@ -1,0 +1,3 @@
+A rectangular area of cells can be merged into a single cell with the merge_cells() sheet method.
+The argument to merge_cells() is a single string of the top-left and bottom-right cells of the rectangular area
+to be merged.
