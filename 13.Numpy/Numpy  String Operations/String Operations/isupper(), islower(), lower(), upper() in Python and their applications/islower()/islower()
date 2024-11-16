@@ -1,0 +1,45 @@
+In Python, islower() is a built-in method used for string handling.
+The islower() methods returns “True” if all characters in the string are lowercase, Otherwise,
+It returns “False”.
+This function is used to check if the argument contains any lowercase characters such as :
+
+abcdefghijklmnopqrstuvwxyz
+
+
+
+
+
+Syntax :
+
+string.islower()
+
+
+
+Parameters:
+islower() does not take any parameters
+
+
+
+Returns :
+1.True- If all characters in the string are lower.
+2.False- If the string contains 1 or more non-lowercase characters.
+
+
+
+
+Examples:
+
+Input : string = 'geeksforgeeks'
+Output : True
+
+Input : string = 'GeeksforGeeks'
+Output : False
+
+
+
+
+Errors And Exceptions:
+
+1.It returns “True” for whitespaces
+2.It does not take any arguments, Therefore, It returns an error if a parameter is passed.
+3.Digits and symbols return “True”, Only a lowercase letter returns “false”.

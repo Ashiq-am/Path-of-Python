@@ -1,0 +1,20 @@
+ Given a string in python, count number of uppercase letters, lowercase letters and spaces in a string
+ and toggle case the given string (convert lowercase to uppercase and vice versa).
+
+
+
+
+
+Examples:
+
+Input : string = 'GeeksforGeeks is a computer Science portal for Geeks'
+Output : Uppercase - 4
+         Lowercase - 41
+         spaces - 7
+         gEEKSFORGEEKS IS A COMPUTER sCIENCE PORTAL FOR gEEKS
+
+Input : string = 'My name is Ayush'
+Output : Uppercase - 2
+         Lowercase - 11
+         spaces - 3
+         mY NAME IS aYUSH

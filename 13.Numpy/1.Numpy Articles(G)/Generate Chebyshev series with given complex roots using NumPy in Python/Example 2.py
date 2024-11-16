@@ -1,0 +1,20 @@
+# import chebyshev
+from numpy.polynomial import chebyshev
+
+# create a complex variable
+my_value = complex(45,4)
+
+# display value
+print("Complex value: ", my_value)
+
+# generate chebyshev roots
+print("chebyshev roots: ", chebyshev.chebfromroots(
+(-my_value, my_value)))
+
+# get the dimensions
+print("Dimensions: ", chebyshev.chebfromroots(
+(-my_value, my_value)).ndim)
+
+# get the shape
+print("shape: ",chebyshev.chebfromroots(
+(-my_value, my_value)).shape)

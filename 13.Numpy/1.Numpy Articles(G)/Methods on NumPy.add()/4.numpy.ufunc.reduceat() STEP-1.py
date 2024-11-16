@@ -1,0 +1,5 @@
+import numpy as np
+
+
+a = np.arange(9)
+print("Result of STEP-I is", np.add.reduce(a[0:4]))

@@ -1,0 +1,40 @@
+This mathematical function is used to calculate reciprocal of all the elements in the input array.
+
+
+
+
+Parameters :
+
+x[array_like]: Input array or object whose elements needed to test.
+
+
+
+
+out [ndarray, optional]: A location into which the result is stored.
+  –> If provided, it must have a shape that the inputs broadcast to.
+  –> If not provided or None, a freshly-allocated array is returned.
+
+
+
+
+
+**kwargs : Allows to pass keyword variable length of argument to a function. Used when we want to
+           handle named argument in a function.
+
+
+
+where [array_like, optional]: True value means to calculate the universal functions(ufunc) at that
+                              position, False value means to leave the value in the output alone.
+
+
+
+
+Return :
+y : ndarray. This is a scalar if x is a scalar.
+
+
+
+
+
+Note: For integer arguments with absolute value larger than 1, the result is always zero because
+      of the way Python handles integer division. For integer zero the result is an overflow.

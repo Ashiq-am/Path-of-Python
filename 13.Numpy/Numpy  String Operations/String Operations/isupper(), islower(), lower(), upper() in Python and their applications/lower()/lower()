@@ -1,0 +1,43 @@
+In Python, lower() is a built-in method used for string handling.
+The lower() methods returns the lowercased string from the given string. It converts all uppercase
+characters to lowercase. If no uppercase characters exist, it returns the original string.
+
+
+
+Syntax :
+
+string.lower()
+
+
+
+Parameters:
+lower() does not take any parameters
+
+
+
+
+Returns :
+It converts the given string in into lowercase and returns the string.
+
+
+
+
+
+
+Examples:
+
+Input : string = 'GEEKSFORGEEKS'
+Output : geeksforgeeks
+
+Input : string = 'GeeksforGeeks'
+Output : geeksforgeeks
+
+
+
+
+Errors And Exceptions:
+
+1.It does not take any arguments, Therefore, It returns an error if a parameter is passed.
+
+2.Digits and symbols return are returned as it is, Only an uppercase letter is returned after converting
+to lowercase.

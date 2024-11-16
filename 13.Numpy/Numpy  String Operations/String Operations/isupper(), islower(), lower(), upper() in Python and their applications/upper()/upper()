@@ -1,0 +1,44 @@
+In Python, upper() is a built-in method used for string handling.
+The upper() methods returns the uppercased string from the given string. It converts all lowercase
+characters to uppercase.If no lowercase characters exist, it returns the original string.
+
+
+
+Syntax :
+
+string.upper()
+
+
+
+
+Parameters:
+upper() does not take any parameters
+
+
+
+
+Returns :
+It converts the given string in into uppercase and returns the string.
+
+
+
+
+
+Examples:
+
+Input : string = 'geeksforgeeks'
+Output : GEEKSFORGEEKS
+
+Input : string = 'My name is ayush'
+Output : MY NAME IS AYUSH
+
+
+
+
+
+
+Errors And Exceptions:
+
+1.It does not take any arguments, Therefore, It returns an error if a parameter is passed.
+2.Digits and symbols return are returned as it is, Only a lowercase letter is returned after converting
+  to uppercase.

@@ -1,0 +1,3 @@
+The nditer object has another optional parameter called op_flags. Its default value is read-only,
+but can be set to read-write or write-only mode. This will enable modifying array elements using
+this iterator.

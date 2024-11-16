@@ -1,0 +1,65 @@
+# Python program explaining
+# numpy.recarray.min() method
+
+# importing numpy as geek
+import numpy as geek
+
+# creating input array with 2 different field
+in_arr = geek.array([[(5.0, 2), (3.0, 4), (6.0, 8)],
+					[(9.0, 1), (5.0, 4), (-12.0, 7)]],
+					dtype =[('a', float), ('b', int)])
+
+print ("Input array : ", in_arr)
+
+# convert it to a record array,
+# using arr.view(np.recarray)
+rec_arr = in_arr.view(geek.recarray)
+print("Record array of float: ", rec_arr.a)
+print("Record array of int: ", rec_arr.b)
+
+# applying recarray.min methods
+# to float record array along default axis
+# i, e along flattened array
+out_arr1 = rec_arr.a.min()
+# Minimum of the flattened array
+print("\nMin of float record array, axis = None : ", out_arr1)
+
+
+# applying recarray.min methods
+# to float record array along axis 0
+# i, e along vertical
+out_arr2 = rec_arr.a.min(axis = 0)
+# Minimum along 0 axis
+print("\nMin of float record array, axis = 0 : ", out_arr2)
+
+
+# applying recarray.min methods
+# to float record array along axis 1
+# i, e along horizontal
+out_arr3 = rec_arr.a.min(axis = 1)
+# Minimum along 0 axis
+print("\nMin of float record array, axis = 1 : ", out_arr3)
+
+
+# applying recarray.min methods
+# to int record array along default axis
+# i, e along flattened array
+out_arr4 = rec_arr.b.min()
+# Minimum of the flattened array
+print("\nMin of int record array, axis = None : ", out_arr4)
+
+
+# applying recarray.min methods
+# to int record array along axis 0
+# i, e along vertical
+out_arr5 = rec_arr.b.min(axis = 0)
+# Minimum along 0 axis
+print("\nMin of int record array, axis = 0 : ", out_arr5)
+
+
+# applying recarray.min methods
+# to int record array along axis 1
+# i, e along horizontal
+out_arr6 = rec_arr.b.min(axis = 1)
+# Minimum along 0 axis
+print("\nMin of int record array, axis = 1 : ", out_arr6)
