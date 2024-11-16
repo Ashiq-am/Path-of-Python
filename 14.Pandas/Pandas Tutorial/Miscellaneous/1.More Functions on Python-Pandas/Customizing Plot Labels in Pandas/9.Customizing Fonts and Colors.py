@@ -1,0 +1,5 @@
+df.plot(x='Year', y='Sales', color='green')
+plt.title('Annual Sales Over Time', fontsize=16, fontweight='bold', color='blue')
+plt.xlabel('Year', fontsize=14, fontweight='light', color='purple')
+plt.ylabel('Sales ($)', fontsize=14, fontweight='light', color='purple')
+plt.show()

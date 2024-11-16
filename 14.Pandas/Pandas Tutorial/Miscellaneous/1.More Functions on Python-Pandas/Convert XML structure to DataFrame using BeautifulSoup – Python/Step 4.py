@@ -1,0 +1,6 @@
+authors = soup.find_all('author')
+titles = soup.find_all('title')
+prices = soup.find_all('price')
+pubdate = soup.find_all('publish_date')
+genres = soup.find_all('genre')
+des = soup.find_all('description')

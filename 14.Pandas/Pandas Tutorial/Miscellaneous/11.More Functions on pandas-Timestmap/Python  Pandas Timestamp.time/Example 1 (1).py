@@ -1,0 +1,2 @@
+# return time
+ts.time()

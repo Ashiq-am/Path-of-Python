@@ -1,0 +1,2 @@
+Indexing can be worked with labels using the pandas.DataFrame.loc method, which allows to index using
+labels instead of positions.

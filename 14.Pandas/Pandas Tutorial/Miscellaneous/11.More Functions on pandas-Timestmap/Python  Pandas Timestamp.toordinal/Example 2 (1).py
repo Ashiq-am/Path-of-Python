@@ -1,0 +1,2 @@
+# return ordinal
+ts.toordinal()

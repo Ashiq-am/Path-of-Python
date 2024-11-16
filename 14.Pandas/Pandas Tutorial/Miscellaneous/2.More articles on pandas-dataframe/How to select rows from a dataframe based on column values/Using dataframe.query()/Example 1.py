@@ -1,0 +1,1 @@
+df.query('name=="Albert"')

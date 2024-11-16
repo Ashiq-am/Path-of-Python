@@ -1,0 +1,5 @@
+Pandas provide to.csv('filename', index = "False|True") function to write DataFrame into a CSV file.
+Here filename is the name of the CSV file that you want to create and index tells that index (if Default) of
+DataFrame should be overwritten or not.
+
+If we set index = False then the index is not overwritten. By Default value of index is TRUE then index is overwritten.

@@ -1,0 +1,18 @@
+Python is a great language for doing data analysis, primarily because of the fantastic ecosystem of data-centric
+Python packages. Pandas is one of those packages, and makes importing and analyzing data much easier.
+In this article, I have used Pandas to analyze data on Country Data.csv file from UN public Data Sets of a popular
+‘statweb.stanford.edu’ website.
+
+
+As I have analyzed the Indian Country Data, I have introduced Pandas key concepts as below. Before going through
+this article, have a rough idea of basics from matplotlib and csv.
+
+
+
+
+
+
+Installation
+Easiest way to install pandas is to use pip:
+
+pip install pandas

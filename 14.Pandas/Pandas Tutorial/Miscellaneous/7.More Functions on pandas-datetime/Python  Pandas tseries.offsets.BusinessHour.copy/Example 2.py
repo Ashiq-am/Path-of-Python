@@ -1,0 +1,14 @@
+# importing pandas as pd
+import pandas as pd
+
+# Creating Timestamp
+ts = pd.Timestamp('2019-10-10 11:15:00')
+
+# Create an offset
+bh = pd.tseries.offsets.BusinessHour(offset = datetime.timedelta(hours = 1))
+
+# Print the Timestamp
+print(ts)
+
+# Print the Offset
+print(bh)

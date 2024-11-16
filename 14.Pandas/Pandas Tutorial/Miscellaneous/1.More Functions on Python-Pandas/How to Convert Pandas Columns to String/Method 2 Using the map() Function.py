@@ -1,0 +1,5 @@
+df_map = df.copy()
+df_map['Numeric_Column'] = df_map['Numeric_Column'].map(str)
+print("\nDataFrame after converting 'Numeric_Column' to string using map():")
+print(df_map)
+print(df_map.info())

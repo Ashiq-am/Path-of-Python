@@ -1,0 +1,2 @@
+Creation of dataframe is done by passing multiple Series into the DataFrame class using pd.Series method.
+Here, it is passed in the two Series objects, s1 as the first row, and s2 as the second row.

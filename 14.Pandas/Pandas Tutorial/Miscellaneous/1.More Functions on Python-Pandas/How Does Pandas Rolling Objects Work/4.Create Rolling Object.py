@@ -1,0 +1,3 @@
+# ...
+
+rolling_data = data['value'].rolling(window=window_size)

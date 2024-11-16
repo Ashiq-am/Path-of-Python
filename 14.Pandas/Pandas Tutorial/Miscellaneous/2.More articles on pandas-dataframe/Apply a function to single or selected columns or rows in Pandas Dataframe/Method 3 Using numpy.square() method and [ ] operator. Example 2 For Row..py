@@ -1,0 +1,19 @@
+# import pandas and numpy library
+import pandas as pd
+import numpy as np
+
+# List of Tuples
+matrix = [(1, 2, 3),
+		(4, 5, 6),
+		(7, 8, 9)
+		]
+
+# Create a DataFrame object
+df = pd.DataFrame(matrix, columns = list('xyz'), index = list('abc'))
+
+# Apply a function to one row 'b' and
+# assign it back to the same row
+df.loc['b'] = np.square(df.loc['b'])
+
+# Output
+df

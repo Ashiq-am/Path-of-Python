@@ -1,0 +1,5 @@
+counts.plot(kind='bar', color='skyblue')
+plt.xlabel('Category')
+plt.ylabel('Count')
+plt.title('Value Counts of Categories')
+plt.show()

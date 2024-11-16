@@ -1,0 +1,11 @@
+#importing pandas library
+import pandas as pd
+
+# Create a DataFrame with strings containing symbols
+df = pd.DataFrame({'Prices': ['23-00', '56-50', '78-10', '9-05']})
+
+#Convert the column to float
+df['Prices'] = df['Prices'].astype(float)
+
+#Print the DataFrame
+print(df)

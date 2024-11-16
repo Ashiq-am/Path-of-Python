@@ -1,0 +1,2 @@
+# Variance
+df['PRICE'].var()

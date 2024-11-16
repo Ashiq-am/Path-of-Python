@@ -1,0 +1,2 @@
+# check info
+df.info()

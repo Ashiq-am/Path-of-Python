@@ -1,0 +1,2 @@
+# find transpose
+tidx.transpose()

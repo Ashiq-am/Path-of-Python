@@ -1,0 +1,7 @@
+The Data Analysis Phase also comprises of the ability to handle the missing data from our dataset, and not so
+surprisingly Pandas live up to that expectation as well.
+
+This is where dropna and/or fillna methods comes into the play.
+While dealing with the missing data, you as a Data Analyst are either supposed to drop the column containing the
+NaN values (dropna method) or fill in the missing data with mean or mode of the whole column entry (fillna method),
+this decision is of great significance and depends upon the data and the affect would create in our results.
