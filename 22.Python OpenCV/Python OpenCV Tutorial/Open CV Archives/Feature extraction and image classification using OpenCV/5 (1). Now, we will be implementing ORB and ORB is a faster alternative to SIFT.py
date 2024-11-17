@@ -1,0 +1,6 @@
+orb = cv2.ORB_create()
+keypoints, descriptors = orb.detectAndCompute(gray_image, None)
+image_with_orb = cv2.drawKeypoints(image, keypoints, None, flags=cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS)
+plt.imshow(cv2.cvtColor(image_with_orb, cv2.COLOR_BGR2RGB))
+plt.title('ORB Features')
+plt.show()

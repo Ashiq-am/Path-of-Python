@@ -1,0 +1,6 @@
+sift = cv2.SIFT_create()
+keypoints, descriptors = sift.detectAndCompute(gray_image, None)
+image_with_sift = cv2.drawKeypoints(image, keypoints, None)
+plt.imshow(cv2.cvtColor(image_with_sift, cv2.COLOR_BGR2RGB))
+plt.title('SIFT Features')
+plt.show()

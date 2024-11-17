@@ -1,0 +1,1 @@
+keypoints = detector.detect(img)

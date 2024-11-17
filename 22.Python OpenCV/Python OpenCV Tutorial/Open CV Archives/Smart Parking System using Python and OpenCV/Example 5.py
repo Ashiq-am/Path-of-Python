@@ -1,0 +1,5 @@
+cv2.namedWindow('parameters')
+cv2.createTrackbar('Threshold1', 'parameters', 186, 700, callback)
+cv2.createTrackbar('Threshold2', 'parameters', 122, 700, callback)
+cv2.createTrackbar('Min pixels', 'parameters', 100, 1500, callback)
+cv2.createTrackbar('Max pixels', 'parameters', 534, 1500, callback)
